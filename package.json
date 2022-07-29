@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Abbe-Engers/AVE/issues"
   },
-  "homepage": "https://github.com/Abbe-Engers/AVE#readme"
+  "homepage": "https://github.com/Abbe-Engers/AVE#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
 }
