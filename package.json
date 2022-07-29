@@ -18,5 +18,8 @@
   "homepage": "https://github.com/Abbe-Engers/AVE#readme",
   "devDependencies": {
     "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "ethers": "^5.6.9"
   }
 }
