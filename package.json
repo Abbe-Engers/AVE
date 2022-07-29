@@ -1,0 +1,19 @@
+{
+  "name": "ave",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "dev": "nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abbe-Engers/AVE.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abbe-Engers/AVE/issues"
+  },
+  "homepage": "https://github.com/Abbe-Engers/AVE#readme"
+}
