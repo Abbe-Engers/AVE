@@ -3,13 +3,26 @@ const { ethers } = require("ethers");
 const provider = new ethers.providers.JsonRpcProvider("https://rpc.ankr.com/eth");
 
 
-const uniswapUsdtWethExchange = "0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852";
-
+const uniswapUsdtWethExchange = "0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc";
+const sushiswapUsdtWethExchange = "0x397ff1542f962076d0bfe58ea045ffa2d347aca0";
 
 // this ABI object works for both Uniswap and SushiSwap
 const uniswapAbi = [
   "event Swap(address indexed sender, uint amount0In, uint amount1In, uint amount0Out, uint amount1Out, address indexed to)",
 ];
+
+sushiswapPrice = 0;
+uniswapPrice = 0;
+
+function calcRatio(price1, price2) {
+  if (price1 == 0 || price2 == 0) {
+    return 0;
+  }
+
+  diff = Math.abs(price1 - price2);
+  ratioDiff = diff / Math.max(price1, price2);
+  return ratioDiff;
+}
 
 function getAmountsFromSwapArgs(swapArgs) {
   const { amount0In, amount0Out, amount1In, amount1Out } = swapArgs;
@@ -39,12 +52,12 @@ function convertSwapEventToPrice({ swapArgs, token0Decimals, token1Decimals }) {
   const token0AmountFloat = parseFloat(
     ethers.utils.formatUnits(token0AmountBigDecimal, token0Decimals)
   );
-  const token1AmounFloat = parseFloat(
+  const token1AmountFloat = parseFloat(
     ethers.utils.formatUnits(token1AmountBigDecimal, token1Decimals)
   );
 
-  if (token1AmounFloat > 0) {
-    const priceOfToken0InTermsOfToken1 = token0AmountFloat / token1AmounFloat;
+  if (token1AmountFloat > 0) {
+    const priceOfToken0InTermsOfToken1 = token1AmountFloat / token0AmountFloat;
     return { price: priceOfToken0InTermsOfToken1, volume: token0AmountFloat };
   }
 
@@ -56,15 +69,36 @@ const uniswapContract = new ethers.Contract(
   uniswapAbi,
   provider
 );
-const filter = uniswapContract.filters.Swap();
+const uniFilter = uniswapContract.filters.Swap();
 
-uniswapContract.on(filter, (from, a0in, a0out, a1in, a1out, to, event) => {
+const sushiswapContract = new ethers.Contract(
+  sushiswapUsdtWethExchange,
+  uniswapAbi,
+  provider
+);
+const sushiFilter = sushiswapContract.filters.Swap();
+
+
+uniswapContract.on(uniFilter, (from, a0in, a0out, a1in, a1out, to, event) => {
   const { price, volume } = convertSwapEventToPrice({
     swapArgs: event.args,
     // the USDC ERC20 uses 6 decimals
-    token0Decimals: 6,
+    token0Decimals: 18,
     // the WETH ERC20 uses 18 decimals
-    token1Decimals: 18,
+    token1Decimals: 6,
   });
-  console.log({ price, volume });
+  uniswapPrice = price;
+  console.log(calcRatio(uniswapPrice, sushiswapPrice));
+});
+
+sushiswapContract.on(sushiFilter, (from, a0in, a0out, a1in, a1out, to, event) => {
+  const { price, volume } = convertSwapEventToPrice({
+    swapArgs: event.args,
+    // the USDC ERC20 uses 6 decimals
+    token0Decimals: 18,
+    // the WETH ERC20 uses 18 decimals
+    token1Decimals: 6,
+  });
+  sushiswapPrice = price;
+  console.log(calcRatio(uniswapPrice, sushiswapPrice));
 });
