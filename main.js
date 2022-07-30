@@ -3,7 +3,7 @@ const { ethers } = require("ethers");
 const provider = new ethers.providers.JsonRpcProvider("https://rpc.ankr.com/eth");
 
 
-const uniswapUsdtWethExchange = "0x06da0fd433C1A5d7a4faa01111c044910A184553";
+const uniswapUsdtWethExchange = "0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852";
 
 
 // this ABI object works for both Uniswap and SushiSwap
