@@ -6,7 +6,6 @@ const provider = new ethers.providers.JsonRpcProvider("https://rpc.ankr.com/eth"
 const EXCHANGES = {
   UNISWAP: "0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f",
   SUSHISWAP: "0xC0AEe478e3658e2610c5F7A4A2E1777cE9e4f2Ac",
-  ANKR: "0x7a9e0b9e8b8f8d8f8f8f8f8f8f8f8f8f8f8f8f8f",
 }
 
 const TOKENS = {
@@ -22,7 +21,7 @@ const STABLE_TOKEN = {
 }
 
 // this ABI object works for both Uniswap and SushiSwap
-const UNISWAP_SWAP_ABI = [
+const SWAP_ABI = [
   "event Swap(address indexed sender, uint amount0In, uint amount1In, uint amount0Out, uint amount1Out, address indexed to)",
 ];
 
