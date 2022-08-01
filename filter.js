@@ -50,24 +50,27 @@ const main = async () => {
             provider,
         );
 
-        if (await PAIR_CONTRACT.token0() === STABLE_TOKEN.WETH) {
+        const token0 = await PAIR_CONTRACT.token0();
+        const token1 = await PAIR_CONTRACT.token1();
+
+        if (token0 === STABLE_TOKEN.WETH) {
             const TOKEN_CONTRACT = new ethers.Contract(
-                PAIR_CONTRACT.token1(),
+                token1,
                 TOKEN_ABI,
                 provider,
             );
 
             const name = await TOKEN_CONTRACT.symbol();
-            ALL_TOKENS[name] = await PAIR_CONTRACT.token1();
-        } else if (PAIR_CONTRACT.token1() === STABLE_TOKEN.WETH) {
+            ALL_TOKENS[name] = token1;
+        } else if (token1 === STABLE_TOKEN.WETH) {
             const TOKEN_CONTRACT = new ethers.Contract(
-                PAIR_CONTRACT.token0(),
+                token0,
                 TOKEN_ABI,
                 provider,
             );
 
             const name = await TOKEN_CONTRACT.symbol();
-            ALL_TOKENS[name] = await PAIR_CONTRACT.token0();
+            ALL_TOKENS[name] = token0;
         }
 
         console.log(i + "/" + allPairsLength.toNumber());
