@@ -1,16 +1,10 @@
 const { ethers } = require("ethers");
-// const provider = ethers.getDefaultProvider("homestead");
 const provider = new ethers.providers.JsonRpcProvider("https://rpc.ankr.com/eth");
 
 
 const EXCHANGES = {
   UNISWAP: "0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f",
   SUSHISWAP: "0xC0AEe478e3658e2610c5F7A4A2E1777cE9e4f2Ac",
-}
-
-const TOKENS = {
-  USDC: "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-  WETH: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
 }
 
 const STABLE_TOKEN = {
@@ -20,7 +14,6 @@ const STABLE_TOKEN = {
   USDT: "0xdAC17F958D2ee523a2206206994597C13D831ec7",
 }
 
-// this ABI object works for both Uniswap and SushiSwap
 const SWAP_ABI = [
   "event Swap(address indexed sender, uint amount0In, uint amount1In, uint amount0Out, uint amount1Out, address indexed to)",
 ];
@@ -113,10 +106,6 @@ function calcRatio(price1, price2) {
 //   sushiswapPrice = price;
 //   console.log(calcRatio(uniswapPrice, sushiswapPrice));
 // });
-
-const EXCHANGES_ABI = [
-  "function getPair(address token0, address token1) view returns (address)",
-]
 
 const main = async () => {
   Object.keys(EXCHANGES).forEach(async (exchange) => {

@@ -1,0 +1,14 @@
+{
+  "69": {
+    "uniswap": "0x70438014cf35eBCFD9ee376473Ec02fb86053d67",
+    "sushiswap": "0xe8152168736207fCB60F09569a1C05E17962f4DE"
+  },
+  "911": {
+    "uniswap": "0xD59e5a43A6D311f98A9f4730dc3955BEb071df6E",
+    "sushiswap": "0x268165C73568280c6128bC074Be65cb82048aa90"
+  },
+  "2022": {
+    "uniswap": "0x462c0054520C0CBC8061c70A8DF3838ebb70930f",
+    "sushiswap": "0x748E4473E85Ca8820dB402f13AFC71AB6EC60B6E"
+  }
+}
