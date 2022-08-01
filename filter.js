@@ -1,4 +1,5 @@
 const { ethers } = require("ethers");
+const fs = require("fs");
 // const provider = ethers.getDefaultProvider("homestead");
 const provider = new ethers.providers.JsonRpcProvider("https://rpc.ankr.com/eth");
 
@@ -25,14 +26,14 @@ const PAIR_ABI = [
 ]
 
 const TOKEN_ABI = [
-    "function name() view returns (string)",
+    "function symbol() view returns (string)",
 ]
 
 ALL_TOKENS = {};
 
 const main = async () => {
     const EXCHANGES_CONTRACT = new ethers.Contract(
-        EXCHANGES.UNISWAP,
+        EXCHANGES.SUSHISWAP,
         EXCHANGES_ABI,
         provider
     );
@@ -49,17 +50,17 @@ const main = async () => {
             provider,
         );
 
-        if (PAIR_CONTRACT.token0() === STABLE_TOKEN.WETH) {
+        console.log(await PAIR_CONTRACT.token0())
+
+        if (await PAIR_CONTRACT.token0() === STABLE_TOKEN.WETH) {
             const TOKEN_CONTRACT = new ethers.Contract(
                 PAIR_CONTRACT.token1(),
                 TOKEN_ABI,
                 provider,
             );
 
-            const name = await TOKEN_CONTRACT.name();
-            ALL_TOKENS[name] = PAIR_CONTRACT.token1();
-            data = JSON.stringify(ALL_TOKENS, null, 2);
-            fs.writeFileSync("./WETH-UNISWAP.json", data);
+            const name = await TOKEN_CONTRACT.symbol();
+            ALL_TOKENS[name] = await PAIR_CONTRACT.token1();
         } else if (PAIR_CONTRACT.token1() === STABLE_TOKEN.WETH) {
             const TOKEN_CONTRACT = new ethers.Contract(
                 PAIR_CONTRACT.token0(),
@@ -67,14 +68,15 @@ const main = async () => {
                 provider,
             );
 
-            const name = await TOKEN_CONTRACT.name();
-            ALL_TOKENS[name] = PAIR_CONTRACT.token0();
-            data = JSON.stringify(ALL_TOKENS, null, 2);
-            fs.writeFileSync("./WETH-UNISWAP.json", data);
+            const name = await TOKEN_CONTRACT.symbol();
+            ALL_TOKENS[name] = await PAIR_CONTRACT.token0();
         }
 
         console.log(i + "/" + allPairsLength.toNumber());
     }
+
+    data = JSON.stringify(ALL_TOKENS, null, 2);
+    fs.writeFileSync("./STATIC/WETH-SUSHI.json", data);
 }
  
 // const main = async () => {
