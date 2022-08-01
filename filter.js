@@ -1,7 +1,7 @@
 const { ethers } = require("ethers");
 const fs = require("fs");
 // const provider = ethers.getDefaultProvider("homestead");
-const provider = new ethers.providers.JsonRpcProvider("https://mainnet.infura.io/v3/745bce02e49840a9ad7382332124196d");
+const provider = new ethers.providers.JsonRpcProvider("https://rpc.ankr.com/eth");
 
 const EXCHANGES = {
     UNISWAP: "0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f",
