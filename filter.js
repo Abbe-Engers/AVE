@@ -1,8 +1,8 @@
 const { ethers } = require("ethers");
 const fs = require("fs");
 // const provider = ethers.getDefaultProvider("homestead");
-const provider = new ethers.providers.JsonRpcProvider("https://mainnet.infura.io/v3/745bce02e49840a9ad7382332124196d");
-// const provider = new ethers.providers.JsonRpcProvider("https://rpc.ankr.com/eth");
+// const provider = new ethers.providers.JsonRpcProvider("https://mainnet.infura.io/v3/745bce02e49840a9ad7382332124196d");
+const provider = new ethers.providers.JsonRpcProvider("https://rpc.ankr.com/eth");
 
 
 const EXCHANGES = {
@@ -131,6 +131,11 @@ const scan = async () => {
 
         try {
             const unipair = await UNISWAP_CONTRACT.getPair(tokens[i], STABLE_TOKEN.WETH);
+
+            if (unipair === "0x0000000000000000000000000000000000000000") {
+                continue;
+            }
+
             const sushipair = await SUSHISWAP_CONTRACT.getPair(tokens[i], STABLE_TOKEN.WETH);
             PAIRED_TOKENS[symbols[i]] = {
                 uniswap: unipair,

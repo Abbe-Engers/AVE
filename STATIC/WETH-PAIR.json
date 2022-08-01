@@ -2,5 +2,3305 @@
   "69": {
     "uniswap": "0x70438014cf35eBCFD9ee376473Ec02fb86053d67",
     "sushiswap": "0xe8152168736207fCB60F09569a1C05E17962f4DE"
+  },
+  "911": {
+    "uniswap": "0xD59e5a43A6D311f98A9f4730dc3955BEb071df6E",
+    "sushiswap": "0x268165C73568280c6128bC074Be65cb82048aa90"
+  },
+  "2022": {
+    "uniswap": "0x462c0054520C0CBC8061c70A8DF3838ebb70930f",
+    "sushiswap": "0x748E4473E85Ca8820dB402f13AFC71AB6EC60B6E"
+  },
+  "CRV": {
+    "uniswap": "0x3dA1313aE46132A397D90d95B1424A9A7e3e0fCE",
+    "sushiswap": "0x58Dc5a51fE44589BEb22E8CE67720B5BC5378009"
+  },
+  "YAMv2": {
+    "uniswap": "0xA5904961f61baE7c4dD8478077556c91BF291cFD",
+    "sushiswap": "0x95b54C8Da12BB23F7A5F6E26C38D04aCC6F81820"
+  },
+  "SRM": {
+    "uniswap": "0xCc3d1EceF1F9fD25599dbeA2755019DC09db3c54",
+    "sushiswap": "0x117d4288B3635021a3D612FE05a3Cbf5C717fEf2"
+  },
+  "UMA": {
+    "uniswap": "0x88D97d199b9ED37C29D846d00D443De980832a22",
+    "sushiswap": "0x001b6450083E531A5a7Bf310BD2c1Af4247E23D4"
+  },
+  "COMP": {
+    "uniswap": "0xCFfDdeD873554F362Ac02f8Fb1f02E5ada10516f",
+    "sushiswap": "0x31503dcb60119A812feE820bb7042752019F2355"
+  },
+  "BAND": {
+    "uniswap": "0xf421c3f2e695C2D4C0765379cCace8adE4a480D9",
+    "sushiswap": "0xA75F7c2F025f470355515482BdE9EFA8153536A8"
+  },
+  "SNX": {
+    "uniswap": "0x43AE24960e5534731Fc831386c07755A2dc33D47",
+    "sushiswap": "0xA1d7b2d891e3A1f9ef4bBC5be20630C2FEB1c470"
+  },
+  "LEND": {
+    "uniswap": "0xaB3F9bF1D81ddb224a2014e98B238638824bCf20",
+    "sushiswap": "0x5E63360E891BD60C69445970256C260b0A6A54c6"
+  },
+  "sUSD": {
+    "uniswap": "0xf80758aB42C3B07dA84053Fd88804bCB6BAA4b5c",
+    "sushiswap": "0xF1F85b2C54a2bD284B1cf4141D64fD171Bd85539"
+  },
+  "AMPL": {
+    "uniswap": "0xc5be99A02C6857f9Eac67BbCE58DF5572498F40c",
+    "sushiswap": "0xCb2286d9471cc185281c4f763d34A962ED212962"
+  },
+  "LINK": {
+    "uniswap": "0xa2107FA5B38d9bbd2C461D6EDf11B11A50F6b974",
+    "sushiswap": "0xC40D16476380e4037e6b1A2594cAF6a6cc8Da967"
+  },
+  "YFI": {
+    "uniswap": "0x2fDbAdf3C4D5A8666Bc06645B8358ab803996E28",
+    "sushiswap": "0x088ee5007C98a9677165D78dD2109AE4a3D04d0C"
+  },
+  "DAI": {
+    "uniswap": "0xA478c2975Ab1Ea89e8196811F51A7B7Ade33eB11",
+    "sushiswap": "0xC3D03e4F041Fd4cD388c549Ee2A29a9E5075882f"
+  },
+  "USDC": {
+    "uniswap": "0xB4e16d0168e52d35CaCD2c6185b44281Ec28C9Dc",
+    "sushiswap": "0x397FF1542f962076d0BFE58eA045FfA2d347ACa0"
+  },
+  "SUSHI": {
+    "uniswap": "0xCE84867c3c02B05dc570d0135103d3fB9CC19433",
+    "sushiswap": "0x795065dCc9f64b5614C407a6EFDC400DA6221FB0"
+  },
+  "bXIOT": {
+    "uniswap": "0xE0Da4E7b3f34AA8c9Fd37880b8C4C36A0109A69b",
+    "sushiswap": "0xc66eD7c8034E11EBd32499389C35b3E6E9eE3e78"
+  },
+  "KEY": {
+    "uniswap": "0xEF9Ac6348A04Ac07C8Cfb19FE19827f1C92d7512",
+    "sushiswap": "0x75e66d062a2a8BE5c99d71db11d72aB3B82bA8b3"
+  },
+  "DIA": {
+    "uniswap": "0x4Dc02e1bB2EC1CE4C50C351e6e06505E7B1dCe8d",
+    "sushiswap": "0xBb7aB09971E56Aaf248dCc6C3DF865aF69D97372"
+  },
+  "XIOT": {
+    "uniswap": "0x5741A1CEff6148C8aaCA0F0456C03C88817E05F5",
+    "sushiswap": "0x8283DD24f8D8E7b083e2855a4c3EA1A7Feba08C2"
+  },
+  "JUICE": {
+    "uniswap": "0x91C155A1a2f9Ebc90eb7546766b9bFbDa1aAdf22",
+    "sushiswap": "0x7d7428c778424DB4c3A0930D18Ca89a46b66f042"
+  },
+  "UNC": {
+    "uniswap": "0x5E64CD6f84D0eE2Ad2a84CadC464184e36274E0c",
+    "sushiswap": "0x6367eEd0ce97f8AB3C237674ce50D0b746901F33"
+  },
+  "SENT": {
+    "uniswap": "0xe240496565eB09bf4402732872ea4D76C0c1aF05",
+    "sushiswap": "0x209E2f044bD334c53451900c576aB18e8ceA9B16"
+  },
+  "Morf": {
+    "uniswap": "0x2cf90f1849cc2Dd368ADa85A8C928499ea89c33f",
+    "sushiswap": "0x39043f4a27E4A030aD4bF33132d9D1535CD91Ef6"
+  },
+  "MATH": {
+    "uniswap": "0x3006c0D2A6e54d3590a44384c6F066c9cF9a4ceA",
+    "sushiswap": "0xd989f9ACA3Dff9dB16D3B0ceBc252596bB8AA63E"
+  },
+  "PNK": {
+    "uniswap": "0x343FD171caf4F0287aE6b87D75A8964Dc44516Ab",
+    "sushiswap": "0xEF4F1D5007B4FF88c1A56261fec00264AF6001Fb"
+  },
+  "CLN": {
+    "uniswap": "0xAF85a8e471fea21E66F49C98dF652Eb5CFBEC093",
+    "sushiswap": "0x1417Bac01F58F68ebf547a3d5B9D0f6E8A495963"
+  },
+  "2KEY": {
+    "uniswap": "0x63E7Aa05B78144013Cfa4b23C9b61599D0a29023",
+    "sushiswap": "0xEA2B2aBEc815a2782b25EA2B3d998e1A5EaFC259"
+  },
+  "JUL": {
+    "uniswap": "0x93d2707E73b4f096c274929bB2E4f631C7E61502",
+    "sushiswap": "0xCFD111c4c0DaEAE6351bcdC80a993e78923845AB"
+  },
+  "ADX": {
+    "uniswap": "0xD3772A963790feDE65646cFdae08734A17cd0f47",
+    "sushiswap": "0x9cBc2A6Ab3f10eDF7d71C9cf3B6BdB7eE5629550"
+  },
+  "TUNA": {
+    "uniswap": "0x70CC05A5881E575e044D980739C8a9f5115ef77A",
+    "sushiswap": "0xa4d456B9DBe75B033b13b138CAADBe4Bd15432ae"
+  },
+  "BNSD": {
+    "uniswap": "0x76333B38567f78240D6276E5b3985BAa6Fa5Fda5",
+    "sushiswap": "0x06f6f3f79bB7236473c144bC43B687428Ac0262E"
+  },
+  "wDGLD": {
+    "uniswap": "0x9c3b0c576d4c969dFC625f4d6e98236754362602",
+    "sushiswap": "0x13cB03BFBe8BFb8c9923FAe884A1f1B16Dd2AdEF"
+  },
+  "SASHIMI": {
+    "uniswap": "0x4b618087DaE7765823BC47fFbF38C8Ee8489F5CA",
+    "sushiswap": "0x3a99e53B8f5bB7ACC583701AE37F1C7305Ff79dD"
+  },
+  "vBZRX": {
+    "uniswap": "0xA1D836Cc39E3b8D6d128134b3356ff6360BE13b4",
+    "sushiswap": "0x954E5e6B11f3AdBD1FFFa90e4B718103938a3468"
+  },
+  "YFRB": {
+    "uniswap": "0xce71B536130aB699460E318fd52dA476bfda7CA4",
+    "sushiswap": "0x48f2339da7d4Db105adE880a2809AB8a38899f21"
+  },
+  "YTC": {
+    "uniswap": "0xAaBc7Ffb616abB80656ba703E7045646B2CB7Ca2",
+    "sushiswap": "0x33F172212d30B559F8D8B8A54911CE10a2d42296"
+  },
+  "REB2": {
+    "uniswap": "0x54f5f952cca8888227276581F26978F99FDBa64E",
+    "sushiswap": "0xc4dE5Cc1232f6493Cc7BF7bcb12F905eb9742Bd7"
+  },
+  "EWTB": {
+    "uniswap": "0xdc7d8cC3a22FE0eC69770E02931f43451b7B975e",
+    "sushiswap": "0x7A8c6B6e44Cc12Df550096F88A5ba746c38eD9b0"
+  },
+  "renBTC": {
+    "uniswap": "0x81FbEf4704776cc5bBa0A5dF3a90056d2C6900B3",
+    "sushiswap": "0x0289B9CD5859476Ce325aCa04309D36adDCEbDAA"
+  },
+  "XOR": {
+    "uniswap": "0x01962144D41415cCA072900Fe87Bbe2992A99F10",
+    "sushiswap": "0x47FF5a2ad7A36cfCF7867539f5851A4A573Bf4e1"
+  },
+  "TRYB": {
+    "uniswap": "0x80A5159cAFAeaDD229a9EEe8C022CAB847c0947c",
+    "sushiswap": "0x161388DEb2c1147D5bEd3003277d59d479d5a228"
+  },
+  "WBTC": {
+    "uniswap": "0xBb2b8038a1640196FbE3e38816F3e67Cba72D940",
+    "sushiswap": "0xCEfF51756c56CeFFCA006cD410B03FFC46dd3a58"
+  },
+  "RARI": {
+    "uniswap": "0x86fEf14C27C78dEAEb4349FD959CAA11fc5B5D75",
+    "sushiswap": "0x53aaBCcAE8C1713a6a150D9981D2ee867D0720e8"
+  },
+  "BLT": {
+    "uniswap": "0xf1Ff4c672DaBf9AEa4813DdA6De66b860b0970b4",
+    "sushiswap": "0x2D2Bc284c24b5deBE489Da59557862e0aF884F23"
+  },
+  "ANT": {
+    "uniswap": "0x9dEF9511fEc79f83AFCBFfe4776B1D817DC775aE",
+    "sushiswap": "0x201e6a9E75df132a8598720433Af35fe8d73e94D"
+  },
+  "ULU": {
+    "uniswap": "0xae84B448e865AedefEFC79262Bb32361E80481F2",
+    "sushiswap": "0x6515671641C9028e1a27117F1214DfD08132509C"
+  },
+  "AMP": {
+    "uniswap": "0x08650bb9dc722C9c8C62E79C2BAfA2d3fc5B3293",
+    "sushiswap": "0x15e86E6f65EF7EA1dbb72A5E51a07926fB1c82E3"
+  },
+  "SAKE": {
+    "uniswap": "0xB8172076ceb35B6701F96eB9088818EFc010BD44",
+    "sushiswap": "0x71B50Dd6Ca7433b5D528F472B93F115CE00AF9c8"
+  },
+  "ETHV": {
+    "uniswap": "0xbB91195AAB273220331aEC768fa528A01E752F2b",
+    "sushiswap": "0x504ef6C1A84484BeC2F30A7fA4baF7cf27318660"
+  },
+  "CAFE": {
+    "uniswap": "0x1b68f4Ba87A1004852D2c48188d37D46a8a28145",
+    "sushiswap": "0x5862d8D46F6a42332dEC8d8d8C27796C0F38264b"
+  },
+  "ZAG": {
+    "uniswap": "0x6f4f9d5E181dA2679Cf30ab4600aDd6cB533eF72",
+    "sushiswap": "0xC9116009b44AfC73f319C2011D7C6c698873BF13"
+  },
+  "MoonGain": {
+    "uniswap": "0xD951BF5fEe17CbCB3cf79323D3e3AeFF3F7C0Bc0",
+    "sushiswap": "0x36B66b447b7A2FfAEe307785F663ec8D5a598Ba1"
+  },
+  "WHIVE": {
+    "uniswap": "0x50702C216ca6906a18ff105d5DFB1602e8bf0D03",
+    "sushiswap": "0x9307539a322Ec5afB08632Bc97d8250f2D94544d"
+  },
+  "PERX": {
+    "uniswap": "0xB328eB3175B5440dff5B158205A9906a97c37C51",
+    "sushiswap": "0xd281aF557Aa16b6d49647B204e16c1083069a7Bb"
+  },
+  "HEGIC": {
+    "uniswap": "0x1273aD5D8f3596A7a39EfDb5a4b8f82E8F003fc3",
+    "sushiswap": "0x6463Bd6026A2E7bFab5851b62969A92f7cca0eB6"
+  },
+  "YFL": {
+    "uniswap": "0x1d6432AEfeAE2c0Ff1393120541863822a4E6Fa7",
+    "sushiswap": "0xc8703a9c40eDb9915C815f29762827f6242278bf"
+  },
+  "BUSD": {
+    "uniswap": "0xC2923b8a9683556A3640ccc2961B2F52B5C4459A",
+    "sushiswap": "0x715134A16acB73c86e81df5542e1CF759eEB6Fc7"
+  },
+  "RBT": {
+    "uniswap": "0x6069bb65385791239E0B9964cF9D55F6659Dd91E",
+    "sushiswap": "0xDCA8BeDDa2a15b740D3BC58Bb14027c48F2AFbf6"
+  },
+  "BOBA": {
+    "uniswap": "0x364dF315B933E7ADb717A34F17e7fE0C90Cd7549",
+    "sushiswap": "0xdFb87fD2F9f5eEC75930A2D8Cfe67f791801FE30"
+  },
+  "ZEON": {
+    "uniswap": "0x7d850B7Dd7EB091eC313F730ee81E165A80E863f",
+    "sushiswap": "0x02eb135EBA0D5b36C2cF0bb9190C36927C5EED6D"
+  },
+  "MSI": {
+    "uniswap": "0xA7BC262288aC3b8894dFF23C0E539c58A20202C1",
+    "sushiswap": "0x9609F1398FF6b982c97Fc4437cfdEBA78CcDe07B"
+  },
+  "ROOBEE": {
+    "uniswap": "0x95251F98C45E283Cd40aA7b42EeE1c0a599C4d1d",
+    "sushiswap": "0xDd2F8D990D7352bb38bd0340c394af4691D9957C"
+  },
+  "BTSE": {
+    "uniswap": "0x9660882055EEb18e54deeE7725dEc5a4b6ae1138",
+    "sushiswap": "0x87D3d823f7EE1a86f0939371Cc3A2ef46889B1e5"
+  },
+  "  比特币  ": {
+    "uniswap": "0x8FaE43d8A8Ba4AB5aE6fFce8e9ea7C3240735dCe",
+    "sushiswap": "0x168d3fCbb4213fC91d5c40aCc302Bfccd89112aa"
+  },
+  "UBXT": {
+    "uniswap": "0x6a928D733606943559556F7eb22057C1964ce56a",
+    "sushiswap": "0xBCd6a2DdAfbaa7f424698ed69E717C0c0F1e99BF"
+  },
+  "YFMEAT": {
+    "uniswap": "0x338a1B7F473C9E843496bCc82556a3788D401213",
+    "sushiswap": "0xF139473f526f7a139298ef2892F1915031C4F4DA"
+  },
+  "PYLON": {
+    "uniswap": "0xBe9Ba93515e87C7Bd3A0CEbB9f61AAabE7A77Dd3",
+    "sushiswap": "0x04940B1776B0Bf5786dAc58986112C4f722BfC63"
+  },
+  "Yf3L": {
+    "uniswap": "0xee824B4f66A07B6f6a6e95A324A546F596ABE440",
+    "sushiswap": "0x6b5535346D6E8620285b8eE08d2F3651e6C75D68"
+  },
+  "YFII": {
+    "uniswap": "0x8973Be4402bf0a39448f419c2D64bD3591Dd2299",
+    "sushiswap": "0xF727fC12F07f510df7F5169F5DC4ca91B9A05753"
+  },
+  "HGET": {
+    "uniswap": "0xe41e01A3231C0f19BACB9BAee26a8554E0796391",
+    "sushiswap": "0x94607d90f79cA3416a0CCeC1aa7442EA26df1af0"
+  },
+  "MYFI": {
+    "uniswap": "0x0221FB549D63212c40AaA6E7fb491C66C5f78e1A",
+    "sushiswap": "0x1138e39F8838eBAF63Dec72263ffeC55c5CD0626"
+  },
+  "UNI": {
+    "uniswap": "0x56bFbB50aE7eaEAF6276CfAB8Fc62C9B40D52194",
+    "sushiswap": "0x04631328f056046ab6A5ae62DF2d4fE6bead5334"
+  },
+  "REVV": {
+    "uniswap": "0x724d5c9c618A2152e99a45649a3B8cf198321f46",
+    "sushiswap": "0xc926990039045611eb1DE520C1E249Fd0d20a8eA"
+  },
+  "TST": {
+    "uniswap": "0x0FB402016ae5Aa800695dd782807fD8197000f67",
+    "sushiswap": "0x53BB862238b852f387C3f8b8008E4622548E82D1"
+  },
+  "VAULT": {
+    "uniswap": "0x540d1094Bb9B3996dAC198Ea840FEc1e230C3Ce0",
+    "sushiswap": "0xDf2C408F0aD496b222baC96EcadC68703b9E0b2A"
+  },
+  "FCKS": {
+    "uniswap": "0x45F1f47D4aEE6624F003d70E06063B20a8a7F620",
+    "sushiswap": "0x81EA504D5b278f651398fAeF51CC65A7b5791663"
+  },
+  "QWER": {
+    "uniswap": "0x654FAAc8C98F371F2060B4bC06C25c53f73AE5A3",
+    "sushiswap": "0x5a875034Bb718d583e490b1e6831a436e73db2E4"
+  },
+  "DX": {
+    "uniswap": "0x3B76c26882BDe29f8AE07F8972415c60E1F593f6",
+    "sushiswap": "0x1923eDe7104c67d4Af0A970bf8E8d566eaea2680"
+  },
+  "wNXM": {
+    "uniswap": "0x23bFf8ca20AAc06EFDf23cEe3B8ae296A30Dfd27",
+    "sushiswap": "0xFcff3b04C499A57778ae2CF05584ab24278A7FCb"
+  },
+  "CRO": {
+    "uniswap": "0x90704Ac59E7E54632b0CC9d22573aeCD7eB094ad",
+    "sushiswap": "0x0be88ac4b5C81700acF3a606a52a31C261a24A35"
+  },
+  "yyDAI+yUSDC+yUSDT+yTUSD": {
+    "uniswap": "0x9346C20186D1794101B8517177A1b15c49c9ff9b",
+    "sushiswap": "0x382c4a5147Fd4090F7BE3A9Ff398F95638F5D39E"
+  },
+  "MEME": {
+    "uniswap": "0x5DFbe95925FFeb68f7d17920Be7b313289a1a583",
+    "sushiswap": "0x17b3C19Bd640a59E832AB73eCcF716CB47419846"
+  },
+  "CREAM": {
+    "uniswap": "0xddF9b7a31b32EBAF5c064C80900046C9e5b7C65F",
+    "sushiswap": "0xf169CeA51EB51774cF107c88309717ddA20be167"
+  },
+  "$BASED": {
+    "uniswap": "0x55111baD5bC368A2cb9ecc9FBC923296BeDb3b89",
+    "sushiswap": "0xe69d51Fe01608EDFFCa53d0881897fFf9aE09bF6"
+  },
+  "AQU": {
+    "uniswap": "0x62Af477147803E091DB3CeC399190739B14A375f",
+    "sushiswap": "0xe26433358fDB9aDdcc59ba3F2Df0e8490B015FF4"
+  },
+  "ENK": {
+    "uniswap": "0x27E0af0fDbEf0c137F90f4b9bfAef2215EE9A97A",
+    "sushiswap": "0x73d5285f1221564bCE82521F901cbF23FBCB876b"
+  },
+  "ZCN": {
+    "uniswap": "0xa6890aC41e3a99A427bef68398Bf06119fB5e211",
+    "sushiswap": "0xA179d8F12F99CEA60700f32F602a57c25F1f6e89"
+  },
+  "UniSushi": {
+    "uniswap": "0xD406ff619727Ff1F34e9bB27b57a8145D0ab647c",
+    "sushiswap": "0x718Ff3F9957Ab5586eCfF2Df2Aa11121F71F3d67"
+  },
+  "LCX": {
+    "uniswap": "0xFCB910d871d7e94F5A566B7b32Fb2B19583c09D7",
+    "sushiswap": "0x51dcB8D09FAc22C974cB2EF169310cC501063F46"
+  },
+  "BAT": {
+    "uniswap": "0x4b824d4765708c44475c781fa4594AE37D1F130F",
+    "sushiswap": "0xE9f4418a652e11b04DEf5C8E43dD7Bdb8ffaDf3C"
+  },
+  "CZZ": {
+    "uniswap": "0x3Ee52712f5454CbE7dbC1FB8Bf613b0234b80983",
+    "sushiswap": "0x561aeF36a2237F86696E15B131f7FF3e141FeAB2"
+  },
+  "AAVE": {
+    "uniswap": "0xDFC14d2Af169B0D36C4EFF567Ada9b2E0CAE044f",
+    "sushiswap": "0xD75EA151a61d06868E31F8988D28DFE5E9df57B4"
+  },
+  "EARN": {
+    "uniswap": "0x4E910210DEd5cCe915c1C38434aAa169fB232733",
+    "sushiswap": "0x7C46Ff058f4eC60FDfa99D97E9D8563437F95E01"
+  },
+  "ETRD": {
+    "uniswap": "0x47a927bb962a7bcbFa4283D2705079a4844Df83a",
+    "sushiswap": "0x166cd86E770DEcA0b2DE9a1987200c2eb3C368E6"
+  },
+  "ENFT": {
+    "uniswap": "0x7C596355006B80c50c10a5f3B0F8336B2C25f810",
+    "sushiswap": "0xDA142aaFeB162D83c13Db2B68b3D51c89a972901"
+  },
+  "yf-NFT": {
+    "uniswap": "0xF3D389ba5a950054Ffd59DD5F7C49906688B3132",
+    "sushiswap": "0xf5D5C8125192c7968540E0718A883874A9038C2D"
+  },
+  "ZIN": {
+    "uniswap": "0xd43629dfb0a285839E25c285D527742a6059632f",
+    "sushiswap": "0xdAe2BF063d208611f2e44378197a3315Ea569A16"
+  },
+  "CORE": {
+    "uniswap": "0x32Ce7e48debdccbFE0CD037Cc89526E4382cb81b",
+    "sushiswap": "0x68C6d02D44E16F1c20088731Ab032f849100D70f"
+  },
+  "OMG": {
+    "uniswap": "0x48E313460DD00100e22230e56E0A87B394066844",
+    "sushiswap": "0x742c15d71eA7444964BC39b0eD729B3729ADc361"
+  },
+  "YAM": {
+    "uniswap": "0xe2aAb7232a9545F29112f9e6441661fD6eEB0a5d",
+    "sushiswap": "0x0F82E57804D0B1F6FAb2370A43dcFAd3c7cB239c"
+  },
+  "DLT": {
+    "uniswap": "0xe1fFE52870C75758272BDE82A72E7C8d4Db05068",
+    "sushiswap": "0x7Bb6C127d9ca17475FCce1f8c0D61B77D327A981"
+  },
+  "UNI-V2": {
+    "uniswap": "0xDDF64489205D5d117a92C5D65e00950904D13fC2",
+    "sushiswap": "0x313bb8421607D7C100BbF3299Fe505d0bd1f821C"
+  },
+  "CRD": {
+    "uniswap": "0x526914CE1611849b9e1133Ff8F8b03A8fAa295Cb",
+    "sushiswap": "0xD3f85d18206829f917929BbBF738C1e0CE9AF7fC"
+  },
+  "RON": {
+    "uniswap": "0xBFA1AB8E7E838329442E3979885E9A491E433AAE",
+    "sushiswap": "0x59BEFE124e09CE71aEE9e8D1b072a08C102aA8d3"
+  },
+  "MUA": {
+    "uniswap": "0x37B7F597341e4e56403Ca6215376c2fD24316733",
+    "sushiswap": "0x046D8c308Fd8b1D287FEcEc297dea805A6d925F0"
+  },
+  "DTR": {
+    "uniswap": "0xdc75CfEb24fEC97Fc4c6521f4f9727013cb10F22",
+    "sushiswap": "0x1ccC8ee624FBe8c10917b96D1f0672B480F0d671"
+  },
+  "NOAHP": {
+    "uniswap": "0xC6fc2D5101da4628DB8D055776ae1a91fa0C8796",
+    "sushiswap": "0x4FCcb922148284270ce8b2fca8c00519563A4dDa"
+  },
+  "YLB": {
+    "uniswap": "0xDb75FCC3c3baBA30A97AAC97ba69A200571916a2",
+    "sushiswap": "0x9a67737d2aB958D80A763bbbD4b1c826249745F4"
+  },
+  "Cswap": {
+    "uniswap": "0x078c0C56c4347333b16b421C2e3fc8378e224b32",
+    "sushiswap": "0xA49e7DC858F84f909A7E9589eaAa2826795C0d8A"
+  },
+  "UFT": {
+    "uniswap": "0x99dFDE431b40321a35dEb6AEb55cf338dDD6eccd",
+    "sushiswap": "0xC4b26b26d720467d96E18f08664A888d4116cEa6"
+  },
+  "YieldX": {
+    "uniswap": "0x9A5a3Bb5751223b2d3b272c114DFEc7Cf12c54D1",
+    "sushiswap": "0x73Bf5D088C5EF4673F194DD32f38703a32362D7f"
+  },
+  "TAD": {
+    "uniswap": "0x9D8D4550637e3fc86CB465734Ab33280e4838E08",
+    "sushiswap": "0xFd0A96bBa496Ef72e925c3acecA8877e4600D275"
+  },
+  "AMIS": {
+    "uniswap": "0x30D3074f11a95eb0E34383a5B3A459717e89Fbc4",
+    "sushiswap": "0xE22Fb95aECfaE1324B09D7A34229A006adf5431D"
+  },
+  "GHST": {
+    "uniswap": "0xaB659deE3030602c1aF8C29D146fAcD4aeD6EC85",
+    "sushiswap": "0x5a2943B25ce0678Dc0b351928D2DB331A55D94eA"
+  },
+  "DPI": {
+    "uniswap": "0x4d5ef58aAc27d99935E5b6B4A6778ff292059991",
+    "sushiswap": "0x34b13F8CD184F55d0Bd4Dd1fe6C07D46f245c7eD"
+  },
+  "VXC": {
+    "uniswap": "0x692B1F406159eA77C65d7d0d37521f6AF8B8910F",
+    "sushiswap": "0x686a01120827CAE5230bb81D5C2A74667C8B7552"
+  },
+  "TRZ": {
+    "uniswap": "0x47110eA8554a4A6982E96904Aa1244a0BaB0203F",
+    "sushiswap": "0x131c209140db8d882Ff9B67523874f9e22E9b1DE"
+  },
+  "aswap": {
+    "uniswap": "0x8537d29271b689ec8e563Ae6d9e9910701F6632f",
+    "sushiswap": "0x32FdB63ac07682d012255D359299246f7D5FdFA4"
+  },
+  "DARK": {
+    "uniswap": "0x5cBEfe14c66ba706e79CA4237fF10F218461014A",
+    "sushiswap": "0x8454326E091a32BB004779128C2466E4874e0144"
+  },
+  "TBTC": {
+    "uniswap": "0x854056Fd40C1B52037166285B2e54Fee774d33f6",
+    "sushiswap": "0xEe6d78755e06C31AE7A5EA2b29b35C073dfc00A9"
+  },
+  "AUDIO": {
+    "uniswap": "0xC730EF0f4973DA9cC0aB8Ab291890D3e77f58F79",
+    "sushiswap": "0x4F871F310AD0E8a170db0021c0ce066859d37469"
+  },
+  "DOUGH": {
+    "uniswap": "0xE8846B27988FF52c371D5BD27Bf8DBA4097C93D2",
+    "sushiswap": "0x97f34c8E5992EB985c5F740e7EE8c7e48a1de76a"
+  },
+  "FARM": {
+    "uniswap": "0x56feAccb7f750B997B36A68625C7C596F0B41A58",
+    "sushiswap": "0x69b39B89f9274a16e8A19B78E5eB47a4d91dAc9E"
+  },
+  "STAKE": {
+    "uniswap": "0x3B3d4EeFDc603b232907a7f3d0Ed1Eea5C62b5f7",
+    "sushiswap": "0x9Fc5b87b74B9BD239879491056752EB90188106D"
+  },
+  "RSR": {
+    "uniswap": "0xba65016890709dBC9491Ca7bF5DE395B8441DC8B",
+    "sushiswap": "0x6f58A1Aa0248A9F794d13Dc78E74Fc75140956D7"
+  },
+  "TRUMP": {
+    "uniswap": "0x0A9f6bEf631B3B6c8E9198Ba7D6F0C6CF934Cd76",
+    "sushiswap": "0x24AaC088F9EC4f6ECd26473204FA91669Bd64072"
+  },
+  "SEEN": {
+    "uniswap": "0x005e5840FD5a4B47a4AC6AcbCD887cF414A94944",
+    "sushiswap": "0xC5Fa164247d2F8D68804139457146eFBde8370F6"
+  },
+  "BTCE": {
+    "uniswap": "0x1B7CB49e51E6EB04e8008A9Cd5F41e36e1782283",
+    "sushiswap": "0xF65b8e3F9Da7a111c63A283618Dd494324cdfec3"
+  },
+  "OOKS": {
+    "uniswap": "0x67638994e73C5b1B23F8c82d3590Dcd58E0Be045",
+    "sushiswap": "0x8e14b803A730Cc3BCC8AF4ffCd9c4b10ebff7215"
+  },
+  "BOR": {
+    "uniswap": "0xc9ca10d36441B5b45d5E63480139105f037972e0",
+    "sushiswap": "0x44D34985826578e5ba24ec78c93bE968549BB918"
+  },
+  "NERDLING": {
+    "uniswap": "0x69E2cfD60F9F42CDCA363066C6670dEb25aa9370",
+    "sushiswap": "0x1CDB9a5b489eFb99C46D317022921906dea73CdE"
+  },
+  "AXN": {
+    "uniswap": "0x63499CAAcfd364C516075245A2950E830A910B90",
+    "sushiswap": "0x3E5c11703f6ee0Fbe73462Be65D2F44B94c925Ee"
+  },
+  "WBLURT": {
+    "uniswap": "0x617Bb9c787b7bbB35d7B46AAcAAc44b016e02526",
+    "sushiswap": "0x9d7a071735DFc0557bC2E9ADaCbE951201f55cb6"
+  },
+  "SURF": {
+    "uniswap": "0x32d588fd4d0993378995306563A04aF5Fa162deC",
+    "sushiswap": "0x0bff31d8179Da718A7ee3669853cF9978c90a24a"
+  },
+  "KP3R": {
+    "uniswap": "0x87fEbfb3AC5791034fD5EF1a615e9d9627C2665D",
+    "sushiswap": "0xaf988afF99d3d0cb870812C325C588D8D8CB7De8"
+  },
+  "HEZ": {
+    "uniswap": "0x23d15EDceb5B5B3A23347Fa425846DE80a2E8e5C",
+    "sushiswap": "0xD7c2A4aa31E1bF08dc7Ff44C9980fa8573E10C1B"
+  },
+  "YAX": {
+    "uniswap": "0x1107B6081231d7F256269aD014bF92E041cb08df",
+    "sushiswap": "0x033ecD066376aFec5E6383BC9F1F15bE4C62dc89"
+  },
+  "AKRO": {
+    "uniswap": "0x8Cb77eA869DeF8f7fdEab9E4dA6cF02897bbF076",
+    "sushiswap": "0x364248b2f1f57C5402d244b2D469A35B4C0e9dAB"
+  },
+  "AXS": {
+    "uniswap": "0xa040832b1e5026Da6DC843E6773a9e4d02Fff9b1",
+    "sushiswap": "0x0C365789DbBb94A29F8720dc465554c587e897dB"
+  },
+  "YFFU2": {
+    "uniswap": "0xB4fAC9BB80cB84E082Df0eCfCA3020E3e0332d9e",
+    "sushiswap": "0x47CAB0CE3d17833F668B2C19611354b5477501AF"
+  },
+  "WSCOIN": {
+    "uniswap": "0xEEbe713A15cAaa4A437Ef30cd3d6F868a041bBc0",
+    "sushiswap": "0xD3B9f81Cf359B60f5730deb890A65CF08880459e"
+  },
+  "REAL": {
+    "uniswap": "0x1482cD84C438e3C9349dB015f84dE3c656A0Ca4C",
+    "sushiswap": "0x02FF01eDeC0019d2377d827563DAf2243375cE2A"
+  },
+  "RIO": {
+    "uniswap": "0x0b85B3000BEf3E26e01428D1b525A532eA7513b8",
+    "sushiswap": "0x5FB195761A1Db915906569fB597F33F97034d9D4"
+  },
+  "YFFII": {
+    "uniswap": "0x4fD46419Ee4F7F0d84AaE6144Ebc90E30aE639bA",
+    "sushiswap": "0xEB4C8d02857bF66543592181144740a57d89C81F"
+  },
+  "SWAG": {
+    "uniswap": "0x13809390eFC00Df7Dc27d47fb7F200C773354eC4",
+    "sushiswap": "0xadeAa96A81eBBa4e3A5525A008Ee107385d588C3"
+  },
+  "GIFT": {
+    "uniswap": "0x6b22741dF8aB6dE70416675C8eE6af896fd980Eb",
+    "sushiswap": "0x66B37B6553D0D087d013416f87E5980FfAce5A21"
+  },
+  "ACG": {
+    "uniswap": "0xa52Ea9e1581660e797Fde1Aa379A3daC9452963f",
+    "sushiswap": "0x8C5215e9950c984faC54Bb681211B38Cc428e007"
+  },
+  "SPANK": {
+    "uniswap": "0x8Fb8707ef6b66e999aC09A5f96d6ccCD250bCBAd",
+    "sushiswap": "0x02C6260cE42Ea5cD055911ed0D4857eCD4583740"
+  },
+  "POWR": {
+    "uniswap": "0x3C442baB170F19Dd40D0b1a405C9d93b088B9332",
+    "sushiswap": "0x72075636be2603b91BE1cDA70fAB6ef21cA86989"
+  },
+  "renZEC": {
+    "uniswap": "0xE6C804FF4eC692E6808C0d032CdbC03772FC4D42",
+    "sushiswap": "0xAc7139EA81c650A1472992890df8211828937937"
+  },
+  "ARIA20": {
+    "uniswap": "0xC5202e3f5F60423d7106A68278c627FD091b5C7D",
+    "sushiswap": "0xdD62a1a85A24c8D8A1b0F81a16c6EF9b03F96c60"
+  },
+  "COVER": {
+    "uniswap": "0x84e99CCC19da8290A754cb015cA188676d695f0A",
+    "sushiswap": "0x66Ae32178640813F3c32a9929520BFE4Fef5D167"
+  },
+  "ROOK": {
+    "uniswap": "0x70ec2fA6Eccf4010eaf572d1C1a7bCbC72DEC983",
+    "sushiswap": "0xf13eEF1C6485348B9C9FA0d5Df2d89AccC5b0147"
+  },
+  "zHEGIC": {
+    "uniswap": "0x2855d51a6c054e5e879BfcE18e3a028aE5c190F7",
+    "sushiswap": "0x9b84b70F3e2D41677426Da48EB3D61F985C008C4"
+  },
+  "APY": {
+    "uniswap": "0xF043c39A106db6B58C76995F30Ba35fD211c3b76",
+    "sushiswap": "0xacd80a908d37505F708d97AfeE40A739a92C670b"
+  },
+  "VLO": {
+    "uniswap": "0x259E558892783fd8941EBBeDa694318C1C3d9263",
+    "sushiswap": "0xd9DdFF07eBdCF5595998F9F195EDd705D1bD1AbC"
+  },
+  "zLOT": {
+    "uniswap": "0x635E38E0787207D06B4E667DB8A2e671a8a608e6",
+    "sushiswap": "0x9360b76f8f5F932AC33D46A3CE82ad6C52A713E5"
+  },
+  "LINA": {
+    "uniswap": "0x463f4C94065F46D6eaC66FdecA13f9B9E243BE33",
+    "sushiswap": "0x38A0469520534fC70c9C0b9DE4B8649e36A2aE3E"
+  },
+  "YGEM": {
+    "uniswap": "0x1bbdcD992f4e7E3d633D43Ee31401f546CcE29FD",
+    "sushiswap": "0xD830c165FAE12B3708Be1DC9301aca48156eDB88"
+  },
+  "RLR": {
+    "uniswap": "0xe4332d93B4f0477d5230852f59D2621E2AcdEa1A",
+    "sushiswap": "0xD1b417b1B4a5eBB13817e6340d0AEb3bBDfC55B8"
+  },
+  "TRU": {
+    "uniswap": "0x80b4d4e9d88D9f78198c56c5A27F3BACB9A685C5",
+    "sushiswap": "0xaFa43241cf1A1d12268E75f1e7258b805E708Da5"
+  },
+  "PKG": {
+    "uniswap": "0x335fC34AdbC1c12f3F731c3EeC1FD27F36DAef4A",
+    "sushiswap": "0x5AfDb161a974eA308FE12A43b7d2080734c96BD9"
+  },
+  "FTX Token": {
+    "uniswap": "0xF04543fBF20DAEE9B0357db966428EF2A4Ae0F5A",
+    "sushiswap": "0x7825dE5586E4d2FD04459091bbe783fa243E1bf3"
+  },
+  "WPOLIS": {
+    "uniswap": "0xCE5C405fc31134C173d63a1dB425275092f25F2A",
+    "sushiswap": "0x3a3c2DfCfAd34CE2382796e73332EaB5E8c71aad"
+  },
+  "CTH": {
+    "uniswap": "0x7C29759683f92490fF77d5b1bE37f7AE6E685E91",
+    "sushiswap": "0xEDca3FEfb917D91f61fb429DC220AAb3ff5609ab"
+  },
+  "ETH2POS": {
+    "uniswap": "0x1dd89faf8014c8f3cd9FdC9434619fc353688592",
+    "sushiswap": "0xeD8859d2DB4e23728b50C63763Ec354580e2b81D"
+  },
+  "$ROPE": {
+    "uniswap": "0xfAAB5238F5D2163E25518B0C1aF205da0f783dD0",
+    "sushiswap": "0x67e475577B4036EE4f0F12fa2d538Ed18CEF48e3"
+  },
+  "COL": {
+    "uniswap": "0xfd29420060464b69f2e1804b685354c31687121e",
+    "sushiswap": "0x04e1c5F32941cFdF5A593E2345C52eDa2984cEd6"
+  },
+  "ZDEX": {
+    "uniswap": "0x7fbA40Ba619f49768eadC7FbCBd749EEBb905101",
+    "sushiswap": "0xc2f74b85B7fb2b254Afb68826737462eDE1FA89f"
+  },
+  "LAYER": {
+    "uniswap": "0xB1A824a6Caf1f789Aa7ca1072E36E83Cd62bA3ee",
+    "sushiswap": "0x8C9654fb23afF737f11053974571B1ACE6Fa5175"
+  },
+  "SDARK": {
+    "uniswap": "0xF4f0A738A0E18bfFaC551A3b8f53869565f93487",
+    "sushiswap": "0x04a76d48BeE726E5d8215586a33441eC902d08Af"
+  },
+  "BASE": {
+    "uniswap": "0xdE5b7Ff5b10CC5F8c95A2e2B643e3aBf5179C987",
+    "sushiswap": "0xD8B8B575c943f3d63638c9563B464D204ED8B710"
+  },
+  "0xBTC": {
+    "uniswap": "0xc12c4c3E0008B838F75189BFb39283467cf6e5b3",
+    "sushiswap": "0x67f3F90D88D0dD6b6ebdA2e92e5E7C0147514Ad3"
+  },
+  "SWP": {
+    "uniswap": "0x7d26B32d3f883696a741Ba0119A86bDB31879733",
+    "sushiswap": "0x4c3Dc59D3E04C58f949af72edDB47d0b32b366E9"
+  },
+  "ABY*": {
+    "uniswap": "0xdA719D067948e5855Eb362b495F5A82648a15207",
+    "sushiswap": "0x84f221b1681597974AC6CaaDBf1c1077F590498A"
+  },
+  "KP2R": {
+    "uniswap": "0xbF89051f8d04ad770e2231E9335d3B7483A0A51F",
+    "sushiswap": "0x4fcC90d39e7629BC0dF76a63bdfCAa2E3958637c"
+  },
+  "$YFB": {
+    "uniswap": "0xeBA11845107Eb74eE5fbE64a0c4E5314216d38c5",
+    "sushiswap": "0xF8a8C2b3C40Faec7A92BCaa696C1B3f0a87AD353"
+  },
+  "ENRH": {
+    "uniswap": "0xf55D21BA361477c3Ecf98Cf69949bb11DB7dcD38",
+    "sushiswap": "0x856D58dDe027de7f33e78ee56CE25268F6CA803A"
+  },
+  "MM": {
+    "uniswap": "0xaA934346e4f74bC23e62153Ee964dF8B826694eF",
+    "sushiswap": "0xB40Ec8062518C52151B9C524c131a08e48543ce0"
+  },
+  "DFD": {
+    "uniswap": "0xAC8833b0DA01b8f2CA53f549F13b5790066a842D",
+    "sushiswap": "0xb12aa722a3A4566645F079B6F10c89A3205b6c2c"
+  },
+  "YETI": {
+    "uniswap": "0xc0917D9f473618029BeA42Dd61B05fCf0251bE42",
+    "sushiswap": "0xf45D97F9D457661783146D63DD13DA20ce9bf847"
+  },
+  "SFI": {
+    "uniswap": "0xC76225124F3CaAb07f609b1D147a31de43926cd6",
+    "sushiswap": "0x23a9292830Fc80dB7f563eDb28D2fe6fB47f8624"
+  },
+  "WBCD": {
+    "uniswap": "0x4f2848F2400b2Cf1aBB8B09092d803B046d109f9",
+    "sushiswap": "0x3fC748BC9B1958000C149c4fC744F8b5F8f1D577"
+  },
+  "oBTC": {
+    "uniswap": "0x69ff6d9f03b325add29fBea842dc6c7bdE607612",
+    "sushiswap": "0x53E9fB796b2feb4B3184AFDf601C2A2797548d88"
+  },
+  "IDLE": {
+    "uniswap": "0x29A9777DA2Bacd8C4a28b6fd8247C4Ca4F098f12",
+    "sushiswap": "0xA7f11E026a0Af768D285360a855F2BDEd3047530"
+  },
+  "ICHI": {
+    "uniswap": "0xd07D430Db20d2D7E0c4C11759256adBCC355B20C",
+    "sushiswap": "0x9cD028B1287803250B1e226F0180EB725428d069"
+  },
+  "CAVO": {
+    "uniswap": "0xA0faD56E9d8eB1142EAD308571873C89054afE55",
+    "sushiswap": "0x418aAab462Ec11A02bC492DD68B90f8Ef5316d77"
+  },
+  "ECAM": {
+    "uniswap": "0xA89ecE50EE510C07a8A82FA11580672519203Ea1",
+    "sushiswap": "0x4B3D33521a977CA690d845C0327C41C05401f7Bd"
+  },
+  "PKGX": {
+    "uniswap": "0xa3eAb79E926C0632d2705a94942e55C91a294970",
+    "sushiswap": "0x7A367305fb0084160B8fB5B185AE24CeAc7ad883"
+  },
+  "TRXC": {
+    "uniswap": "0x034Ac58393eCc9A687ce56527d617AC5661d3e97",
+    "sushiswap": "0xFD58EadE18B473CEfe6D6EA9438aE0E31e22C2b3"
+  },
+  "FREE": {
+    "uniswap": "0xb3f39c3108Cd45E1112d8bc9Ae3CD5A110A7CEbD",
+    "sushiswap": "0x3BEAcfD8fd342A2C9521054Da4D55b00f06Ae5C0"
+  },
+  "SMARTCREDIT": {
+    "uniswap": "0x6061A36ad6B7958F68129BB313e6eFf81Cd9113c",
+    "sushiswap": "0xD06246Ea3A9169afE3D3124Bf7d7f007Cc8C83A3"
+  },
+  "MPH": {
+    "uniswap": "0x4D96369002fc5b9687ee924d458A7E5bAa5df34E",
+    "sushiswap": "0xB2C29e311916a346304f83AA44527092D5bd4f0F"
+  },
+  "INJ": {
+    "uniswap": "0x3C70f4FAeA49E50AdC8305F2E1Aa0EA326A54fFc",
+    "sushiswap": "0xFb3cD0B8A5371fe93ef92E3988D30Df7931E2820"
+  },
+  "RFI": {
+    "uniswap": "0x4C8341379E95f70c08Defb76C4F9C036525edc30",
+    "sushiswap": "0x6fc4819AFF0eAe81f43Ec8fc00bf224128BEC902"
+  },
+  "IMTY": {
+    "uniswap": "0xA8d852A4D5F79860816D7503E6457Ac47964809D",
+    "sushiswap": "0x4bDFC6F695726bc6eE4cc9AD7De319fF1df3eBe1"
+  },
+  "MARK": {
+    "uniswap": "0x6f23D2FEdb4fF4F1E9F8C521f66E5F2A1451b6F3",
+    "sushiswap": "0x750d711277Fd27D1EC5256F13f5110E097713a95"
+  },
+  "TEND": {
+    "uniswap": "0xcFB8CF118B4F0ABB2E8CE6DBEb90D6bC0A62693D",
+    "sushiswap": "0x8731e5a3483c505169cb0fF68e1d52f6f279Adf6"
+  },
+  "mbBASED": {
+    "uniswap": "0xBDA4C66Be1EC829716819272A1D110C31Ef20AaC",
+    "sushiswap": "0xE5f06db4F3473E7E35490F1F98017728496fe81E"
+  },
+  "ETHMNY": {
+    "uniswap": "0x17eE04ec364577937855D2e9a7adD8d2a957E4Fa",
+    "sushiswap": "0x5A459D168a55071Dd1Ad60d7393AFbdb72c4ccaB"
+  },
+  "NDR": {
+    "uniswap": "0x65d0A154D2425CE2Fd5fED3BdaE94D9a9aFE55CE",
+    "sushiswap": "0x110b3B138153c7B117Aceb780f9b005e5C7669f0"
+  },
+  "UOP": {
+    "uniswap": "0x49E31002D5aF5E716B37547bef9C98aBdf22D259",
+    "sushiswap": "0x8C2e6A4af15C94cF4a86Cd3C067159F08571d780"
+  },
+  "RFOX": {
+    "uniswap": "0x4214290310264A27B0BA8cfF02b4C592D0234aA1",
+    "sushiswap": "0xc44821a9c3D8835CBA6D17f4C4Db4133B1D7C382"
+  },
+  "UBT": {
+    "uniswap": "0xB27dE0bA2abFbFdf15667a939f041b52118aF5Ba",
+    "sushiswap": "0x1c8dB04C881e626672E590aCa139c55e0686e93e"
+  },
+  "OCTO": {
+    "uniswap": "0xd7cFbCadaaF6475321cfcf3884F15A93400bE658",
+    "sushiswap": "0x3085f06E60CAfAC44b7d2D9e251771dd22aA9A2b"
+  },
+  "TRISM": {
+    "uniswap": "0xB24CB72db5cBD8f1FF4Fc9a285Af3c9BB0DF77Db",
+    "sushiswap": "0xf64251aAD731761bA91032534B1Bc432f6c243Ef"
+  },
+  "YPIE": {
+    "uniswap": "0xdF5096804705D135656B50b62f9ee13041253D97",
+    "sushiswap": "0x5F30aAc9A472F6c33D5284f9D340C0d57eF33697"
+  },
+  "CVP": {
+    "uniswap": "0x12D4444f96C644385D8ab355F6DDf801315b6254",
+    "sushiswap": "0x1C580CC549d03171B13b55074Dc1658F60641C73"
+  },
+  "UST": {
+    "uniswap": "0x1E2fAA511AE6305a16ff40f1f8a9aDBca155EAD9",
+    "sushiswap": "0x9A0CC6791a5409ce3547F1f1d00e058c79D0A72c"
+  },
+  "ALPA": {
+    "uniswap": "0x441F9E2C89A343cefb390a8954b3b562F8F91eca",
+    "sushiswap": "0xcA658217CE94dFB2156a49a8fAd0Ff752CaC39C2"
+  },
+  "ESD": {
+    "uniswap": "0x4acDB58fD79556cD276a08ec2e599d48A1ac6290",
+    "sushiswap": "0xDFf71165a646BE71fCfbaa6206342FAa503AeD5D"
+  },
+  "ARCH": {
+    "uniswap": "0x48A91882552Dad988AE758fCb7070B8E9844DeC5",
+    "sushiswap": "0x4441eb3076f828D5176f4Fe74d7c775542daE106"
+  },
+  "INDEX": {
+    "uniswap": "0x3452A7f30A712e415a0674C0341d44eE9D9786F9",
+    "sushiswap": "0xA73DF646512C82550C2b3C0324c4EEdEE53b400C"
+  },
+  "JRT": {
+    "uniswap": "0x2b6A25f7C54F43C71C743e627F5663232586C39F",
+    "sushiswap": "0xF1360C4ae1cead17B588ec1111983d2791B760d3"
+  },
+  "PERP": {
+    "uniswap": "0xf66369997ae562BC9eeC2AB9541581252f9Ca383",
+    "sushiswap": "0x8486c538DcBD6A707c5b3f730B6413286FE8c854"
+  },
+  "UWL": {
+    "uniswap": "0x9d4b552C992ee3B863F3b51E95E46eCf38c21429",
+    "sushiswap": "0x0040a2CEBc65894BC2cFb57565f9ACfa33Fab137"
+  },
+  "FNX": {
+    "uniswap": "0x722885caB8be10B27F359Fcb225808fe2Af07B16",
+    "sushiswap": "0xaa500101C73065f755Ba9b902d643705EF2523E3"
+  },
+  "ALPHA": {
+    "uniswap": "0x60B2cC2c6ECD3DD89b4fD76818EF83186e2F2931",
+    "sushiswap": "0xf55C33D94150d93c2cfb833bcCA30bE388b14964"
+  },
+  "DUSD": {
+    "uniswap": "0x8CCd68AF5E35fe01c56AD40cD2eD27CBD7767FB1",
+    "sushiswap": "0xb1D38026062Ac10FEDA072CA0E9b7E35f1f5795a"
+  },
+  "1INCH": {
+    "uniswap": "0x26aAd2da94C59524ac0D93F6D6Cbf9071d7086f2",
+    "sushiswap": "0x86f518368E0d49d5916e2BD9EB162E9952b7b04d"
+  },
+  "wANATHA": {
+    "uniswap": "0x85609C626b532ca8BEA6c36Be53afdcB15Dd4A48",
+    "sushiswap": "0x2356695F595EFc8c8aD4ac29285947d72f995952"
+  },
+  "FRONT": {
+    "uniswap": "0x2EA2eb8F9A1BF17bCBf2555536c9d1E24E45ebc0",
+    "sushiswap": "0x22Ae58315BBa4d583c171a0CFD1D26b97399e7eA"
+  },
+  "RCN": {
+    "uniswap": "0xf0936E53D924d7F442A04c038082A46c77ECc8d8",
+    "sushiswap": "0x10d11d511019f85F977A553ec5A6A421D038efDB"
+  },
+  "DDX": {
+    "uniswap": "0x2A406fff128bd21155A70d056B9EC7319F692aF1",
+    "sushiswap": "0xaB6fd57975fa7b3c0cC85B2101e67e841388a53c"
+  },
+  "DSD": {
+    "uniswap": "0x9127Ecda2976c0476C434C1Cf8A472D7b86cDc0A",
+    "sushiswap": "0xCB0E9b07226F468374024873862F95dAD3A2fC31"
+  },
+  "WSTA": {
+    "uniswap": "0x757C97aa27bf5AEE095756642D717DF2F2DeD635",
+    "sushiswap": "0x1Bf4937af0698d9d37FA691e0193892A258551c9"
+  },
+  "ACTN": {
+    "uniswap": "0x4890cA732F80483fDd78de2783EB3a07F02aFD5A",
+    "sushiswap": "0xaB1B2915A4422014087eFFD9a61de81CeC9b0aE0"
+  },
+  "\"WETC\"": {
+    "uniswap": "0xBB2f18e98140b814111f97b52e33acABbea3eb7A",
+    "sushiswap": "0x443029E75aCd7Ca29Ae737578d4Dd91a627d96C2"
+  },
+  "MIC": {
+    "uniswap": "0x8363b61F7A1dBa992E1b354975cfb621fB501624",
+    "sushiswap": "0xB769BF6f79c95aDc6E553C858F7A0653C4f7ea08"
+  },
+  "GEN": {
+    "uniswap": "0xf37Ed742819Ec006b0802df5c2B0e9132F22C625",
+    "sushiswap": "0xA71fffef0156f7397B0aB0E5fC7468F6F9e325ff"
+  },
+  "BADGER": {
+    "uniswap": "0x97524f602706cDB64F9DFa71909ACE06e98200b6",
+    "sushiswap": "0x6631F1Ed993f7Cae5d4F1c9D6f9D129B37a9F040"
+  },
+  "HVN": {
+    "uniswap": "0x5eD7eb576ADeA05766f950a495393c44aF815AEb",
+    "sushiswap": "0xf85c41e7B555621508e62e2920E1b38A8dB325Aa"
+  },
+  "TEN": {
+    "uniswap": "0x54F7cd0B73d2a55815f2e35a7E2cD223eA7D3ca1",
+    "sushiswap": "0x26D296E9F5A8daE79D0C95A0cD2e05F48fEfa574"
+  },
+  "LDO": {
+    "uniswap": "0x454F11D58E27858926d7a4ECE8bfEA2c33E97B13",
+    "sushiswap": "0xC558F600B34A5f69dD2f0D06Cb8A88d829B7420a"
+  },
+  "ZKS": {
+    "uniswap": "0x4579A2C25e3646a9631FA490b619f3d4bE7a7f3a",
+    "sushiswap": "0xc4514159970Fb41287F4b0EE44bfa08223EB93bF"
+  },
+  "MCIC": {
+    "uniswap": "0xa126de0f1b7CeA65C74b297382705B61af9083A7",
+    "sushiswap": "0x07da95e0c7f0B399a6383f76a8301847340AeEFB"
+  },
+  "GRT": {
+    "uniswap": "0x2e81eC0B8B4022fAC83A21B2F2B4B8f5ED744D70",
+    "sushiswap": "0x7B504a15ef05F4EED1C07208C5815c49022A0C19"
+  },
+  "REM": {
+    "uniswap": "0x73263767A9d5e6998BA408839E06C054A88448E1",
+    "sushiswap": "0x55822996c641aa13653D2372FadA3DAaA0f25714"
+  },
+  "POOLZ": {
+    "uniswap": "0xAF60Af4eA964b786250FF69d38a2DBd19ED17a74",
+    "sushiswap": "0x6cA9035bC00ac7b445A588FCBE11F4180b401a8c"
+  },
+  "FOUR": {
+    "uniswap": "0xB1562400FEAA849c363127Bb847693CcA05C1080",
+    "sushiswap": "0x38505b190a83383d4e75a6aC36fB3CD790389FFF"
+  },
+  "NPXS": {
+    "uniswap": "0x5d81b25054833FDFa023A1c46AD9DC2cDb8EaDdf",
+    "sushiswap": "0x720B2E65B90BDf2e2769c877643aEa05E11bAcd8"
+  },
+  "CHERRY": {
+    "uniswap": "0x7b7a444e59851439a09426F4047c8CeAd7B3b6b9",
+    "sushiswap": "0x1F15ea23Eaf52294BB967Ab53964856a3D854a25"
+  },
+  "OXT": {
+    "uniswap": "0x9B533F1cEaa5ceb7e5b8994ef16499E47A66312D",
+    "sushiswap": "0xF640F70515794FEB7845506486DffFA99B40de29"
+  },
+  "RECOM": {
+    "uniswap": "0xb1E019D166535a30E5BF655A8c59bd0A6d10ED34",
+    "sushiswap": "0x53BB1C385542E6d4997E8b818b614dd6C6c61274"
+  },
+  "aBLOCK": {
+    "uniswap": "0x9C55C20092097E933F3A46220bCbC5F66c73857B",
+    "sushiswap": "0xe8A648D2C32c1CCb9423871634EB87516b4b56B4"
+  },
+  "sil": {
+    "uniswap": "0x5535A0c6CA08166a7169c111210D8927Ac5FF6C9",
+    "sushiswap": "0x6cC15ed4D1dbF89d61D899Ee69CB80c954cda5E6"
+  },
+  "DOGY": {
+    "uniswap": "0xae938f702C8F3aC9A9862635059989c7A9DDB5e6",
+    "sushiswap": "0x68D1427Ab456c205068C891b5902BaFBF05584f1"
+  },
+  "BBK": {
+    "uniswap": "0xD397a834f020434874ffC38F7122664Bf2888c93",
+    "sushiswap": "0x287A2983578B98AE6BdAf7a9DcC7D8037Ed87a97"
+  },
+  "API3": {
+    "uniswap": "0x4Dd26482738bE6C06C31467a19dcdA9AD781e8C4",
+    "sushiswap": "0xA8AEC03d5Cf2824fD984ee249493d6D4D6740E61"
+  },
+  "RUNE": {
+    "uniswap": "0x8d2A4cC2E2cA0f7ab011b686449DC82C3aF924c7",
+    "sushiswap": "0xcc39592f5cB193a70f262aA301f54DB1d600e6Da"
+  },
+  "HXRO": {
+    "uniswap": "0xd64224a4C2BeD96C75Df9517B2d77aEbb13F0E37",
+    "sushiswap": "0xE53c884C5A297713197217509ffB654c9677B347"
+  },
+  "CAN": {
+    "uniswap": "0x6EDF3a63114a0819981Ed53becc44e8d4b92b75F",
+    "sushiswap": "0xD9e60DdEcaF2b24507c3e0Bb5a26841010bb656D"
+  },
+  "KEK": {
+    "uniswap": "0x874dcF6A3F2DCf2d07e88718935184999c50709d",
+    "sushiswap": "0x7a2787Cf58db79c50831a15BCa4d6d209dF9035C"
+  },
+  "pWING": {
+    "uniswap": "0x778d05B3b9A0E31b38a75Ba170891e706924C60D",
+    "sushiswap": "0xBE1E98685fB293144325440C16f69954Ffcb790C"
+  },
+  "YFTE": {
+    "uniswap": "0x2dc9136aCE4077D5060131c0ecCD1635897c75dD",
+    "sushiswap": "0x07f30eea759728c447791d888dd6a9eC593aB3CF"
+  },
+  "SHYPR": {
+    "uniswap": "0x2461CAF7F6C032C3e194629924bfA18155A97a88",
+    "sushiswap": "0xda5b87087877033728b9F9b67eA34e2007890cDB"
+  },
+  "WILLY": {
+    "uniswap": "0x3cA8d20d5B20e4Ea8242Acc88BA7e867629C9DaD",
+    "sushiswap": "0x52d8d146fFD1aeAC4e2D61483A1580D64399719B"
+  },
+  "BAO": {
+    "uniswap": "0x9973bb0fE5F8DF5dE730776dF09E946c74254fb3",
+    "sushiswap": "0x0Eee7f7319013df1f24F5eaF83004fCf9cF49245"
+  },
+  "NFTX": {
+    "uniswap": "0x7B890092f81B337Ed68FBa266AfC7b4c3710A55b",
+    "sushiswap": "0x31d64f9403E82243e71C2af9D8F56C7DBe10C178"
+  },
+  "GUP": {
+    "uniswap": "0x890A2f528c715eEf1a45A971CfafAe6C7abB8826",
+    "sushiswap": "0x3D50b31329ab066c9030b793fDC746A7b694C533"
+  },
+  "CVC": {
+    "uniswap": "0x123FcA7E8272A8E9c3bb7113C259ABc4901E792B",
+    "sushiswap": "0xDA93C59c1aa237CF1C1C22f160bD3b4a13673ffD"
+  },
+  "NMBL": {
+    "uniswap": "0x7BfB32Afe305942e8015d18bd31238fE7718db38",
+    "sushiswap": "0x4b43c8a6363E11F9f2c309ce64b0988c2e42b21F"
+  },
+  "BZRX": {
+    "uniswap": "0xB9b752F7f4a4680eEb327ffe728f46666763A796",
+    "sushiswap": "0xa30911e072A0C88D55B5D0A0984B66b0D04569d0"
+  },
+  "DNA": {
+    "uniswap": "0xe7EC53f495CC554E636db1bCFbb2d81e808D92c5",
+    "sushiswap": "0xC7570e8E9108b2c1625885eC5CDb692b197C8DBD"
+  },
+  "LIBERTAS": {
+    "uniswap": "0x6eF67eE504A60De5F558B5302bDbA9F5dA11DFAd",
+    "sushiswap": "0x1F741EAac1d3Aed1290FB77DEe2e30a0480201c5"
+  },
+  "MOVE": {
+    "uniswap": "0xed267fFf4f8301626ACE52756D350A63153A36c6",
+    "sushiswap": "0x87b918e76c92818DB0c76a4E174447aeE6E6D23f"
+  },
+  "ALEPH": {
+    "uniswap": "0x29bA3D899E8a819Cf920adAfF53ef1CF31969E66",
+    "sushiswap": "0x7B98e476De2c50b6fa284DBd410Dd516f9a72b30"
+  },
+  "SDT": {
+    "uniswap": "0xc465C0a16228Ef6fE1bF29C04Fdb04bb797fd537",
+    "sushiswap": "0x22DEF8cF4E481417cb014D9dc64975BA12E3a184"
+  },
+  "MTA": {
+    "uniswap": "0x0d0d65E7A7dB277d3E0F5E1676325E75f3340455",
+    "sushiswap": "0x663242D053057f317A773D7c262B700616d0b9A0"
+  },
+  "LTE2": {
+    "uniswap": "0xB1fd2CAAd91898cc754cc9C23A3D3C01be7050B0",
+    "sushiswap": "0xd90e0747E41Fb661BAaBb211d35De9f5B6C88FD6"
+  },
+  "LAGER": {
+    "uniswap": "0xF869619b261b8C5CF36Dc006044e523Ef8069609",
+    "sushiswap": "0xB5A26D5A85DdA4711ebDE67431461D979F7ff57d"
+  },
+  "COMBO": {
+    "uniswap": "0x040bEf6A2984Ba28D8AF8A24dDb51D61fbF08A81",
+    "sushiswap": "0x8Cd7DADc8E11c8706763E0DE7332f5Ea91E04E35"
+  },
+  "BAC": {
+    "uniswap": "0x11226A039572791de8Df7b9E82224b6734aFDead",
+    "sushiswap": "0xFa8C3F98dEBF3d0a192e2EdF9182352332Def35c"
+  },
+  "FRAX": {
+    "uniswap": "0xFD0A40Bc83C5faE4203DEc7e5929B446b07d1C76",
+    "sushiswap": "0xeC8C342bc3E07F05B9a782bc34e7f04fB9B44502"
+  },
+  "TUSD": {
+    "uniswap": "0xb4d0d9df2738abE81b87b66c80851292492D1404",
+    "sushiswap": "0x760166FA4f227dA29ecAC3BeC348f5fA853a1f3C"
+  },
+  "RGT": {
+    "uniswap": "0xDc2b82Bc1106C9c5286e59344896fB0ceb932f53",
+    "sushiswap": "0x18A797C7C70c1Bf22fDee1c09062aBA709caCf04"
+  },
+  "aETHc": {
+    "uniswap": "0x6147805e1011417B93e5D693424a62A70d09d0E5",
+    "sushiswap": "0xfa5bc40c3BD5aFA8bC2fe6b84562fEE16FB2Df5F"
+  },
+  "GNO": {
+    "uniswap": "0x3e8468f66d30Fc99F745481d4B383f89861702C6",
+    "sushiswap": "0x41328fdBA556c8C969418ccCcB077B7B8D932aA5"
+  },
+  "FXS": {
+    "uniswap": "0xecBa967D84fCF0405F6b32Bc45F4d36BfDBB2E81",
+    "sushiswap": "0x61eB53ee427aB4E007d78A9134AaCb3101A2DC23"
+  },
+  "LON": {
+    "uniswap": "0x7924a818013f39cf800F5589fF1f1f0DEF54F31F",
+    "sushiswap": "0x0EEB656C196E3022f6052BB2858b884817090dfE"
+  },
+  "MITx": {
+    "uniswap": "0x51fe8E8FA3F9F10288fA8c2Aff1400F887D21c42",
+    "sushiswap": "0x0b0b41Ffadbad24432C54170527d9E66c31259d9"
+  },
+  "L2": {
+    "uniswap": "0x495871F1825193471F614Fde19c8c580f5E7Ac63",
+    "sushiswap": "0x20c009ac5cE819652F2332c9C62F27F41b8De320"
+  },
+  "arNXM": {
+    "uniswap": "0x7CA51456b20697A0E5Be65e5AEb65dfE90f21150",
+    "sushiswap": "0x43632E3448cd47440fEE797258081414D91A58cE"
+  },
+  "ARMOR": {
+    "uniswap": "0x648450d9C30B73E2229303026107a1f7eB639f6c",
+    "sushiswap": "0x17A2194D55f52Fd0C711e0e42B41975494bb109B"
+  },
+  "GAM": {
+    "uniswap": "0x96a47EAb0267c945A344eCe60E2fEA9c483067DD",
+    "sushiswap": "0x1cA2A6bcC4d0152bC47dDE7c62702b532090E994"
+  },
+  "SPI": {
+    "uniswap": "0xE3Ee3d5f7e9c750490D99Ab166EDc1886de0a85E",
+    "sushiswap": "0x5888a02185D596abe1da14302c75CF8F39e45cf5"
+  },
+  "MYM": {
+    "uniswap": "0xB05F662302920C998A6372659Dd09c3433026d77",
+    "sushiswap": "0xf8EBB0FcE9A62677c0CE7DFD322d8855f81d667F"
+  },
+  "DIGG": {
+    "uniswap": "0x9F517f40b6E8E9bCfFA0bBbd70BC69cc1Db1cB0F",
+    "sushiswap": "0xf41E354EB138B328d56957B36B7F814826708724"
+  },
+  "BIRD": {
+    "uniswap": "0x6D76F7d16CA40dD13E52dF3E1615318f763c0241",
+    "sushiswap": "0xc06987a02a50C2eDd5Fc3B1ae5B62431FA072Efc"
+  },
+  "LPT": {
+    "uniswap": "0x755C1a8F71f4210CD7B60b9439451EfCbeBa33D1",
+    "sushiswap": "0xBbA271e4d9141eE6A54807Ee65b350221D2C8167"
+  },
+  "FTM": {
+    "uniswap": "0x1ffC57cAda109985aD896a69FbCEBD565dB4290e",
+    "sushiswap": "0x0E26A21013f2F8C0362cFae608b4e69a249D5EFc"
+  },
+  "HBTC": {
+    "uniswap": "0xA6F4EAE7FdaA20E632C45d4cd39E4f3961892322",
+    "sushiswap": "0xD39382a545461427f5B998d642674D0341012D0c"
+  },
+  "YTUBE": {
+    "uniswap": "0x73197E984467F41978264d8CcdaA5c1bD96902c2",
+    "sushiswap": "0x11570Ca75b1155DA8d91f1AB56Cb6A37DE5244b4"
+  },
+  "OPIUM": {
+    "uniswap": "0x4802ceB046EF35af802Aa1be75eeacb4ec2a9bad",
+    "sushiswap": "0xD84d55532B231DBB305908bc5A10B8c55ba21e5E"
+  },
+  "ELX": {
+    "uniswap": "0x96B1071DEc3158bd1c0Bfc8aeCf5eE969F9ca3DB",
+    "sushiswap": "0xA7A5D8Ed3C97815d7DDe22993EfE0754bc4172c4"
+  },
+  "WHITE": {
+    "uniswap": "0xA3b79b78678c15eEC77389b380988B0229Da1876",
+    "sushiswap": "0x3B433Ff7d7e81579CECD7654411C1Fe0af4899b3"
+  },
+  "FIDA": {
+    "uniswap": "0x1985B987c21d896080Ebdbb69DAFe82B0f9eb207",
+    "sushiswap": "0x2f7A1a678F6951880cb9df280404dE5bDDB05fc3"
+  },
+  "NCT": {
+    "uniswap": "0x9f4aa9B4661F0c55B61FC12b1944F006a71c773f",
+    "sushiswap": "0x0C48aE092A7D35bE0e8AD0e122A02351BA51FeDd"
+  },
+  "OSST": {
+    "uniswap": "0x04dd56Ef705A80c7d47484F01Abc99D768F993f7",
+    "sushiswap": "0xc181EB472F01607f90Bff79BEB0576Fbf51aC6b8"
+  },
+  "DNT": {
+    "uniswap": "0xb062fcBB48154FD385f104B38A2F9F3FFD82ffe0",
+    "sushiswap": "0xa1f967F25AE32bD3435E45EA8657De16Ce5A4Ae6"
+  },
+  "SHAKE": {
+    "uniswap": "0x8f30ba1F75ec27A014591789d117a1Bb4703bFF8",
+    "sushiswap": "0xf45487d760718605fC96C414477427dd3d4857F5"
+  },
+  "MILK2": {
+    "uniswap": "0xEE802b312a957e00dD7BbC08eEC8Bb93D40e981D",
+    "sushiswap": "0xB3368B2701CaeBAeFAd7Ca9BcDE7A19d0BeE33cE"
+  },
+  "MAPS": {
+    "uniswap": "0xF0644757918d29e5a9B9ca62D8A4d599aB9f5109",
+    "sushiswap": "0x41E05211a0De162b4A131730a500F114F653A0aD"
+  },
+  "renDOGE": {
+    "uniswap": "0xc84778a8737b81A8C48Dbf7B9bC84Ae97BF33FA4",
+    "sushiswap": "0xb46736888247C68C995B156CA86426ff32e27Cc9"
+  },
+  "yveCRV-DAO": {
+    "uniswap": "0x2D0C7c302FFff12894Dde59F9FF738Ef7eF2a662",
+    "sushiswap": "0x10B47177E92Ef9D5C6059055d92DdF6290848991"
+  },
+  "TRAC": {
+    "uniswap": "0x1A58Aa618DF8F1eC282748feF6185C1a1cC2FAa6",
+    "sushiswap": "0x438633dB5462144559cF880a2466dE8e9BE966Aa"
+  },
+  "UniFi": {
+    "uniswap": "0x04840Eaa3497E4C3934698ff88050Ceb9893f78F",
+    "sushiswap": "0xB86b7A79A9b8cA2FaFD12a180aC08d4Ee4135e41"
+  },
+  "buidl": {
+    "uniswap": "0xb0fB35Cc576034b01bED6f4D0333b1bd3859615C",
+    "sushiswap": "0x47b7c8748c03A158E4956530ECfC608967F1c2cB"
+  },
+  "arte": {
+    "uniswap": "0xadaFB7eCC4Fa0794c7A895Da0a53b153871E59B6",
+    "sushiswap": "0x6C2787df72590a2A124ba7930f5e1AF7A6406c79"
+  },
+  "ANY": {
+    "uniswap": "0x0e6a01Fcd1420B719Cb570BE60B6bF80FBe460C4",
+    "sushiswap": "0xEc78bD3b23aC867FcC028f2db405A1d9A0A2f712"
+  },
+  "PTF": {
+    "uniswap": "0xBE38a889D67467b665E30E20eE5604A6F5696e38",
+    "sushiswap": "0xB4BD3E90F69cB6161009F71A336AA32C07689C15"
+  },
+  "YLD": {
+    "uniswap": "0x9339227Db67f747114C929B26B81fe7974436B94",
+    "sushiswap": "0x662511a91734AEa8b06EF770D6Ed51cC539772d0"
+  },
+  "TORN": {
+    "uniswap": "0x0C722a487876989Af8a05FFfB6e32e45cc23FB3A",
+    "sushiswap": "0xb270176bA6075196dF88B855c3Ec7776871Fdb33"
+  },
+  "OCEAN": {
+    "uniswap": "0x9b7DaD79FC16106b47a3DAb791F389C167e15Eb0",
+    "sushiswap": "0xeE35E548C7457FcDd51aE95eD09108be660Ea374"
+  },
+  "FMT": {
+    "uniswap": "0x0BF2b9E66BBc0503a13AAb4F3Be213C58661b898",
+    "sushiswap": "0xd0B9F3930F042291FD9170019722Ab00CD952FcF"
+  },
+  "REQ": {
+    "uniswap": "0x4a7d4BE868e0b811ea804fAF0D3A325c3A29a9ad",
+    "sushiswap": "0x7ADb368141248d6c50b614aeE3B6a9ef9f8c20BD"
+  },
+  "OGN": {
+    "uniswap": "0xce2Cc0513634CEf3a7C9C257E294EF5E3092f185",
+    "sushiswap": "0x72ea6Ca0D47b337f1EA44314d9d90E2A897eDaF5"
+  },
+  "GLM": {
+    "uniswap": "0xb5F790A03b7559312D9e738df5056A4b4c8459F4",
+    "sushiswap": "0x56820F78eFd1061d174f7A460cFD9d8E4283069b"
+  },
+  "PLR": {
+    "uniswap": "0xaE2D4004241254aEd3f93873604d39883c8259F0",
+    "sushiswap": "0x8FEdca1b2aA38dd751Bf4CB329D2A1FC5B26e8F2"
+  },
+  "ROOM": {
+    "uniswap": "0xBE55c87dFf2a9f5c95cB5C07572C51fd91fe0732",
+    "sushiswap": "0x8Ca139c53D289ca291e9CB66717B22346A314C1F"
+  },
+  "POP": {
+    "uniswap": "0xBC53315c6949f503FFe77fec5c4EF28Fc6E1bc72",
+    "sushiswap": "0xd886AC73bD434077a2Fb34D6977Ba25ccD2FB3bE"
+  },
+  "stETH": {
+    "uniswap": "0x4028DAAC072e492d34a3Afdbef0ba7e35D8b55C4",
+    "sushiswap": "0xe43D6AAFce76f53670C4b7D6B38A7D8a67a4B670"
+  },
+  "ZRX": {
+    "uniswap": "0xc6F348dd3B91a56D117ec0071C1e9b83C0996De4",
+    "sushiswap": "0x0BC5AE46c32D99C434b7383183ACa16DD6E9BdC8"
+  },
+  "AVINOC": {
+    "uniswap": "0x1277A33Fbe93e010c1EDBB6EF1C3A3426210eF52",
+    "sushiswap": "0x8dd09873a1C712a9E0a986df78CBB307f82EE760"
+  },
+  "PREMIA": {
+    "uniswap": "0x755Fa735F831878ae47FDe6606B28D38AaAB20F2",
+    "sushiswap": "0x93E2F3a8277E0360081547D711446e4a1F83546D"
+  },
+  "YOP": {
+    "uniswap": "0xD65E975c7D0d5871EfF8b079120E43C9F377aDa1",
+    "sushiswap": "0xE4275E185074AFA0b760a6b0787eF42F4b030813"
+  },
+  "USDN": {
+    "uniswap": "0x55350f984476a5E9f49c0db4FB5AcE12A4407C09",
+    "sushiswap": "0x3cf1Cf47Bc87C23cD9410549BD8a75E82C1c73cF"
+  },
+  "NSBT": {
+    "uniswap": "0xC666DB9eF5C4190e43c1e11F21307Da5a9b1F25e",
+    "sushiswap": "0x19cEF65550cEB2242A89355cb89888563BCf0cc8"
+  },
+  "XFT": {
+    "uniswap": "0x2B9e92A5B6e69Db9fEdC47a4C656C9395e8a26d2",
+    "sushiswap": "0xF39fF863730268C9bb867b3a69d031d1C1614b31"
+  },
+  "CRPT": {
+    "uniswap": "0x857dE873190fE43b2cAb9265605D8D4138f2f863",
+    "sushiswap": "0xD144ad75E5850312cb4674fC3B92F8835ac5E4A2"
+  },
+  "wXEQ": {
+    "uniswap": "0xC76ff45757091b2A718dA1C48a604dE6cbec7F71",
+    "sushiswap": "0xd1Fc6718c5b5f5CCd1e840B00a874bD56fFd0534"
+  },
+  "ONX": {
+    "uniswap": "0x62f22A47e5D2F8b71cC44fD85863753618312f67",
+    "sushiswap": "0x0652687E87a4b8b5370b05bc298Ff00d205D9B5f"
+  },
+  "erowan": {
+    "uniswap": "0x659A9a43B32bea6C113C393930a45C7634a242d5",
+    "sushiswap": "0x13Cd8c3be06BaaE672f64bf3F59331B39A5ed5e9"
+  },
+  "MUSH": {
+    "uniswap": "0xA150643D92E06317FB499EAEf4f6D89B7107452d",
+    "sushiswap": "0xf4F885137C916D39e0Ede2141e3fd61f46bD1eb1"
+  },
+  "DAO": {
+    "uniswap": "0x7DD3F5705504002dc946AEAfE6629b9481b72272",
+    "sushiswap": "0x96F5b7C2bE10dC7dE02Fa8858A8f1Bd19C2fA72A"
+  },
+  "WSCRT": {
+    "uniswap": "0x438d3e9CaCAB4614a8F1613ac7B182378d76e1F8",
+    "sushiswap": "0x9c86BC3C72Ab97c2234CBA8c6c7069009465AE86"
+  },
+  "RAY": {
+    "uniswap": "0x3c4adc4DC1A50bf6Ec59af196A204415bC708429",
+    "sushiswap": "0xD7DbFBF98e1d4cEeD14607f93Fe2Acf537D375dA"
+  },
+  "CAPC": {
+    "uniswap": "0xd125a32332ead35e7b1E7A82332099b48B7Ee4ed",
+    "sushiswap": "0x611b6CEb9fF992EaE47993d0232f95061FBaa257"
+  },
+  "USDP": {
+    "uniswap": "0x6674d5D71e91026cCBca51F24Acc053a993f5Ce6",
+    "sushiswap": "0xB0484fB3aC155AaF7d024b20f1a569ddD6332c32"
+  },
+  "COTI": {
+    "uniswap": "0xA2b04F8133fC25887A436812eaE384e32A8A84F2",
+    "sushiswap": "0x717385e1a702F90B6Eb8Cd23150702Ca7217b626"
+  },
+  "BANK": {
+    "uniswap": "0x59C1349BC6F28A427E78DdB6130ec669C2F39b48",
+    "sushiswap": "0x2c51eaa1BCc7b013C3f1D5985cDcB3c56DC3fbc1"
+  },
+  "DEXTF": {
+    "uniswap": "0xa1444AC5b8Ac4f20F748558fE4E848087f528E00",
+    "sushiswap": "0xD3c41c080a73181e108E0526475a690F3616a859"
+  },
+  "UVU": {
+    "uniswap": "0x3B0D0F87445A128Ff09bA1c17f35BA91e52d3437",
+    "sushiswap": "0xd7a9E7F180556A7B640E225F8BAB5400Ec03803B"
+  },
+  "RLC": {
+    "uniswap": "0x6d57a53A45343187905aaD6AD8eD532D105697c1",
+    "sushiswap": "0x75382c52b6F90B3f8014BfcadAC2386513F1e3bC"
+  },
+  "DFX": {
+    "uniswap": "0xc3BE40243bA58d816769361658D844119756f088",
+    "sushiswap": "0xBE71372995E8e920E4E72a29a51463677A302E8d"
+  },
+  "SX": {
+    "uniswap": "0x7e451ab571a119fd6CF36E5B91B58303e81E1d4F",
+    "sushiswap": "0x5e496B7D72362ADd1EEA7D4903Ee2732cD00587d"
+  },
+  "ALCX": {
+    "uniswap": "0x352E5EeE2D9C957710be656534D51Fbb3Ce074d6",
+    "sushiswap": "0xC3f279090a47e80990Fe3a9c30d24Cb117EF91a8"
+  },
+  "$TRDL": {
+    "uniswap": "0x29b0aA11dE97f6d5A3293d980990e820BDA5FBAb",
+    "sushiswap": "0x05Cc2e064e0B48e46015EAd9961F1391d74E5F83"
+  },
+  "XPb": {
+    "uniswap": "0x1ab24a692EFf49b9712CEaCdEf853152d78b9050",
+    "sushiswap": "0x910068eDC897ffB049D8457258c755f3D20ad890"
+  },
+  "HT": {
+    "uniswap": "0x26cE49c08EE71afF0C43dB8F8B9bEa950b6cdC67",
+    "sushiswap": "0xcFe93482bB4F48Fb4C60C8966e2656244A731403"
+  },
+  "DEV": {
+    "uniswap": "0x4168CEF0fCa0774176632d86bA26553E3B9cF59d",
+    "sushiswap": "0x867AD1D3A1317B7A1d5172221C26931A36002E0e"
+  },
+  "POOL": {
+    "uniswap": "0x85Cb0baB616Fe88a89A35080516a8928F38B518b",
+    "sushiswap": "0x577959C519c24eE6ADd28AD96D3531bC6878BA34"
+  },
+  "RULER": {
+    "uniswap": "0xe874DCe5411Fd70CB9b1DEb530c7033bA1ce8609",
+    "sushiswap": "0xb1EECFea192907fC4bF9c4CE99aC07186075FC51"
+  },
+  "INV": {
+    "uniswap": "0x73E02EAAb68a41Ea63bdae9Dbd4b7678827B2352",
+    "sushiswap": "0x328dFd0139e26cB0FEF7B0742B49b0fe4325F821"
+  },
+  "YCO": {
+    "uniswap": "0x1aceD65ba4164455901527Fcd78Bd269110173d9",
+    "sushiswap": "0xaB41806065E94cd2B4176860A99E57865103f8dd"
+  },
+  "ID": {
+    "uniswap": "0xBCFFa1619aB3cE350480AE0507408A3C6c3572Bd",
+    "sushiswap": "0x77337FF10206480739a768124A18f3aA8C089153"
+  },
+  "AERGO": {
+    "uniswap": "0x505a152C24B03A666E903aA6159e5F9433094893",
+    "sushiswap": "0x9E48FaDf799E0513d2EF4631478ea186741fA617"
+  },
+  "IQ": {
+    "uniswap": "0xEF9F994A74CB6EF21C38B13553caa2E3E15F69d0",
+    "sushiswap": "0x9D45081706102E7aadDD0973268457527722E274"
+  },
+  "TESTPRESALE": {
+    "uniswap": "0x4CaC92Dfc7977495Ed7c58b82841E217320187d3",
+    "sushiswap": "0x03739652e539D2C62d79ba75d06a601e23Dddaf7"
+  },
+  "MUST": {
+    "uniswap": "0x15861b072abAd08b24460Add30b09E1481290F94",
+    "sushiswap": "0xA872D244B8948DFD6Cb7Bd19f79E7C1bfb7DB4a0"
+  },
+  "WET": {
+    "uniswap": "0x4104934300250EE597fEc3296A728719Ce3e681d",
+    "sushiswap": "0x3528185fDE2eEF9eca1baDC4Cf5b4fE767B6e0FC"
+  },
+  "BIK": {
+    "uniswap": "0x3c3Ffe46E92Fec67a05312E3119b5782Bb05acB3",
+    "sushiswap": "0x7b4fee49C2944f6C3BE2711Bde94473105cB0520"
+  },
+  "PRO": {
+    "uniswap": "0x0F18d9cdDc22c09537b477A9f5269a4832048df6",
+    "sushiswap": "0xAbEEB13b9C48B89eFA9d13A5436a95c53Db08eAb"
+  },
+  "GNYerc20": {
+    "uniswap": "0x8da66B6E90cAc30dB0DCe239086Cfdb2dbf66A30",
+    "sushiswap": "0x16D6Ddf22fFdbc3793400AAEEb2aB51dCfb9e428"
+  },
+  "DGTX": {
+    "uniswap": "0xf4ef707f3F4166cc79aF15959014dBE0ECD7EfA3",
+    "sushiswap": "0xbF0B9E1789af521b783Bfa4Ed6FD834E9bb2ADD3"
+  },
+  "SNM": {
+    "uniswap": "0x1F0b6C8aCc64d29CB6f66c7949682d5479C2EbdB",
+    "sushiswap": "0x55e011B7cCd001037eCD5120F5a6E0D648F1F2cC"
+  },
+  "CHI": {
+    "uniswap": "0xa6f3ef841d371a82ca757FaD08efc0DeE2F1f5e2",
+    "sushiswap": "0x9Cf72eEBD6155250bcE0Dc71506579E8ee44764f"
+  },
+  "BSP": {
+    "uniswap": "0x231062C2985966C101222923773e8ea96109A90B",
+    "sushiswap": "0x39c70e83D9535d5c9De81A8092697cc733Ff4863"
+  },
+  "CHR": {
+    "uniswap": "0xd366Ed22F5b2262A2Da4C32D8A4607C93690134a",
+    "sushiswap": "0x7561dD6A3676a74e0E7533CeA42e4a406774EBEE"
+  },
+  "DOGES": {
+    "uniswap": "0xB6916bc20caE34De64Af39B8534D1459D8BB4128",
+    "sushiswap": "0xF04daC9cf12Fd8a2b0828a4Ba69f496ABCaa21A3"
+  },
+  "OXY": {
+    "uniswap": "0xA03154BFB9a750B944b5F8DE7A744A34aC6dD16D",
+    "sushiswap": "0xD1B430Eb6F5de67Cc2f2FCCFA559b8dB70D9d96D"
+  },
+  "MATIC": {
+    "uniswap": "0x819f3450dA6f110BA6Ea52195B3beaFa246062dE",
+    "sushiswap": "0x7f8F7Dd53D1F3ac1052565e3ff451D7fE666a311"
+  },
+  "rDAO": {
+    "uniswap": "0x5D251dE31F30fa78AFA15417596BA38aa5D6a493",
+    "sushiswap": "0x9D86CC3B0a844bA368e26E2C35dd2898e8014179"
+  },
+  "iFARM": {
+    "uniswap": "0x91370D9265B37469e8414e002eD3036A52D4f951",
+    "sushiswap": "0xc492ff23bC32c078Ad429a93d61aEca7AcD47628"
+  },
+  "EGT": {
+    "uniswap": "0xc409381817595E7713b56B12796b2B5921671c19",
+    "sushiswap": "0xc7FF546c6CbC87Ad9f6F557db5A0df5c742cA440"
+  },
+  "QSP": {
+    "uniswap": "0x0a05e2E9d6333387d4F634b08FfF5210292f5561",
+    "sushiswap": "0xb670373863Ce64F040B7c10bEE79c40CE12CaCBA"
+  },
+  "٨": {
+    "uniswap": "0x3986289ADcED5FEf2CD10A7C55BA07C3eF87fB94",
+    "sushiswap": "0xd1d66e023C52971f5501dc155dc9F945F3c0B9BC"
+  },
+  "BAL": {
+    "uniswap": "0xA70d458A4d9Bc0e6571565faee18a48dA5c0D593",
+    "sushiswap": "0x9BffA3ce3E56d0d26447a45771FEc76bD4173022"
+  },
+  "sETH": {
+    "uniswap": "0x598E740cda7C525080d3FCb9Fa7C4E1bd0044B34",
+    "sushiswap": "0x7F47F6F695dDF8316f368a8A99122A081e118bd0"
+  },
+  "cUNI": {
+    "uniswap": "0xf3eA2100E1B85772b76e342c955e22A01C970B8a",
+    "sushiswap": "0x2007815bd299786A117Dda62566D6dbaA416926c"
+  },
+  "aETH": {
+    "uniswap": "0x3343D8fd46Ba0469db160A82386a826214CefCb6",
+    "sushiswap": "0x9323161fAF56dd09Cb32ace72c20DBD96B96D386"
+  },
+  "TEL": {
+    "uniswap": "0x291c69fdaebd3CBE953843DA243F8605A766a268",
+    "sushiswap": "0x8Ff9529e81c03C109A9e9c848cB3AC7615CE86CA"
+  },
+  "BTA": {
+    "uniswap": "0x613bc6D9073c90092F1911A0A55F8F5BA88Eb5e6",
+    "sushiswap": "0x670E762497a87B40735380347f87a1E8a36F4b47"
+  },
+  "1ONE": {
+    "uniswap": "0x6db4a71b453880506bC09dc02920D9659AEf6184",
+    "sushiswap": "0x986627dB5E4AAE987f580feB63D475992e5aC0AE"
+  },
+  "GOVI": {
+    "uniswap": "0x1EE312A6d5fe7b4B8c25f0a32fCA6391209eBEBF",
+    "sushiswap": "0x7E6782E37278994d1e99f1a5d03309B4b249d919"
+  },
+  "QUICK": {
+    "uniswap": "0xdC3E94ddF605864b79fCE18C7Cf974E579001E7b",
+    "sushiswap": "0x5BCF7C79f0b0Ddb5ADB5824A21e784d384793572"
+  },
+  "VISR": {
+    "uniswap": "0x0C2445BEc45c443c58f44f8e0a5796960E052D63",
+    "sushiswap": "0xF543a80495182FeDe84B3Da1c8c015dDa0DF0787"
+  },
+  "NFTI": {
+    "uniswap": "0x23BfedB92a5e5B8571650c975f9553c1113e75CB",
+    "sushiswap": "0x07cd13c8dd03Ba5D899C59176410B92c3F3b1570"
+  },
+  "PROS": {
+    "uniswap": "0x6453Fdf540227986a0D1650fD4d4EEe72e437b97",
+    "sushiswap": "0x19B80a02798fEEAca61274104Fd7047a6e569Ba1"
+  },
+  "DEP": {
+    "uniswap": "0xAe904569686346ebb0aA92E07934189f14C2f656",
+    "sushiswap": "0x0EdEB95D2460880ed686409e88b942FD6600fF88"
+  },
+  "ST": {
+    "uniswap": "0x58DF8a9EBA3bE7A431577D16D20806a91c8C8A4e",
+    "sushiswap": "0x7A2E8054aE593be2d5699640A219488BE48F6281"
+  },
+  "SEMI": {
+    "uniswap": "0x0829a4033307AB6331248848662bF32cbC4e8D75",
+    "sushiswap": "0xE1E10E343C0b20A11130F933266Ccbf5B15a5e0D"
+  },
+  "GRUMPY": {
+    "uniswap": "0x1acBA73121d5F63d8Ea40bdc64EDb594bd88Ed09",
+    "sushiswap": "0x99EA1AD0a8f770A3a625602DB703990b7E2B057C"
+  },
+  "DRGN": {
+    "uniswap": "0x4f9FcdAE3950A033074b93e269B6C382109Fae71",
+    "sushiswap": "0xe0a0De6a56a79F45669f15B467DbeB4649ae67E2"
+  },
+  "NU": {
+    "uniswap": "0x3a8afc58b70b34a0a5615d3A5FfE623cA1fA92B8",
+    "sushiswap": "0x04444d365324134e58104B1D874D00dc68dCEA53"
+  },
+  "DGRO": {
+    "uniswap": "0x58384db3C24c4e104Be064B4BdE16cAb9aD9d080",
+    "sushiswap": "0x808B4d6235535094AA04c27e782db998238e5Ce8"
+  },
+  "FUKYU": {
+    "uniswap": "0xE36db02A97FE62375De5aA26De8713F48D091771",
+    "sushiswap": "0x485e50a65210aA4E7BF59A7d079cabb9Ec3206a0"
+  },
+  "DRT": {
+    "uniswap": "0xC227acde08Dd8C636B44473617Bd5cc05ea5e9Ee",
+    "sushiswap": "0xf0B685D0DCf39ca02E4DEbA3544e9234D29fb7d8"
+  },
+  "WZEC": {
+    "uniswap": "0x79b7b3ac996a8708a645Ae8505289833f7176101",
+    "sushiswap": "0xC99c2fE7491278C0c474B59A208a7B74F5cCEe7B"
+  },
+  "stFIRO": {
+    "uniswap": "0x70a78CdE9687e641E5E67b52fdEcBB4739c26a32",
+    "sushiswap": "0x1d709998b90C83c8Eb2A22b06cc4e180898Bf213"
+  },
+  "LUNA": {
+    "uniswap": "0x60a39010e4892b862d1bb6bdDe908215Ac5af6F3",
+    "sushiswap": "0x88172E5d79fE75c7AEd1453e89ff5D741cFa4cA7"
+  },
+  "LPL": {
+    "uniswap": "0x966ea83CF3170a309184bB742398C925249E407e",
+    "sushiswap": "0xA9c8A941f6895799B3207c709dFc94Af2E7902ae"
+  },
+  "uTVL-0621": {
+    "uniswap": "0x3D11B8E488B27cA60F350d8cbe77d1155ce04E1F",
+    "sushiswap": "0x0BA348713A1Ad7079cd741A2358FCdC7322D3Db1"
+  },
+  "SYNC": {
+    "uniswap": "0xFb2F545A9AD62F38fe600E24f75ecD790d30a7Ba",
+    "sushiswap": "0x28C5A7bb3e81F279B1c3C8CA5F945B4aCb392Ecb"
+  },
+  "KICK": {
+    "uniswap": "0x155E143177331D685ddD7e5a7a26280bdE591a21",
+    "sushiswap": "0x75151FE35dcF0c9835AA99e4c9693E9d43c97d95"
+  },
+  "DELTA rLP": {
+    "uniswap": "0xb9A507f407C4A78026e55Ce54De8AEdc5d687f0A",
+    "sushiswap": "0xD80EFb96cE5a97349cC76607961CDEf6B201349D"
+  },
+  "BASK": {
+    "uniswap": "0xE160A4f3b43660E5E9AFFbd6aFf40e467D3097a1",
+    "sushiswap": "0x34D25a4749867eF8b62A0CD1e2d7B4F7aF167E01"
+  },
+  "SEFI": {
+    "uniswap": "0xC3638b905e0B153CF24C3a99835E6a0Ec0D3493f",
+    "sushiswap": "0x8cA16b7dc580ec5303b1Cd79DF1D988C375AF8Ed"
+  },
+  "ART": {
+    "uniswap": "0xdD12a99c454050ba8E2816E5928c08Bd5F02DF78",
+    "sushiswap": "0x44D475E57cB9F53ec068A583E826434B1dD15D48"
+  },
+  "ILV": {
+    "uniswap": "0x8Fb8BF2B444e37379e46de8BB77C551bd008f0aD",
+    "sushiswap": "0x6a091a3406E0073C3CD6340122143009aDac0EDa"
+  },
+  "FORCE": {
+    "uniswap": "0x44E7c11115EBbc40F12009Ab353248B91cc196a4",
+    "sushiswap": "0xB48E9b22Dace65F6A2B409871e154B85f4ED8B80"
+  },
+  "10SET": {
+    "uniswap": "0x5f6FbE81171D0f52cc58D6a2ac6eE1A9e52d18d2",
+    "sushiswap": "0xD002E7D8E17Ef176A8c99b70e266024C6f4ef39e"
+  },
+  "ROBO": {
+    "uniswap": "0x155c119aBedc4996Ba571cDa949f50D83470d23d",
+    "sushiswap": "0x36E06522F0555f35dB55856b1Dc3842B7b4CD830"
+  },
+  "XYO": {
+    "uniswap": "0xa986F2A12d85c44429f574BA50C0e21052B18BA1",
+    "sushiswap": "0x0C967dfF67bC0e7c4fb31b4BF67A513aE1752A00"
+  },
+  "DELTA": {
+    "uniswap": "0x7D7E813082eF6c143277c71786e5bE626ec77b20",
+    "sushiswap": "0x1498bd576454159Bb81B5Ce532692a8752D163e8"
+  },
+  "TCAP": {
+    "uniswap": "0x3436d87664964DF8A1825F826f127deC13117B0b",
+    "sushiswap": "0xa87E2c5D5964955242989B954474ff2EB08Dd2f5"
+  },
+  "GALA": {
+    "uniswap": "0xbe19C32B4CD202407e8eEB73e4E2949438461Ae3",
+    "sushiswap": "0xfA405A40D3fE345e3d5E460C8D9da39Ac0FB13bD"
+  },
+  "DOLA": {
+    "uniswap": "0xecFbE9B182F6477a93065C1c11271232147838E5",
+    "sushiswap": "0x20066C2577c53BB54591111fA707a252B9bB95DC"
+  },
+  "MFG": {
+    "uniswap": "0x527d5f10d70cA41e1e0EEE8d30b553bB5271ee48",
+    "sushiswap": "0x47B66a6fA037F63b20D92a2806bac0B84D026Cb1"
+  },
+  "SI": {
+    "uniswap": "0x5D8a31269A9f3336e3f23DE17B2EC7393BdD6916",
+    "sushiswap": "0x30045ad74f4475E82DcDC269952581ECb7CD2bAd"
+  },
+  "WDOGE": {
+    "uniswap": "0xc3d7aA944105d3FaFE07fc1822102449C916a8d0",
+    "sushiswap": "0x60Bce13608701789Ab9c8Faa9B82dE115Ea8744d"
+  },
+  "ALCH": {
+    "uniswap": "0xfb0997696919Ba43275F4156F9550b9f68F5edfE",
+    "sushiswap": "0x8524DD8Ce31D5fcbFb1B2115a57414bCCed633eA"
+  },
+  "ETHBN": {
+    "uniswap": "0x12446Ef964d7CaC614dE1fc1749656EE6ef819fe",
+    "sushiswap": "0x1848957420CC769409E43e3c17AB1e46BFcD6478"
+  },
+  "BUILD": {
+    "uniswap": "0xDf6b861B4FBCFaffb62dD1906fCd3a863955704b",
+    "sushiswap": "0xaE769aa87ed220Da1A964c1267790241Ba58E303"
+  },
+  "⚗️": {
+    "uniswap": "0xCD6bcca48069f8588780dFA274960F15685aEe0e",
+    "sushiswap": "0x21c48840Bb382c9e15120a7C9b9a6CF99a5d1a93"
+  },
+  "IDRT": {
+    "uniswap": "0xff62b7767104FF2785CA4847b9445fd808516515",
+    "sushiswap": "0xBE1dA348fD61bB6bF70670490722EEEFc72AF92E"
+  },
+  "AMALGAM": {
+    "uniswap": "0x1e3552Dd4c47892ea8BC1bCc66473aDcEE0493Dd",
+    "sushiswap": "0xFDf9A318F5DC73B4Ea4136fd576Ca62B023Ec7aA"
+  },
+  "AKITA": {
+    "uniswap": "0xDA3A20aaD0C34fA742BD9813d45Bbf67c787aE0b",
+    "sushiswap": "0x43113dB6EB4F656Fa3f4bF10D5A9a3Ce1b7380b2"
+  },
+  "VETH": {
+    "uniswap": "0x3696Fa5Ad6e5C74fdcBCEd9aF74379D94C4B775A",
+    "sushiswap": "0xCa66F0E294a4DD93b8B662E2e415eEA5F1221130"
+  },
+  "SHNGT": {
+    "uniswap": "0x0d4536A4B386295413b7E58c65B698F9fcD78a77",
+    "sushiswap": "0x395d221d4F1cc6CD8B55Ec7e0E9b8A329999cab7"
+  },
+  "CTX": {
+    "uniswap": "0x2DcF279fD3bEf10d1ecE32105b7CE5F1464ec1A4",
+    "sushiswap": "0x2A93167Ed63A31F35CA4788e2EB9fBd9fA6089D0"
+  },
+  "BLO": {
+    "uniswap": "0x0751848E3A6705bA24D7e78a49b9C6243bbcF058",
+    "sushiswap": "0x804Be24f625C7E23eDd9Fa68e4582590c57ad2B3"
+  },
+  "DOGEBEAR": {
+    "uniswap": "0x0b7904B92836eFf0245Aa78ad4f4E06276a275F0",
+    "sushiswap": "0xDD27EcC840b3C237b691f6Ea0a1554f4f7e48aE5"
+  },
+  "HAPPY": {
+    "uniswap": "0x1557337Fc760Bb73a6bFcF2e315948836da79a5e",
+    "sushiswap": "0x59Ae085Bf4FE8dcDb6E1e95299e706b21Dae2Eeb"
+  },
+  "FORTH": {
+    "uniswap": "0xf6048f2a7e1C44012265fAB271C8eb89bB74bd4E",
+    "sushiswap": "0x91c75b11C2fDA6c481B640a6fd534A9484559502"
+  },
+  "GWEI": {
+    "uniswap": "0x3d7239f1BaDbc37a91552C7839c154FD8f1E68Cc",
+    "sushiswap": "0xfbaf885b8C2F74F989B38573e0a4d8b429cb841f"
+  },
+  "DOPL.": {
+    "uniswap": "0x6553d50221b42aAF8c08D4Df021Aa2BBdC4A1729",
+    "sushiswap": "0xC610e6Bf175A8c6706f00f77F1eE913A7020fDD7"
+  },
+  "AIA": {
+    "uniswap": "0x579ac2ad39813235C730FDaBe0D26286c9070146",
+    "sushiswap": "0xa28EaF246F5b5259f82ad3A9ccE0E99d9D2c7c91"
+  },
+  "KEN-V1": {
+    "uniswap": "0x174891c987B862dEb90FD3b93b6C993C43f6a766",
+    "sushiswap": "0xe888873c6625151a870297540138Ad584E9faF9A"
+  },
+  "THUNDER": {
+    "uniswap": "0x50290650b50A08136D7170f7A088457B97c50BB6",
+    "sushiswap": "0x0438a9524Fd89f0Ec6A66B82C0c9627B7de46728"
+  },
+  "DSCPL": {
+    "uniswap": "0xea88686AdE1B022f76B391073a251932f6041478",
+    "sushiswap": "0xD6f7789406fa768a4BB0746454f9bE3e2f0fbb8c"
+  },
+  "ORBS": {
+    "uniswap": "0xC98B3B8C7CC0D7D925d1a407347b845D9F001391",
+    "sushiswap": "0x92926b403cb81F5c4C16535Cd44543994268fA6b"
+  },
+  "DOKI": {
+    "uniswap": "0x1D4b2B2a2Ca8762410801b51f128B73743439E39",
+    "sushiswap": "0xaCB47d7557083C934648262d5869153a9455B798"
+  },
+  "LUSD": {
+    "uniswap": "0xF20EF17b889b437C151eB5bA15A47bFc62bfF469",
+    "sushiswap": "0x279Ca79d5fb2490721512C8Ae4767E249D75F41B"
+  },
+  "SHIB": {
+    "uniswap": "0x811beEd0119b4AfCE20D2583EB608C6F7AF1954f",
+    "sushiswap": "0x24D3dD4a62e29770cf98810b09F89D3A90279E7a"
+  },
+  "OHM": {
+    "uniswap": "0x88b8555CB3fdeE7077491e673a5bDdFB7144744f",
+    "sushiswap": "0x69b81152c5A8d35A67B32A4D3772795d96CaE4da"
+  },
+  "SHOOB": {
+    "uniswap": "0x8DdC5F37Aa9Cffadd16F285cED144B084D7a41b5",
+    "sushiswap": "0xe93C7c454e20B7A3029a56778bCecDB04f727DFb"
+  },
+  "PMON": {
+    "uniswap": "0xbf4fF08b9A3bBb77A362b609119100545C0445FE",
+    "sushiswap": "0x69ab811953499Eb253c5a69aE06275A42b97c9aE"
+  },
+  "SENPAI": {
+    "uniswap": "0x1902c5f73c28F6ed40Dc15432C862F95AffeD25d",
+    "sushiswap": "0x309A91551aF0E923C0cf545898CAFaFD4972fbC3"
+  },
+  "TXL": {
+    "uniswap": "0x0Fdc86703C938e3E1cbc9E14f21c6BF709c13aCc",
+    "sushiswap": "0x1365707157a1ec841064a18d2A1771c677DF9A1C"
+  },
+  "TNT": {
+    "uniswap": "0xBA10AfCFC8C7783858Db528cbC75a8BB016AaDC7",
+    "sushiswap": "0x2773125f9E9C5e75eC8e31BF9f5E4508bB7d7bd0"
+  },
+  "KOKU": {
+    "uniswap": "0xA7A8F5A6c7F9adc4A0B071114542436607bEfd5B",
+    "sushiswap": "0xC18Fe40d77B2a46DC2f5790E26f305c6dbEE0B39"
+  },
+  "CNFI": {
+    "uniswap": "0x8d4de8dc1650E73C1c238Fa3b4d01ccc4C1AAeE8",
+    "sushiswap": "0xE7FcE6c57FeDCe45f5d4434111109965Df2Df54E"
+  },
+  "FUSE": {
+    "uniswap": "0x4Ce3687fEd17e19324F23e305593Ab13bBd55c4D",
+    "sushiswap": "0x9E8F8C21A19718fe100D26f10ee930c8978D000D"
+  },
+  "ENX": {
+    "uniswap": "0x83812AEc9100f06039825E9CA0F1e2DD954cb9e0",
+    "sushiswap": "0x64C2D41f6a25b529792a05031de6080D3c1f49Ec"
+  },
+  "PENDLE": {
+    "uniswap": "0x59006FbBcF39592324095404FceaA2852f4d0c79",
+    "sushiswap": "0x37922C69b08BABcCEaE735A31235c81f1d1e8E43"
+  },
+  "GZE": {
+    "uniswap": "0x683D863D1C09930ffD7d5A5089a594fb0646606E",
+    "sushiswap": "0x1845D8D12846D7D7c6908bc5Df48cfe29a7283C7"
+  },
+  "CODE": {
+    "uniswap": "0xaB42FaA171Ec2e19306C662a45B7621aF7a0871E",
+    "sushiswap": "0xc0fA966C52B0C097d1eBB2829d209F6e9223f01c"
+  },
+  "INTLO": {
+    "uniswap": "0xA1b5d55e7364B5fD7f81F5FC7Ced71Ec84EdcA31",
+    "sushiswap": "0x6d944bf74137d948B9E8a6825EE435C379B85e42"
+  },
+  "LTY": {
+    "uniswap": "0x9815d517111e3C6456BAB91ba6cB5B45BAC2Bb08",
+    "sushiswap": "0x5fd3382d797249Fb196A47cE596F238AA0792024"
+  },
+  "DogeStar": {
+    "uniswap": "0xba763CB234673e4bCC60766FFcc9fCE34edE1Eb5",
+    "sushiswap": "0xa1ff40C1F46be5B5c4D5A2185f40DbB1da6F41Ce"
+  },
+  "WINE": {
+    "uniswap": "0xb11a98Cc62059E0f487F24Ce666b9604356B42D6",
+    "sushiswap": "0x527103a60c609118F1fC47C542447052cC383F2C"
+  },
+  "BTY": {
+    "uniswap": "0x5Ab8386A727C0f6a17c5CF3A941F40C99f16482E",
+    "sushiswap": "0x73624ad6927607c6D0aB869814d9fAECc4c9818D"
+  },
+  "UMB": {
+    "uniswap": "0xB1BbeEa2dA2905E6B0A30203aEf55c399C53D042",
+    "sushiswap": "0x7229d526d5fD693720B88Eb7129058dB5D497BCe"
+  },
+  "ICE": {
+    "uniswap": "0x0EfEA698136d636e2babAD10821e9064fE08f418",
+    "sushiswap": "0x94b86CA6F7a495930Fe7f552eb9e4CbB5eF2b736"
+  },
+  "YUP": {
+    "uniswap": "0x916560C92f423BF7d20f34591a6B27a254c3bD7A",
+    "sushiswap": "0xabcAe41337584C9fCc37bc9688721dbBf514fB5c"
+  },
+  "MIR": {
+    "uniswap": "0x57aB5AEB8baC2586A0d437163C3eb844246336CE",
+    "sushiswap": "0x09071bd5ea1b26AD3b24be2839e2f8b44331C66D"
+  },
+  "AUC": {
+    "uniswap": "0xC04744ab87A4C37afD91680ef280B96Ee21A026E",
+    "sushiswap": "0x57b9153A4570624b51871217F311074d9Cd64BcF"
+  },
+  "Yfic": {
+    "uniswap": "0xFB475F39F210Fa8C3C480C2FE870e9f99C39bf49",
+    "sushiswap": "0x6A9e43dFF851b2bc73c514DD2735271De815dC4a"
+  },
+  "JUB": {
+    "uniswap": "0x23aeaD975a613Fb98d8cdE3882328ca443551544",
+    "sushiswap": "0x999c9DAa5287505D42ab61044aBF435b12c48466"
+  },
+  "ZIG": {
+    "uniswap": "0xD17351869eFe6cD11861AE9eAc87119A891d9Ac3",
+    "sushiswap": "0x4Fb3CAe84a1264b8BB1911e8915F56660eC8178E"
+  },
+  "RUDA": {
+    "uniswap": "0x21e653cc74F7a5d23502B8b1e0a9DE83b6123A7F",
+    "sushiswap": "0x2Cd79179488556Fb774b159b5f5ac2CB6F2cd879"
+  },
+  "TNO": {
+    "uniswap": "0x0119FF30F366082Ce1f4Bf701Cd1650A76FEfb6A",
+    "sushiswap": "0x17Ad2380b56aE615C04A237154cF89aC09F9AA33"
+  },
+  "BOND": {
+    "uniswap": "0x64C29aAc69d3122f6e5531CecA1B753F95350AF4",
+    "sushiswap": "0xf6010e3F345Dd2EA5119E07701A350628435F20d"
+  },
+  "SHPING": {
+    "uniswap": "0x9Ce61EA1fE21D964A66B763927e29e1CFFA96026",
+    "sushiswap": "0xD920a4bDa8eCf4Ac06eA2897f9a5A38A55E9aC6e"
+  },
+  "NXL": {
+    "uniswap": "0xDB903D9A0D20B746d6d4DdC20D45De6Bcb96a012",
+    "sushiswap": "0x83d7Efa75CE24B319C33dCD583d8384a31a699D4"
+  },
+  "wSIENNA": {
+    "uniswap": "0xB8207f870CE0083334675b2EfcA8E3Ba7cAd68De",
+    "sushiswap": "0x0133042AdE87514c0a7B34A4E83Ec7EF597ff3Cc"
+  },
+  "HBT": {
+    "uniswap": "0xC7A1CB6edC22e94F17C80eb5B959f2AD28511d4E",
+    "sushiswap": "0xA023CCa9DE8486d867e8b2F7bfd133A96455f850"
+  },
+  "SMSCT": {
+    "uniswap": "0x67d54fD7d031FeEeF86f9a3fE25ace03Ff8AF053",
+    "sushiswap": "0x4A2A4011A75b6C66174c55f9b6335d9DfFd7CB5f"
+  },
+  "PEAK": {
+    "uniswap": "0x9C18A2F9545112AB2FCBDd228536562406A53232",
+    "sushiswap": "0x5399a36F54cA91a5DB5C148eEB2B909bBA81B82C"
+  },
+  "DATAX": {
+    "uniswap": "0x4e3e38cE6aaD43d09B2093b7e3ac7504F4FB8309",
+    "sushiswap": "0xD008335e0f77eeAcA0e09513DFAA95C7b811fC89"
+  },
+  "ZITI": {
+    "uniswap": "0x08B57D4e6404DA14d41290Fd4E4cC281eFF7C517",
+    "sushiswap": "0xF86710F80bb24D31FB219F06Fe2953B825AB2975"
+  },
+  "LUCK": {
+    "uniswap": "0xE43982EE23e0bcFdB4223C9F25D921D87c9a3641",
+    "sushiswap": "0x1430f2e29F65E9Dc3C430360340cC7060e21deB3"
+  },
+  "CNTR": {
+    "uniswap": "0xa12b7a78a31854d2E9Ee8FBC92E262AAf4FCd4f1",
+    "sushiswap": "0xcc56D690384dE6A111DA5f2C2aa78ff85A74ec44"
+  },
+  "POLK": {
+    "uniswap": "0x05f04F112A286c4c551897fB19ED2300272656c8",
+    "sushiswap": "0xc6Fab966897C42A2aFA2dCA51351f28F448839A9"
+  },
+  "LDN": {
+    "uniswap": "0x0919Bbfa00f8c6e2131bd48C47e0534664a019Fb",
+    "sushiswap": "0x3bFcA4FB8054fA42DA3E77749b21450a1290beED"
+  },
+  "KIRO": {
+    "uniswap": "0x5CD136E8197Be513B06d39730dc674b1E0F6b7da",
+    "sushiswap": "0x375cc6acc38D030F4f3eDCFBfb25b4810e5e116d"
+  },
+  "VLT": {
+    "uniswap": "0x966053Ca4fca049173eb1F27E4cb168CCb794534",
+    "sushiswap": "0x276C1D6204BDa29012a1227Cecdc24B69DdeaA9A"
+  },
+  "$DG": {
+    "uniswap": "0x44c21F5DCB285D92320AE345C92e8B6204Be8CdF",
+    "sushiswap": "0xd3dA6236aEcb6b55F571249c011B8EEC340a418E"
+  },
+  "NAOS": {
+    "uniswap": "0x9b577E849b128EE1a69144b218e809B8Bb98C35D",
+    "sushiswap": "0x82EbCD936C9E938704b65027850E42393F8BC4d4"
+  },
+  "ETH2x-FLI": {
+    "uniswap": "0xF91c12DAe1313d0bE5d7A27aa559B1171cC1EaC5",
+    "sushiswap": "0x99265982f2732041C0AcAaafE94A117f3A370eE8"
+  },
+  "WOOFY": {
+    "uniswap": "0x2CC57fC3De5D925793cBa33C8d379697d82C89d8",
+    "sushiswap": "0x9AC60b8B33092C2c0B4CA5Af0DEC2bcb84657E12"
+  },
+  "FVT": {
+    "uniswap": "0x75001b3FfE0f77864c7Dc64c55e1E22b205e4a07",
+    "sushiswap": "0x96335e7CdbCD91fB33C26991b00cc13a87A811b9"
+  },
+  "ARCX": {
+    "uniswap": "0x1BCA589cF98EdACF08db946FF178583f310F2243",
+    "sushiswap": "0x87C33321E1755ab54b0A27D4969A72B953486E75"
+  },
+  "LEV": {
+    "uniswap": "0xED4985a31e9C616A4Dc28120fAa222abEd6E9eaf",
+    "sushiswap": "0xe73ad09925201F21b607ccADA9A371C12A2f49C3"
+  },
+  "MLN": {
+    "uniswap": "0x15ab0333985FD1E289adF4fBBe19261454776642",
+    "sushiswap": "0x2F8AC927aa94293461C75406e90Ec0cCFb2748d9"
+  },
+  "BONE": {
+    "uniswap": "0xF7d31825946e7fD99eF07212d34B9Dad84C396b7",
+    "sushiswap": "0x9D3B477880D931988Cc1eDf859846339Bcc909B3"
+  },
+  "Bone": {
+    "uniswap": "0x75A9D7ef9EEB3370E20df491c4153aC2B89A6afE",
+    "sushiswap": "0x598d960Eeee655b57C1c5c60F516Cde001dc09F8"
+  },
+  "dcaps": {
+    "uniswap": "0xcf86a129cA5121f828E9dC02952ACFEE40331dae",
+    "sushiswap": "0x0531fae259675DFC5833c388DBBAe2f7A7b0F81D"
+  },
+  "GOLDUCK": {
+    "uniswap": "0xcB9648D4ED92747E76DBFc5bEDeA64607970cB7a",
+    "sushiswap": "0xE7829a30ae90E114997D2F5749ADE474C66c8d84"
+  },
+  "SLPY": {
+    "uniswap": "0xE3437e0bA2BcE5eC24D4542A930B8836284B17eE",
+    "sushiswap": "0x81c93a4C2b9915ab73Ac473dC3a573De776c4b86"
+  },
+  "4YE5": {
+    "uniswap": "0xB7293B267bc52Cd9f14b0C04054Bccb775f60DF1",
+    "sushiswap": "0x2DB82354EA85992C05dbd7AE910776FFa82Bc939"
+  },
+  "ETM": {
+    "uniswap": "0x18fb83Bdd15a00f6eE3018AA9FaBCC2dD291f824",
+    "sushiswap": "0xCa465b919Ee40Ef782842865717e9B34afE19EF7"
+  },
+  "CVX": {
+    "uniswap": "0xDf4A9E4D3374373902Fb197FE0652a0508F5499d",
+    "sushiswap": "0x05767d9EF41dC40689678fFca0608878fb3dE906"
+  },
+  "DSE": {
+    "uniswap": "0x879EEff2e4d263B7648b401D98f6423b0Ae90380",
+    "sushiswap": "0x6d31d3140E1700e43F190Ff7F33D86E3AEA52684"
+  },
+  "GOLD": {
+    "uniswap": "0xa3742f3740C5c112F9dD0a9858AEFe875cea13e2",
+    "sushiswap": "0xe9629eb18DbdC2BFd9e1bbCF30D2d6E801c532a4"
+  },
+  "♥️CHINUちび": {
+    "uniswap": "0x2560f845685480DCD3853e91dd603645775465E9",
+    "sushiswap": "0x73971a8c654b7703060ca70E39bc293c64a08138"
+  },
+  "POND": {
+    "uniswap": "0x87b01a1935cdD35588a2afF22ecba1a9cE7Cebd2",
+    "sushiswap": "0xcCB42AAaB2ea1f8012C30418eE3FCe550954D827"
+  },
+  "ECZZ": {
+    "uniswap": "0x32c2deeF2Acb177c6C08A21Ca9B3f517F276dc6F",
+    "sushiswap": "0xE214D6a27aC1711d38e0C1b9307BA5E02ef33DE2"
+  },
+  "DestroyElon": {
+    "uniswap": "0x0C83806C9EcF77ed450A964D9068FA5B5F6cD52A",
+    "sushiswap": "0x2836E19A74F96b4EF098C2a0600416f825705991"
+  },
+  "BABYSHIBAINU": {
+    "uniswap": "0x2D3d8B956835e15b98c0ADDDFBe54163dbAe5168",
+    "sushiswap": "0x485CA3783a3136DB8BBe08C3a511EE69f9905757"
+  },
+  "MASQ": {
+    "uniswap": "0xC724B925B99491b055750b37e564D17843053Cd9",
+    "sushiswap": "0x26e6a391953169D141DF36834Acfd9c61d3D4D59"
+  },
+  "BNBB": {
+    "uniswap": "0x4E3708aB45C99e649Bed1Cc33951CfdCcc4958AD",
+    "sushiswap": "0xB5b558F9f2F1b63B57a72EFaC6c02eD3fb994F8C"
+  },
+  "WPRCY": {
+    "uniswap": "0x35A9E13e98EA0ED103C02AC32152daB4161B4954",
+    "sushiswap": "0x3867877D568b1699A7fd7d6190d0926aa88C4b86"
+  },
+  "SXHC": {
+    "uniswap": "0x5c5764bd20D0A7Ba99330f330217C39d95827705",
+    "sushiswap": "0x6Ed6F7d0E12927759b50594d4bB350548745e75A"
+  },
+  "bulldoge": {
+    "uniswap": "0x50308fB3567164be330B42257bD1996B9B9c703E",
+    "sushiswap": "0xF19024B592323B1Ec640F3B270F3579895a55040"
+  },
+  "BOTTAX": {
+    "uniswap": "0x947ef6088B68DAc71ED3044ce4f077F4d0f54c85",
+    "sushiswap": "0xF3c30eEaF242aC2aE44DB4cE367147530C6B43E9"
+  },
+  "MOMO": {
+    "uniswap": "0xa0909A52D3163D3228D7047C60E38D29EF66Eaaa",
+    "sushiswap": "0xf82728B447B4e018Bc4bbfEE7b1BB050085c086E"
+  },
+  "BLOB": {
+    "uniswap": "0x478E500529f490b1a09Fa01D550147A5f692E00E",
+    "sushiswap": "0x4976A1B0d8b57909FA4A370Aca8323a0945585aE"
+  },
+  "aETHb": {
+    "uniswap": "0x8cC02fC0548D970D88db5B34b02a39f3D6c184eb",
+    "sushiswap": "0x52830877e3d6365471FB47AdBb3A63C136d33064"
+  },
+  "STAK": {
+    "uniswap": "0xEFF2DBE03e67ee5E5A6b645cB61A1c0dCfD890D9",
+    "sushiswap": "0xfacA9621b2C41188bf9Cd0a42b1F019D0B207da8"
+  },
+  "GCX": {
+    "uniswap": "0xa6424bB4c1B55FDc4d204A9236766f79129B3406",
+    "sushiswap": "0xe111a8838D360A7db7Bd5571665E98EC4f83c9C6"
+  },
+  "YUAN": {
+    "uniswap": "0x4198bfabe4dD1812692bA7C5d3FA46D2502269Dc",
+    "sushiswap": "0x2E31e61F43C3726F081C2059f3d7485137f7EcfC"
+  },
+  "PIC": {
+    "uniswap": "0x35fB287382Edee2c7522D03fCA3cE2735140bDa5",
+    "sushiswap": "0x77C885daD564E09C6202B08b0b6650c69160585C"
+  },
+  "DOGEGF": {
+    "uniswap": "0x6060ad7b2ABb5716aDc82C669353E5C5f3B9FB4d",
+    "sushiswap": "0xa416Df4D96cd547337A3e8893bf3F01C2a2AF5C0"
+  },
+  "ENJ": {
+    "uniswap": "0xE56c60B5f9f7B5FC70DE0eb79c6EE7d00eFa2625",
+    "sushiswap": "0x6D7c40746Accd8e028Da5848E38093e5BaFE8a18"
+  },
+  "SPELL": {
+    "uniswap": "0x74fe0478866D486c11d640af94312bE56166DF39",
+    "sushiswap": "0xb5De0C3753b6E1B4dBA616Db82767F17513E6d4E"
+  },
+  "BPRO": {
+    "uniswap": "0x288d25592a995cA878B79762Cb8Ec5a95d2e888a",
+    "sushiswap": "0x4a8428d6a407e57fF17878e8DB21b4706116606F"
+  },
+  "HOT": {
+    "uniswap": "0xf5ef67632cd2256d939702a126FE2c047d0a07bf",
+    "sushiswap": "0xb4f3B00d13D20409AfD9488ab991d0b40E6a5219"
+  },
+  "eMax": {
+    "uniswap": "0xb6CA52c7916ad7960C12Dc489FD93E5Af7cA257f",
+    "sushiswap": "0xaB0E90f073C216Ff3FD577A1cF5fA07A9DcD0A29"
+  },
+  "MIM": {
+    "uniswap": "0xf34CAdb94e038CDAcB4De4bb4263eEc83eE17F5B",
+    "sushiswap": "0x07D5695a24904CC1B6e3bd57cC7780B90618e3c4"
+  },
+  "CARDS": {
+    "uniswap": "0x94Ae6d2390680Ac6e6ee6069BE42067d6ad72e2A",
+    "sushiswap": "0x2389C96954715E0146147B9bE9944b72a2E66678"
+  },
+  "SKL": {
+    "uniswap": "0xF232D640A5700724748464ba8bD8BEd21Db609a6",
+    "sushiswap": "0xAF8FD04C0FeE8CA81B6BfD6CEe7C2437F5e86a21"
+  },
+  "TAURUS": {
+    "uniswap": "0x2b76A6216fB4feBD7841fa4A0D4C1A6fd16C7378",
+    "sushiswap": "0xc7B6eD138CAf54cF80030E35E644aCF844507e1B"
+  },
+  "NWT": {
+    "uniswap": "0x408E588AE020580891B379C8A443711E37FA0398",
+    "sushiswap": "0xD574b8b29dCDDca36F8fA0713E3536d0A785B4d9"
+  },
+  "CFour": {
+    "uniswap": "0x99aa2B425DABf66488c8E7f9AB7dABF6A88fb31A",
+    "sushiswap": "0xA34c3a3c4bC9F016bC370074d578EeC3FfEB6724"
+  },
+  "KUMA": {
+    "uniswap": "0x27Fd2F5942049BCD601428c7bceDE364180B4B3F",
+    "sushiswap": "0xDbc214008Bfd65206BAa86273c36d819779097a2"
+  },
+  "BtcQfin": {
+    "uniswap": "0x74eD459D53dac9DE2177a7c9E01A3B8FF04908d7",
+    "sushiswap": "0x0788c2389BFC44f8Cf6EB95FbB6f4bF0078Bd4e1"
+  },
+  "CLIT": {
+    "uniswap": "0x552eE2a9250730b15748Ba004b1b1fF38D49E6d9",
+    "sushiswap": "0x5dC46B808639f53D863334e9331BfB562a109313"
+  },
+  "BEL": {
+    "uniswap": "0x9E98dEaC1A416C9CE3C892BD8EeF586f1291CA35",
+    "sushiswap": "0x0018fb451a46AE397B8569936Bc5bb5FF03cfD18"
+  },
+  "KEANU": {
+    "uniswap": "0xFEe4800067bfc9DFf564d116cBa4d4B16cA7b7B3",
+    "sushiswap": "0x2077fB0f3e47a8e5c07063AB6d032C62817a0E4C"
+  },
+  "KEX": {
+    "uniswap": "0x1BfffB738D69167D5592160A47D5404A3cF5a846",
+    "sushiswap": "0x4A3aD584d98b84CEf0CaD4fE1792Ed6Fd02e5541"
+  },
+  "DUNG": {
+    "uniswap": "0x2AD3f5cF4B3e557bE8Ad8B3D31C10245BaC879B7",
+    "sushiswap": "0x83B04AF7a77C727273B7a582D6Fda65472FCB3f2"
+  },
+  "COR": {
+    "uniswap": "0xDE26d72fCF376A8a98560c8D57b1465715037851",
+    "sushiswap": "0x50F8e989ec40A5719A494007a65c0c8e446e841f"
+  },
+  "TAR": {
+    "uniswap": "0x43f1a7F4A7f1f40dF04863f4EF37bb6F5D2F3539",
+    "sushiswap": "0xD9C2088eB999adE7DDB92bC95ad70aB2D30F7c24"
+  },
+  "TITAN": {
+    "uniswap": "0x06aC948b796042d8ff52792899da16d9C690E41b",
+    "sushiswap": "0xe5a4D179D88c8fF6F6d3157944A07C5234f17a8b"
+  },
+  "ANKR": {
+    "uniswap": "0x5201883feeb05822CE25c9Af8Ab41Fc78Ca73fA9",
+    "sushiswap": "0x1241F4a348162d99379A23E73926Cf0bfCBf131e"
+  },
+  "PUSSY": {
+    "uniswap": "0xAc336936F2f0c2ab0c8DEcE3a027445323E8a244",
+    "sushiswap": "0x18891fc0Ed41Cc8AD00607fEAE0F86b8c03f515b"
+  },
+  "SWINGBY": {
+    "uniswap": "0x9E79cCAACAAA5dBB6714EEA8FdFD6496C9618F40",
+    "sushiswap": "0x4a9C7B98C1a92DB0ad33b31B549fb1820FE571FF"
+  },
+  "RAC": {
+    "uniswap": "0xF744417D0a5FD18b5B18726CE1b48f931DFA32Ea",
+    "sushiswap": "0xb462Cf7e7e698adF07D7c1df8e2478819D33fC8D"
+  },
+  "ASTRO": {
+    "uniswap": "0x7df4A1D4a8D8390Bef36F311252423CCe04e5647",
+    "sushiswap": "0x7E6c89Dc7A11e4f172CF14D7A69c1C4177268557"
+  },
+  "JULIEN": {
+    "uniswap": "0x59D4A73b2EdcDE7d2E0EdEAAE118622e1EE109FC",
+    "sushiswap": "0x06b75638FeF03D2A814E40d547678d495678B503"
+  },
+  "MPT11": {
+    "uniswap": "0x217B91FB2A6941744a8cC94a1598A02C3378284B",
+    "sushiswap": "0xBc8EA353F1D83B676aE734Be115Ba7151549BE30"
+  },
+  "KISHU": {
+    "uniswap": "0xF82d8Ec196Fb0D56c6B82a8B1870F09502A49F88",
+    "sushiswap": "0xBE30272999e84a4A2823d7ef60485e715228f6D2"
+  },
+  "DOGEREUM": {
+    "uniswap": "0x3c5305d7c4967181205F565Ac464B645E633fd8a",
+    "sushiswap": "0x20eEd9af60a886aE63FdEfB5fE8a30769eBe66D4"
+  },
+  "PROGE": {
+    "uniswap": "0x370ab67608a2945BBd6422616ad2668261C3937d",
+    "sushiswap": "0x482474d158B78ef548B052F2150242118418eb16"
+  },
+  "APED": {
+    "uniswap": "0x6ae683767DE602354F394a6bC0439d86669beaAf",
+    "sushiswap": "0x8F6B7B17d97286a56a74C58409A3dcCaCD2Aa221"
+  },
+  "BPF": {
+    "uniswap": "0x0111842555A378cbaA937eb02818101d0040733B",
+    "sushiswap": "0xf539C369136c5F86f7BF408E853c2C6FFAcACfBD"
+  },
+  "NDX": {
+    "uniswap": "0x46af8AC1b82F73dB6Aacc1645D40c56191ab787b",
+    "sushiswap": "0x8911fce375a8414B1b578BE66eE691A8D2D4DBf7"
+  },
+  "DEGEN": {
+    "uniswap": "0xFaAD1072E259B5ED342D3f16277477B46D379ABC",
+    "sushiswap": "0xe8eB0f7B866A85DA49401D04FfFcfC1aBbF24Dfd"
+  },
+  "FEM": {
+    "uniswap": "0xa326324ef5C44789017232a28cc13af61eDB9D5E",
+    "sushiswap": "0xA674384e2f11ed5E7cC90e30Ef8Ce4447B910cD7"
+  },
+  "DOGSP": {
+    "uniswap": "0xCb4D72E38C65Dcf47BDA7e2D0381D7043BdA6843",
+    "sushiswap": "0xD006804a68C6829885b3bb9225d00f12D3f2219a"
+  },
+  "CWS": {
+    "uniswap": "0x40449D1F4C2D4f88dfd5b18868c76738a4E52FD4",
+    "sushiswap": "0x7818A7E2Ab095A15dcb348c7DD6D1d88d7CeaBfD"
+  },
+  "ORDR": {
+    "uniswap": "0x2957215d0473d2c811A075725Da3C31D2af075F1",
+    "sushiswap": "0xF110783EbD020DCFBA91Cd1976b79a6E510846AA"
+  },
+  "HEX": {
+    "uniswap": "0x55D5c232D921B9eAA6b37b5845E439aCD04b4DBa",
+    "sushiswap": "0x5Ed259437bc3f94418B98F7b626eC6A1C75b8992"
+  },
+  "B20": {
+    "uniswap": "0xE6f51e892046cb5B437e0033D990B527EA4367C8",
+    "sushiswap": "0x5D2bE03434fd42E232a6a34abcc764681bCcB458"
+  },
+  "VOL": {
+    "uniswap": "0xE04C1A564d8B42a589F25DBA20c2A210fB875C17",
+    "sushiswap": "0xB7df0EF1C1232de62C0D99Df9B5b92d35b522F6B"
+  },
+  "CAPS": {
+    "uniswap": "0x456FB056a8D118300B624D3AEE3864e685ae086C",
+    "sushiswap": "0x782dB22763c7d565d3833A9238f24237Ef44a233"
+  },
+  "PHI": {
+    "uniswap": "0x9154494e088cb123091074E15BdFB97bC3Ea22F8",
+    "sushiswap": "0xdcC5F57d1bABCdA78DA3B63BC91B5a5f8A8e57Aa"
+  },
+  "WOO": {
+    "uniswap": "0x6AdA49AECCF6E556Bb7a35ef0119Cc8ca795294A",
+    "sushiswap": "0x4FCf718855Fe7bBb16177ce24566263Aa026F8dd"
+  },
+  "BTG": {
+    "uniswap": "0xE6f49f3c154E396005Fdb14dDEA8123A9D1BE909",
+    "sushiswap": "0x770537f89AdAdb6c9705d5cE6943850f7309C9f5"
+  },
+  "ZEUZ": {
+    "uniswap": "0x026c5B530b9177054094D296C849E11eC15F79B1",
+    "sushiswap": "0x88C4AA6D21f5b6C709DcC7E77F5b9C9CaF33F988"
+  },
+  "HOGE": {
+    "uniswap": "0x7FD1de95FC975fbBD8be260525758549eC477960",
+    "sushiswap": "0xcE2a8df6401db2F847fDc7B830a80D3dEd3F76d6"
+  },
+  "Auction": {
+    "uniswap": "0x30D4e73CC4580cbCf50BaAD3510d1E9Efa187716",
+    "sushiswap": "0x0F8086D08A69eBD8e3a130A87A3b6A260723976f"
+  },
+  "LEASH": {
+    "uniswap": "0x874376Be8231DAd99AABF9EF0767b3cc054c60eE",
+    "sushiswap": "0x75feAB555e4db0A5Fd6A2c46D31e4c907884DCFB"
+  },
+  "NMR": {
+    "uniswap": "0xB784CED6994c928170B417BBd052A096c6fB17E2",
+    "sushiswap": "0x8a7bBEBEdF5aE0422C81A6bd050d0eF65c5bCC8F"
+  },
+  "RNBW": {
+    "uniswap": "0x3E8E036Ddfd310B0838d3CC881A9fa827778845D",
+    "sushiswap": "0xDB30d3f9b55Bd57271d171FEC708B575aA940082"
+  },
+  "ULC": {
+    "uniswap": "0x52BF6eb7a1a4D90A3B2CBc44cf7e6aEd68947430",
+    "sushiswap": "0x1c9deF35A38237b5724D046A807B590C1Ee3aF1E"
+  },
+  "TOL": {
+    "uniswap": "0xdE53172Ca9D07731f12F6cd06369E858C9dCCfb2",
+    "sushiswap": "0x65b94aB532760194D9C069cFfB1401205dE4434F"
+  },
+  "CT": {
+    "uniswap": "0xc3F4C11700fD74A1021ADAbe8Ec8f2842aC161b7",
+    "sushiswap": "0x0552bfa80Ba42f8B6942703f19F101f1dEDc852B"
+  },
+  "Scam": {
+    "uniswap": "0xb12F7756a79975d7cb2791F1d1e7b87DAa1e9C65",
+    "sushiswap": "0x6911FBD20a1BAf5DEC2a64c336D7B0320Fc5dE41"
+  },
+  "Gnosis": {
+    "uniswap": "0x04107c3ee865e0E81405C630d9f005E25454D5A0",
+    "sushiswap": "0xB7169dcA8F6bd82A127B8D7a41FE9A5D47fbe67c"
+  },
+  "QSC": {
+    "uniswap": "0xa00F5A944759D3e0b40e818758088755eB816030",
+    "sushiswap": "0xEBea278c99967c889C3eCA5ba0Ea0BEEd3827c78"
+  },
+  "FET": {
+    "uniswap": "0x4042A04c54eF133aC2a3C93DB69d43C6C02a330b",
+    "sushiswap": "0xEe2075ccaCeb41d54c513073A26F940328F7E0dF"
+  },
+  "KORE": {
+    "uniswap": "0xef035F52e5a8974adBF4380e020cD4A0A349C517",
+    "sushiswap": "0x587E1052304638532b5Ec62C18eB467600B9ED4A"
+  },
+  "BBD": {
+    "uniswap": "0xb08835AcFBCE29D8F5851Eb3144D98Ae52Dea1Db",
+    "sushiswap": "0x1C8fb861D7c409EaB52b014F6ecF7E4e83802A00"
+  },
+  "DAWG": {
+    "uniswap": "0xA118f91E1d4BA2B60883ac1958e06104Ca7B5E48",
+    "sushiswap": "0xC4cdb7E641e34943d9946859a5807FFDf29394aB"
+  },
+  "FLOKI": {
+    "uniswap": "0x7e13c19152d4cb6F7835D0c7AE9A3e5352A68f0C",
+    "sushiswap": "0xcd0253e53897d89f704c5d49e273190885FE61B2"
+  },
+  "LOVE": {
+    "uniswap": "0x489cd5D19f14dB0cEE3E27571E4D65b0fD3b2FD5",
+    "sushiswap": "0x9C656767097a224EeBd675752769F992052ff060"
+  },
+  "AVS": {
+    "uniswap": "0x2B370C11B6b66a1E6B743F24aa67991801Ec309e",
+    "sushiswap": "0xAab3CD27375bd8f46b2081a2fF6346f485e32f6D"
+  },
+  "RAIL": {
+    "uniswap": "0xac86903cdDA380F20a06Cc8a2DEA7749F1558c68",
+    "sushiswap": "0x7cF6A842e72c4bD7Bc92e0C17EBDaa95AC1e7825"
+  },
+  "SQUIG": {
+    "uniswap": "0xae86878Be57A0264feE69069E097452eCC0d699c",
+    "sushiswap": "0xC3d499807EdDfAe56297F745391FC345e672DA19"
+  },
+  "ETH2.0": {
+    "uniswap": "0x4F781cE4dcF72Fe064d4F791E8380Ae917B63a33",
+    "sushiswap": "0x18CE630ecF02A658e4ebc88279D9531B524E3ACC"
+  },
+  "SAITAMA": {
+    "uniswap": "0x9cbfB60A09A9a33a10312dA0f39977CbDb7fdE23",
+    "sushiswap": "0xF4bFE9b4ef01f27920e490CEA87fE2642a8dA18d"
+  },
+  "QNT": {
+    "uniswap": "0x0C4a68Cf6857cc76FE946d04Fe85faC5faE9625E",
+    "sushiswap": "0x14387b80a735b36f592F10f3555a807D3C154138"
+  },
+  "DANK": {
+    "uniswap": "0x075c8Ed8d58AbCfAd9bA7620ED754646519766B6",
+    "sushiswap": "0x77f22e4Ef0B023C0EF1D835E17EAe40Cb4f1A636"
+  },
+  "PHIBA": {
+    "uniswap": "0x3b1fC07e3010d5C45f20a703B355EE46fae2Bc3F",
+    "sushiswap": "0x9018442e858Ff4B5C4d47D22b74cFD14d1445A8E"
+  },
+  "WTON": {
+    "uniswap": "0x2A449a6076001080C833324BB7A3DCD017f15548",
+    "sushiswap": "0x610468b2C5D1bd72c2093c47A6D2DA68037c34e2"
+  },
+  "ROOx": {
+    "uniswap": "0x7799C769aD269e7314fB8Fa7B6C5B6DAf16E2c80",
+    "sushiswap": "0x9986Fbe789d9001aEa6daf9Ed9A999525F561C68"
+  },
+  "CCV1": {
+    "uniswap": "0x4682ce11f83cf3304E89C87005E0B4Bd63cDE183",
+    "sushiswap": "0x2C16f7be06646247977c7aa1A82A3C645f3476f3"
+  },
+  "PATH": {
+    "uniswap": "0x87051936Dc0669460951d612fBbe93Df88942229",
+    "sushiswap": "0x85622B4E5C6447d0448b5Cd00e957DE2b510E03d"
+  },
+  "JPYC": {
+    "uniswap": "0x7820fA98CCA35142992EadF8a3C5044E1a82ac34",
+    "sushiswap": "0xbb0b13a176d2595C573fb75b58D1d60a19B6a973"
+  },
+  "pSAFEMOON": {
+    "uniswap": "0x5eD7d3B704D692938EE25fA2C7e75A1E10670b33",
+    "sushiswap": "0x8dfADeF1f9C4521Cd5e451EDFc6F0f00aDAC0168"
+  },
+  "KOMBAT": {
+    "uniswap": "0x4C3c158FEc9ADc51390f8986e904Bc6Ca24b95e0",
+    "sushiswap": "0x3018D34cc315379B91DE3C1c5Dab1AcBcBE839B2"
+  },
+  "XMON": {
+    "uniswap": "0x4bacAaAbe3e96959ddf3269D3092D5cea88fEFe9",
+    "sushiswap": "0x6318A23032Fb9e8fa9c32F5AEc7BE939a704a950"
+  },
+  "eLife": {
+    "uniswap": "0x3bDC6544fE666AbE01385ab762fc40BF339CDC80",
+    "sushiswap": "0x6b60Fa51122237AaD5A7B4dB24E4d4462B507118"
+  },
+  "RPL": {
+    "uniswap": "0x70EA56e46266f0137BAc6B75710e3546f47C855D",
+    "sushiswap": "0x7296b9dCa75A75944d897317e2E1D0D2cA2d99bd"
+  },
+  "CLV": {
+    "uniswap": "0x6545F0b62F7dD0fc633256c3f2f7BD31E805B9CF",
+    "sushiswap": "0x782BC0Ba081A8e1a1fB575878C0A96ACb3063243"
+  },
+  "HAO": {
+    "uniswap": "0xb50a3435EA21A902F18687D7Dfc03A5CF95867D6",
+    "sushiswap": "0x9D13fdE3E6A3192716EB0C6e93bD9e1580020aCD"
+  },
+  "NODE": {
+    "uniswap": "0xEE3b01b2DEbd3Df95Bf24d4aacF8e70373113315",
+    "sushiswap": "0x60cd8dCc7CcE0cCA6a3743727ce909B6f715b2d8"
+  },
+  "CQT": {
+    "uniswap": "0xB69e5DBa743E98782132BFbC407d0D61415733bd",
+    "sushiswap": "0x6663bBd987a51d07B29B28aFE9E0ddD558AC8F30"
+  },
+  "CEL": {
+    "uniswap": "0xa5E79baEe540f000ef6F23D067cd3AC22c7d9Fe6",
+    "sushiswap": "0x796BC3622a6e0Cd32e7bc02a9B6d6FdcBaf1cB26"
+  },
+  "GDAO": {
+    "uniswap": "0x4D184bf6F805Ee839517164D301f0C4e5d25c374",
+    "sushiswap": "0xee73D7642d4c8DB833B15B77a76025dB5Cb105Fe"
+  },
+  "TOWER": {
+    "uniswap": "0x4E9e73C0170f09e709573127c4AB02e57b868178",
+    "sushiswap": "0xdBaa04796CB5C05D02B8A41B702d9b67c13c9fa9"
+  },
+  "LYM": {
+    "uniswap": "0x80DdbEeB05788980cAa0b1B433B40D4443f4439e",
+    "sushiswap": "0x913e197AB56469bE9C6F1F1c84520a2ec8a05ebb"
+  },
+  "GMEE": {
+    "uniswap": "0x4c083084C9D50334b343C44Ec97d16011303Cc73",
+    "sushiswap": "0xf68d0d896CC3b6ea1872F80C143B9A4026caa77a"
+  },
+  "ZTest": {
+    "uniswap": "0x907b9c685Bcb335D20BB747540655DAE68849435",
+    "sushiswap": "0x175B55B340C3B0E69B14F34944D8dfD5976Cbd2B"
+  },
+  "ZAP": {
+    "uniswap": "0x4a0FA20b43ECad0443B26C829C1BcBaAA5fDA6c6",
+    "sushiswap": "0x8De21DDd4D510c6044b3Fa706b66D36EE7A10A2b"
+  },
+  "KNC": {
+    "uniswap": "0x1db6A673102dc8af48fDF73fD3dAf9D784B47de7",
+    "sushiswap": "0xbDC120feF90Fb185A49aD8fa62c7bC0ED0516CC7"
+  },
+  "ibff": {
+    "uniswap": "0x14562fB09B488d6F2225A699172cCfF6090317a6",
+    "sushiswap": "0xf83a3c18d222dA23030504FdE1f6D2a1a3B439aD"
+  },
+  "WILD": {
+    "uniswap": "0xc36068bf159414beb497f8ECe08763868149B2Fe",
+    "sushiswap": "0xb2B0D4B45451f0c45EDbD2db8803e99a28120C9B"
+  },
+  "RFuel": {
+    "uniswap": "0x05f21E62952566CeFb77F5153Ec6B83C14FB6b1D",
+    "sushiswap": "0x7FbF86622f3f6457b51f85602d56a10ED5C71098"
+  },
+  "CHUM": {
+    "uniswap": "0xe47cF578f1c873d3b3Ce3A619C371E07F3e45f62",
+    "sushiswap": "0x0ba7202C3d168F4Ae447fFD4d95Bbbbd01A82a2D"
+  },
+  "YGG": {
+    "uniswap": "0x2cFa0a77ca8D6eEC60ea37F83Ae27CD315f6B206",
+    "sushiswap": "0x99B42F2B49C395D2a77D973f6009aBb5d67dA343"
+  },
+  "CNJ": {
+    "uniswap": "0xD18D5EcD196F4A641Fb5F61cDf2C4769B28D0FF0",
+    "sushiswap": "0x4c1fC1B88b0F866D010A020340A1c61882209a98"
+  },
+  "WHL": {
+    "uniswap": "0x52A500AF09450AA8dEEF61f048313Cf57FCb30b6",
+    "sushiswap": "0x6a0Ad455A6A6B809E8e177d094bAb1f04AE36497"
+  },
+  "eRSDL": {
+    "uniswap": "0x7BA9b94127D434182287de708643932EC036d365",
+    "sushiswap": "0x1Ee15f79c1D8C33F279CbE0c2acc5bf95468ad5E"
+  },
+  "PAXG": {
+    "uniswap": "0x9C4Fe5FFD9A9fC5678cFBd93Aa2D4FD684b67C4C",
+    "sushiswap": "0xf957FC1B6Ed557c698Ed6f1D336e00f306773975"
+  },
+  "MECHA": {
+    "uniswap": "0xfcf88F5B404d35Bf18Ad189C66CE437f90557BaC",
+    "sushiswap": "0x26D835512709b5917a139c53A964267206b8F3E0"
+  },
+  "UNQT": {
+    "uniswap": "0x020E6d0e80d08567eCb14F942FA326748407A845",
+    "sushiswap": "0xB1035d946D6548FEca96341485D28eBA463AD9cB"
+  },
+  "STND": {
+    "uniswap": "0xe94272661Fd46362e5dd247221e0Fc018a298d09",
+    "sushiswap": "0xf52e78d8Cc299AA43da5e2b27C7b27F5Bda9095a"
+  },
+  "QAZ": {
+    "uniswap": "0x6b0b819494A3b789439F32Fb0097A625b16B5225",
+    "sushiswap": "0x89fA2Fd7Dd529d70912b434269843389C5575822"
+  },
+  "API4": {
+    "uniswap": "0x0922eb74Cb817dA2301e5420A8C2866503A494a9",
+    "sushiswap": "0xccc0F922383FEaf9feFc7B9207AE56130B5cb7b7"
+  },
+  "CNFT": {
+    "uniswap": "0x08FD2Cc7Db770E0EaD04dAE445bC0EBde6658E10",
+    "sushiswap": "0x3F82cdc698A377485BbF6751992BbeF66f866Db2"
+  },
+  "API5": {
+    "uniswap": "0x36dEB7135D21a78F34b560dDcE2f4ecb470ED20B",
+    "sushiswap": "0xbecC4ec8F91758b038d61B9A8BA9eB936dc84866"
+  },
+  "EFI": {
+    "uniswap": "0x9dEaB4B16c376e8f71EaDFC328e1cdB23d32041d",
+    "sushiswap": "0xc25dB6AEf9468f1e62FF051576A17357E6A5371d"
+  },
+  "LONDON": {
+    "uniswap": "0x683b886E65258F8deBE365cdD85AD086d2EeA779",
+    "sushiswap": "0xD5A7D56Ea8a36f855bE3720CeC1c9b8e4D30c732"
+  },
+  "TOKE": {
+    "uniswap": "0x5Fa464CEfe8901d66C09b85d5Fcdc55b3738c688",
+    "sushiswap": "0xd4e7a6e2D03e4e48DfC27dd3f46DF1c176647E38"
+  },
+  "SUZHU": {
+    "uniswap": "0xF6e1Cdb0f05241Cf31aB35F1f6048605c69FC8Ab",
+    "sushiswap": "0x6bC3001824687431F0c6f51887108D446879AFBA"
+  },
+  "DCMC": {
+    "uniswap": "0x6D051fE6f3F53DcE2981757b480c468C22e91983",
+    "sushiswap": "0x29460F8BfC8d11ed533e0B329E23bBE23C053157"
+  },
+  "BCLS": {
+    "uniswap": "0x16C0b23079E6FccA04731Ee483146b8094828675",
+    "sushiswap": "0x835e2dC4e0b30703fd27D1ab9Fa2Cc7C6652562F"
+  },
+  "EYE": {
+    "uniswap": "0x54965801946d768b395864019903aEF8B5b63BB3",
+    "sushiswap": "0x74368B510837C06b1B475D270618ECDF0C380577"
+  },
+  "RAZOR": {
+    "uniswap": "0x0F95e6627923848a08232B5FcA813c0fB86042B8",
+    "sushiswap": "0xbFC7E9d73729D790c03265211774377b1850eb36"
+  },
+  "LESS": {
+    "uniswap": "0x432dbBD09FEe1dFB2caE40C5Abc1A301A2EF76eE",
+    "sushiswap": "0x4BDD5F2E0dD3F53Fadc057993CedA5ac5E193c64"
+  },
+  "ALN": {
+    "uniswap": "0xdc3f6f4C00B55F56d5Ef6293b762c6483af24A82",
+    "sushiswap": "0xD9F3a5A0e7499149538cDEE8B804a5Ac4f4944Fc"
+  },
+  "RARE": {
+    "uniswap": "0x496aB075f43991dD794BaF982Dc3d9817A49B33a",
+    "sushiswap": "0x24E2adF50C49633039757ab08bFF489b7C5bD6B2"
+  },
+  "PHTR": {
+    "uniswap": "0x3bB51D9f6E350d84Fe9d3978D2b342944224663B",
+    "sushiswap": "0xa88008543efb1db18922e376DB52CD7E2F73648c"
+  },
+  "OCC": {
+    "uniswap": "0x14b6154BCbf537368aF932901456a7fEb57cbE5a",
+    "sushiswap": "0x7C19f3B68E6E2Fa814f6c808c12F04eFce30c87F"
+  },
+  "SUEX": {
+    "uniswap": "0x686530b6f6786898872888B76575Ce647d3Fd778",
+    "sushiswap": "0x9f6e2B0FC41Ade71F61b1D5FC3d2e132E09F7C74"
+  },
+  "SHR": {
+    "uniswap": "0xd045110C466CCB2E57EB426BaaE7CE869458F173",
+    "sushiswap": "0x4f3eB5219e81774c40D86C26d5241902c95AB3FE"
+  },
+  "BFC": {
+    "uniswap": "0x01688e1a356c38A8ED7C565BF6c6bfd59543a560",
+    "sushiswap": "0x281Df7fc89294C84AfA2A21FfEE8f6807F9C9226"
+  },
+  "BiFi": {
+    "uniswap": "0x1eC9b867b701C1E5ce9a6567eCC4B71838497c27",
+    "sushiswap": "0x0beC54c89a7d9F15C4e7fAA8d47ADEdF374462eD"
+  },
+  "MVI": {
+    "uniswap": "0x4d3C5dB2C68f6859e0Cd05D080979f597DD64bff",
+    "sushiswap": "0x7468171C8904F813302719e190292F61f3698C63"
+  },
+  "FREN": {
+    "uniswap": "0xfb7CB766D5e06A60F756c27582CE05704b3Ab496",
+    "sushiswap": "0xBcFbF65b44B5bB64e5dB5A364BD86256E9f8e6a2"
+  },
+  "RAI": {
+    "uniswap": "0x8aE720a71622e824F576b4A8C03031066548A3B1",
+    "sushiswap": "0xF9F934403ACe836834a2B1C22C753690d61fB6a4"
+  },
+  "BEXT": {
+    "uniswap": "0x6A9D3B59cCCBFAFDca5C0E733c447927B39C3A5B",
+    "sushiswap": "0x954eC4D9b36177f13DCa1E694c7De810919Ed18C"
+  },
+  "UMI": {
+    "uniswap": "0xFCa68D9D45E0ebEB569b3E9ad2872C9e8D7a75BA",
+    "sushiswap": "0x1c26B50378F12f56A79765bb7CD7Beb7Da837AE5"
+  },
+  "PUNKR": {
+    "uniswap": "0x7Bb8d9A5962346290820ed00e76f090C5B2f29Bd",
+    "sushiswap": "0x074a3A0679525141cC446670D520BCbd3543b9A8"
+  },
+  "SINZ": {
+    "uniswap": "0xDD54A3F5A72615FB79bC5A5250cACE173aBd467D",
+    "sushiswap": "0xa2Cdb4c734283Ff9297FA238E5d945d731881405"
+  },
+  "$CPHX": {
+    "uniswap": "0x80EAC0b5954D861849824E21dbA32c3B3b90Ef96",
+    "sushiswap": "0xD014da13c513fEb14093513B5e0c7f3A59bf996a"
+  },
+  "STATE": {
+    "uniswap": "0xd34D4916440DBa56A5719af981e646d69C9Cec0d",
+    "sushiswap": "0x1Da92f6A396eeb104aD13743486B450bD8b96E62"
+  },
+  "REMCO": {
+    "uniswap": "0x1e1516bb24495933049158Da717F5bAAA847197f",
+    "sushiswap": "0x6fB51426Cd0fc61551633B1A05287A8FEB9c67bD"
+  },
+  "sILV": {
+    "uniswap": "0x13cF86f52d4a3000ca7349cE5CF107C248DFEa81",
+    "sushiswap": "0x28B3f067Af4F4501a7df03859ab6f8b142c4Ab2e"
+  },
+  "BANANA": {
+    "uniswap": "0xd61a26eCD9D826B6Eb7dDA7BB86Aba1E1aEA3e78",
+    "sushiswap": "0xcfa9a297a406a48D1137172C18de04c944b47Ba9"
+  },
+  "vETH2": {
+    "uniswap": "0xA430FEEc0947E32b2D2D7da718B434C52707Eb79",
+    "sushiswap": "0x62b2a3cfA8E579631D255aefD53fEcEfD946A638"
+  },
+  "UPCO2": {
+    "uniswap": "0xE509dC4b2B81c95ac4c39089FCfd62E750fFed22",
+    "sushiswap": "0xd5f9FeD136A212bf61446B83D88636278f04004F"
+  },
+  "dogep": {
+    "uniswap": "0x4c581f07CC836e62800B3C05D1cCD6d115c916E5",
+    "sushiswap": "0x9D0bEEc8D63ef6484686d1F8470be62a210B7dBd"
+  },
+  "BITT": {
+    "uniswap": "0xc301f34FBfC16B9B35483DB582e15bb06a45e267",
+    "sushiswap": "0x30dE97336D498C49A8595d15480954B8db1cA4EC"
+  },
+  "eFIL": {
+    "uniswap": "0x258223FfCEFe36F74615E13e5ce4FBbfd13df1d5",
+    "sushiswap": "0x2e61f4515c9209E3b5554Ac718f56542B75fE8ec"
+  },
+  "AGLD": {
+    "uniswap": "0xf5BB54AF516890D564643bA16c09117FdA5a98D3",
+    "sushiswap": "0x0d15e893cf50724382368CAFEd222CF131B55307"
+  },
+  "PXP": {
+    "uniswap": "0x40B836e6B7d4617C74ADC7ed26e95D3777CF4CCA",
+    "sushiswap": "0x8aBb6A8AF6e6ca1Aad1EB5EbEe142c8e3c7c2e18"
+  },
+  "BGLD": {
+    "uniswap": "0x998af3994e475eDd97328af979fd62d0d160Ba4e",
+    "sushiswap": "0x1cB9E12b35199BEE15d9eE13696B87bb777776dd"
+  },
+  "DYDX": {
+    "uniswap": "0xf660809B6D2D34cc43f620a9B22A40895365A5F8",
+    "sushiswap": "0xE4eBD836832F1a8A81641111A5b081a2f90B9430"
+  },
+  "FRAK": {
+    "uniswap": "0x45643E0897c0782d090409Bd5afda80F7A7B98AC",
+    "sushiswap": "0xfEDA9681a097949d871DCb0e13e152035B860e72"
+  },
+  "WIVA": {
+    "uniswap": "0xCE33F3562f2a9954f163eDAedD1a96A8f874E11c",
+    "sushiswap": "0x72e59C7d329e123225C2d5CaDCb24c81695a9631"
+  },
+  "DGLD": {
+    "uniswap": "0x53A85d789892F6eDB4Bd28307043209a3D9A7A10",
+    "sushiswap": "0x0F4DC35177560c5A9481D1dAf591c69af207540b"
+  },
+  "TCR": {
+    "uniswap": "0xdC08159A6C82611aEB347BA897d82AC1b80D9419",
+    "sushiswap": "0xe55c3e83852429334A986B265d03b879a3d188Ac"
+  },
+  "KONO": {
+    "uniswap": "0x974BfCC7b25F979950B58CE0Cf8D9c621A9c771E",
+    "sushiswap": "0xD2817E085D84f83E318a9AA05cF352b96ED28820"
+  },
+  "WCHI": {
+    "uniswap": "0x5f005abB542d08D23b95F239AB367F9fF233D0a8",
+    "sushiswap": "0x0e5c18FAC4A0562B98A5BcfeC5855E89210E258a"
+  },
+  "eSOV": {
+    "uniswap": "0x127CAdeA890813125CA083280ab921d2220558c2",
+    "sushiswap": "0x0eA8803A8b78bE271a6196238E817C8ccc83A5D9"
+  },
+  "LMT": {
+    "uniswap": "0xdA82255b1c648B7BA33446bEf6fdd17fBed291B4",
+    "sushiswap": "0x51c1dC85f57fdaF591606e2ADCc34ADc96B04006"
+  },
+  "renFIL": {
+    "uniswap": "0x4423Be2173401E96065953a3e962BA7B8FdBa68A",
+    "sushiswap": "0x9cEE2ad771B57555C93F55D8bAbc3c8a221E3b74"
+  },
+  "NII": {
+    "uniswap": "0xA0787e87B10c9B1b88d75915aC8ec5608AC6d054",
+    "sushiswap": "0xb594855535A10B68c06B3Ee03D0d5Ec030A68d53"
+  },
+  "BONDLY": {
+    "uniswap": "0x4D3138931437dcC356cA511AC812E14bA8199Fd6",
+    "sushiswap": "0x65f550d18Cac8E19A97E73108618b443bf301d20"
+  },
+  "REEF": {
+    "uniswap": "0x7937619A9BD1234A303e4Fe752b8D4F37d40E20c",
+    "sushiswap": "0x6F4b2CEA32FAfBbf03f86CCd78886db0bcDA6091"
+  },
+  "G$": {
+    "uniswap": "0x68b064891Efb77B87Fe1E872205E795f75a72a6D",
+    "sushiswap": "0x1dC9e3Bb8B0700cE29D1615FbB62DAA78C6ac427"
+  },
+  "BMI": {
+    "uniswap": "0xa9Bd7EEF0c7AfFbdBDAE92105712E9Ff8b06Ed49",
+    "sushiswap": "0x53813285cc60b13fCd2105C6472a47af01f8Ac84"
+  },
+  "DPX": {
+    "uniswap": "0xf64af01A14c31164FF7381cF966df6f2B4cB349F",
+    "sushiswap": "0xC30a3Cf908BBcbf44f3645592a841Ed2694F91c0"
+  },
+  "WEOWNS": {
+    "uniswap": "0xcE451ec38f3A1d9013D4Ca1DE4225d1ddaf948A3",
+    "sushiswap": "0x880def0f70Eb947e16B5A4f6d6841b568edfe488"
+  },
+  "SATA": {
+    "uniswap": "0xBc00e708C407d7633f7504434e74C13e171De7F1",
+    "sushiswap": "0x1976BF5cC90BAc01E3aE21A6E5971A393638bCFA"
+  },
+  "Pronto": {
+    "uniswap": "0xDD0E5656F63aE8c05F3b5a8E7C5F56118a5f47B6",
+    "sushiswap": "0x7EbC3B5316f35127d704a6Fe56B8687587C4241b"
+  },
+  "RBN": {
+    "uniswap": "0xDB44A4a457c87225B5Ba45F27B7828a4Cc03c112",
+    "sushiswap": "0x3eFD20D4Fa13BD348Cc8254624cF8BD29843e10f"
+  },
+  "XDATA": {
+    "uniswap": "0xD6054455Ca2e1AEf02178E0462D9ab953bEA4e23",
+    "sushiswap": "0x4d130a28B8DAaD1e1281E19DbeA1aE8561Df1292"
+  },
+  "SUKU": {
+    "uniswap": "0xFc74eCDEe4e9ffF2f2ef4cdf4F1c777b2EF0e905",
+    "sushiswap": "0x2979fa622CcB9F6B8925ca831f30C405077730c6"
+  },
+  "SEEDS": {
+    "uniswap": "0x5dC012f12Ae53b00b9577D805dc9089AeAd6EC51",
+    "sushiswap": "0xAfA7f30859B5D2c7fd1F42C8a3372aD6B5E03a82"
+  },
+  "BCMC": {
+    "uniswap": "0x5474EBd853e2cE2c9d343f0469206350231670bE",
+    "sushiswap": "0xF8937Dc1CA081161527c0bC1eb6379420195C894"
+  },
+  "BTPP": {
+    "uniswap": "0xccF1C3f73b04Bfc1874f08197B69FE5edaabA73d",
+    "sushiswap": "0x3605a2527ba427DB420f2eB771BE22E46d9F343a"
+  },
+  "NFTL": {
+    "uniswap": "0xF85Ed73484cBFebE93622F579b8F04F104dD5da6",
+    "sushiswap": "0xf79321E80ACD5fa590936F09acB90ec6471fcBC4"
+  },
+  "PIKACHU": {
+    "uniswap": "0xF1D37efFaf688db524FcE242A2B85587a977BA65",
+    "sushiswap": "0xA9cf64694d1eF8474E1B85cBcF9847197f23193C"
+  },
+  "TENTEN": {
+    "uniswap": "0x8A15e3Ee9C39CF9dbD6A617B4fc3652175eCe8c8",
+    "sushiswap": "0x78B9B419011fFAc7Ff5058e7BD7eD8de7b2577c6"
+  },
+  "PLBT": {
+    "uniswap": "0x2395edAEB647fD499156130277AEA29EB5414046",
+    "sushiswap": "0x64AaE17164aa665c50FBFE6176b50F33afae1c3D"
+  },
+  "MEGAFLOKIDINGER": {
+    "uniswap": "0x3e54ed252499d0070f99E26fa5c7AcBd11D2C497",
+    "sushiswap": "0xD50ceff38dc517befca621265871A415ecC3f91B"
+  },
+  "SUPERSHIBA": {
+    "uniswap": "0x08ab75f7c7542e1ad994De07d6712c6021EEBca0",
+    "sushiswap": "0xaba4Cd73288Ccadfd3Af63C51B186545202C689A"
+  },
+  "GODS": {
+    "uniswap": "0x2d34CDB56D670dBcccC05B816567562cF5A7B65E",
+    "sushiswap": "0x295685c8FE08D8192981d21Ea1fe856a07443920"
+  },
+  "UDOG": {
+    "uniswap": "0x5368DcE7483F062ce23D90F45E6442C082b4D764",
+    "sushiswap": "0x4B5A6947dAf64c1Df7F684E971CC8EB099f5620a"
+  },
+  "WOLVERINU": {
+    "uniswap": "0xD860d2685B875ae34594Caa3c44bC92231EE69d0",
+    "sushiswap": "0xE40f1f844A91eEe7420A430eE6c5E54e7907Ff7b"
+  },
+  "MetaCat": {
+    "uniswap": "0x10d0C16Cb9fEE4a715A01A2547aBEfE58c497D79",
+    "sushiswap": "0xFC98737F842bFFF2F4F8B48589943b52728D7c14"
+  },
+  "BLOCKS": {
+    "uniswap": "0xDac9B2c7A5a8E2163B4161e34c2148e11b51fcc7",
+    "sushiswap": "0xDD51121d1eFC398b4c09fd0Cb84d79Ae2c923Fc9"
+  },
+  "BABEL": {
+    "uniswap": "0x2DE8B2e7Cefc340CC8bD46381ED6c8bd2511551b",
+    "sushiswap": "0x30E979187D6A1e2B6525Fae5e714428Af283De1B"
+  },
+  "FUM": {
+    "uniswap": "0x10C5a92858399Dfa50744d53eF72ab6F730aF9C7",
+    "sushiswap": "0x27374a3836ff960b2C8311A30915D408E13c8c47"
+  },
+  "ENS": {
+    "uniswap": "0xB87b65Dacc6171B3ca8c4A934601d0FcB6c61049",
+    "sushiswap": "0xa1181481bEb2dc5De0DaF2c85392d81C704BF75D"
+  },
+  "THI": {
+    "uniswap": "0x62f986D9c717B5C4858Fc92329a08DFd5154A495",
+    "sushiswap": "0x47d9E3f2Ddae87ABe831521Cf5A9Eb7b71cCf3Ef"
+  },
+  "NGN": {
+    "uniswap": "0xCc7458951AD1b2E02CD900425F42A263119cEd21",
+    "sushiswap": "0xDDf479429b7A3ef5382396071be4acC8935cc2aD"
+  },
+  "IMX": {
+    "uniswap": "0x0149ebe930260CcfdaAA8e3081B4C39446b6F491",
+    "sushiswap": "0x18Cd890F4e23422DC4aa8C2D6E0Bd3F3bD8873d8"
+  },
+  "COLLAR": {
+    "uniswap": "0x79Ccbb06a24bDa0a7366b1D3072a08d511Ed6379",
+    "sushiswap": "0xc1B986988Ed6676ddc8643FC00161b7e3409d49e"
+  },
+  "MEED": {
+    "uniswap": "0x1BA26c3A4bA059660149a43f69C49230f134dBC2",
+    "sushiswap": "0x960Bd61D0b960B107fF5309A2DCceD4705567070"
+  },
+  "SENSO": {
+    "uniswap": "0x94Ec3b2489b25A794520F1cF5e153a193C292539",
+    "sushiswap": "0x195b7F4441F30DfE64E718682ff5484FCBe9C3A0"
+  },
+  "GRMTK": {
+    "uniswap": "0xCA0512970bA1b3d4f52E34b397c8Dae4ac4060f1",
+    "sushiswap": "0xC27b1AdE413A349152E07c7829268c3447B43283"
+  },
+  "SPS": {
+    "uniswap": "0x1e6Ba87b6f4f313f4571C8C56d4c31c2e1c3fdBe",
+    "sushiswap": "0x1b803Af96F37AE51Fa753E13E1D2E372dFA17791"
+  },
+  "ZINU": {
+    "uniswap": "0xfcAd5C316F5618A79852f89E1a9b18103e48a456",
+    "sushiswap": "0x77BEeA8be74335363144a1234dC390aAA4292b9b"
+  },
+  "Metis": {
+    "uniswap": "0xd03dffD02Db4B076e3eeD9272a6A243a23DE16e3",
+    "sushiswap": "0xdab6d56915D36060c8d6cf29A7A84910Da614603"
+  },
+  "ROOT": {
+    "uniswap": "0xF6eAa54b7BA5d827319f3C5Cf3547114fE6AB9ea",
+    "sushiswap": "0x5DB355810609eDA17BbACf9B0Ad32BD0FB92169a"
+  },
+  "PSP": {
+    "uniswap": "0xa541279d7A77A768AbF45ACBCAC7f32f28101d5F",
+    "sushiswap": "0x458ae80894A0924Ac763C034977e330c565F1687"
+  },
+  "STIMMY": {
+    "uniswap": "0xc46F65060ED75a54DccCE79E14ACc82150181f7f",
+    "sushiswap": "0xBCbA7CA099Fc834Ad16a00F7842a0Dc778C16EF4"
+  },
+  "GET": {
+    "uniswap": "0x2680a95FC9De215F1034F073185CC1F2a28B4107",
+    "sushiswap": "0xBb19141e045B133169D7C7160c5E54A54Cc821b2"
+  },
+  "TLOS": {
+    "uniswap": "0xad1fCadace3Aa8dd994D39751235BE41691aaEd3",
+    "sushiswap": "0xc5E5551E7434484Adbf2Ccd9669BEFecB1273eB4"
+  },
+  "BENT": {
+    "uniswap": "0xa0d7B898f7E135bECB15EC04A02b76AdaDE1CFf0",
+    "sushiswap": "0xBF73922936070Cca75608447D45dEf91e5F1EcB9"
+  },
+  "WOOL": {
+    "uniswap": "0x5238b47a0AcD39fb4049a48658e6Fc32307492Ed",
+    "sushiswap": "0x63d364FDaBe9D768b979249F0969f20956E0A324"
+  },
+  "MSHIBA": {
+    "uniswap": "0x847e0b52589c9E6fA2dcC42B8ffb34ec924d4cf8",
+    "sushiswap": "0x04322D5c07D5a77159fD6240106738581c1d7e0C"
+  },
+  "ELON": {
+    "uniswap": "0x7B73644935b8e68019aC6356c40661E1bc315860",
+    "sushiswap": "0xAB664Da38f0d99a78d6fb65baf12d5F6CAD501c2"
+  },
+  "SPC": {
+    "uniswap": "0x3F75a5B408FEB14CBA3d21BD934dc5B88908F105",
+    "sushiswap": "0xE364992388319410C62Eb4595d848C8CEb41172b"
+  },
+  "Hi": {
+    "uniswap": "0x44FBEAa6E42de4Dd44962d64582cfb38Eca94CF6",
+    "sushiswap": "0x0aB314922ae06bF9a0ED5c042da7637A03aF6952"
+  },
+  "GCAKE": {
+    "uniswap": "0x6Fa73848CfD2c7460A538B55E882C6F4e8Aff68c",
+    "sushiswap": "0x230813772D6d3788dfCd3E7b65fB3Dd371b3d8D6"
+  },
+  "QUIDD": {
+    "uniswap": "0xE5282f5E2C89A94Aa4Fe49E9907222903d3f580A",
+    "sushiswap": "0x43ddAa598F84c5C71388763F851DfC4c7E9dEc84"
+  },
+  "WAGMINU": {
+    "uniswap": "0x4Aaa48958301faf6c7685E025F43CEc7223C5031",
+    "sushiswap": "0x747857584755d82ffF64bda8E8cAa81bBB3E12A7"
+  },
+  "CUT": {
+    "uniswap": "0xe0c3a372ca529f9AA96f8e86DD724BDb51bADB18",
+    "sushiswap": "0x4A271897a0aFe0d9793D793AE288D4314c2d1372"
+  },
+  "TREASURE": {
+    "uniswap": "0x6a2223dcF3e1236d2C942ec0092c53C1b48cCBF9",
+    "sushiswap": "0x1D60c9D70738010fc27a56cc9D775F623D155513"
+  },
+  "UMAD": {
+    "uniswap": "0xD3e5ca0AFeAE61A24Ff7a9219067e51f4BFDd8d9",
+    "sushiswap": "0x0B2F06729D9EA7FB8c3f9986e336Af4aE3F92bd3"
+  },
+  "VOW": {
+    "uniswap": "0x7FdEB46b3a0916630f36E886D675602b1007Fcbb",
+    "sushiswap": "0xC5439474166C2D8A41b9d4e47786bd7030b33ED6"
+  },
+  "SHOPX": {
+    "uniswap": "0x37ac54Dc7dD237eECFd0b61EFDd57B15fE158Be0",
+    "sushiswap": "0x1035487Ca79068f6617aE75eD3c844CE2D8A0c2a"
+  },
+  "LGB": {
+    "uniswap": "0x1De76481F8881ED323ede2388095A59FDa09bE9b",
+    "sushiswap": "0x29991DbDf7615044e67923C3f3dc32F276588bAE"
+  },
+  "LYDF": {
+    "uniswap": "0xF7Ce87525A839A6452C836Da52417151412B730e",
+    "sushiswap": "0xe4329c6f46A869569AF8BEBB38EDC27702228A80"
+  },
+  "ZUM": {
+    "uniswap": "0x816fD2c7F531d1d1294cCE29a1be28EE6911F3D3",
+    "sushiswap": "0x107c1e69634C967f053A6b739d958b69d28dF920"
+  },
+  "RENA": {
+    "uniswap": "0xbC2C5392b0B841832bEC8b9C30747BADdA7b70ca",
+    "sushiswap": "0x882f91647821ee34FE928c2743f48A79caFD0934"
+  },
+  "RADAR": {
+    "uniswap": "0x0fD3fAF056382A25507de89022D8ACF66B3D7410",
+    "sushiswap": "0x559eBE4E206e6B4D50e9bd3008cDA7ce640C52cb"
+  },
+  "ELIMU": {
+    "uniswap": "0xa0d230Dca71a813C68c278eF45a7DaC0E584EE61",
+    "sushiswap": "0x0E2a3d127EDf3BF328616E02F1DE47F981Cf496A"
+  },
+  "GREEN": {
+    "uniswap": "0x7f46c12a7Ac8343D11652FfFDaed411D2D427eB0",
+    "sushiswap": "0x153D3A12c886448478dd2B348F601c0249a89Ed6"
+  },
+  "Game": {
+    "uniswap": "0x5909a0EA4B7700aE8e7eA047815160CE7EE95d72",
+    "sushiswap": "0xD9a13CF1c0A61FFC2e82CBdC641f45F37C2B1C1c"
+  },
+  "ESPL": {
+    "uniswap": "0xed7859544b9A95e13F7fFe4c7E3EBa36143D4A9a",
+    "sushiswap": "0x349cb0964ca7532d9Ed47B41c59a177b2D9a5884"
+  },
+  "NRCH": {
+    "uniswap": "0x300D97e471989223dAA4f1bb8D6E6DC72469a465",
+    "sushiswap": "0x161a4987adc70A642A247bD689A54EFe3190BE42"
+  },
+  "COV": {
+    "uniswap": "0x4A2058C373FB8317D8EfEe301A23921c8d7a0933",
+    "sushiswap": "0x9fd76C5D9558218b3e6b92Df7c3D2DBCfc7F335d"
+  },
+  "SOS": {
+    "uniswap": "0xDb4F0E1f537ed1d4BC4714367DEC1E2417F35592",
+    "sushiswap": "0xB84C45174Bfc6b8F3EaeCBae11deE63114f5c1b2"
+  },
+  "COSHIB": {
+    "uniswap": "0x1E2df94E0EbEc8De12d3A903b7D7BA94687F40Cd",
+    "sushiswap": "0xECb4dd69a8Ef6F772fef566BC14dafddC67636Db"
+  },
+  "ADIDAS": {
+    "uniswap": "0xba20920Ac2b986e0fd77061731FBc7Fa72fEbaC6",
+    "sushiswap": "0xD9fB12Fa2886e5Ff6280e77BB5F0F518889327d4"
+  },
+  "GAS": {
+    "uniswap": "0x65A3209f9e962858B51Edf3A54aD18Af67e57962",
+    "sushiswap": "0x7f7d686b05Ce0B9b7B7b0B4d56207ACE4B13a87a"
+  },
+  "YEAR": {
+    "uniswap": "0x9A1071d17b8126679Aeca3EF152F784bca339c3A",
+    "sushiswap": "0x05F3698F2c66022ba07369eA361C51F46BCC5b67"
+  },
+  "ANKH": {
+    "uniswap": "0x13933216514f2c25b4427871c27b7901eBEe1928",
+    "sushiswap": "0xd41fE0892caaB038a4732e6Dbd11d8932B7Cf4FC"
+  },
+  "rETH": {
+    "uniswap": "0xe4F719C11FC5AB883E32068dF99962985645E860",
+    "sushiswap": "0x3C4BE9a8E8709fE093d534dbA4e2CD721C286C81"
+  },
+  "C4G3": {
+    "uniswap": "0xFe2743bCc93033D92c91F7998C44B112325c8cE2",
+    "sushiswap": "0x8e82311761b8Cd4b7a127a872F65651db236a2A2"
+  },
+  "WOKE": {
+    "uniswap": "0x5a145E2828711D5D7D4b736A3bF042e9832D4356",
+    "sushiswap": "0xD482792508470f629491302570CfEAD2dd4da564"
+  },
+  "Wiki": {
+    "uniswap": "0xe7583D7b76BE02593b43243740bd38fA9fEFed3d",
+    "sushiswap": "0xE4BD96133F7B2e67997b1329CeE82A39f71465E9"
+  },
+  "Meta": {
+    "uniswap": "0x41A2f30430dE32b00537F1a305C4C92eED7d6ec8",
+    "sushiswap": "0xf264eDb7e2818204c0ECf62bDD514B815f6a271f"
+  },
+  "Jay": {
+    "uniswap": "0x6A6cC55843D216Da7201e823B2d8B8a7f16a5115",
+    "sushiswap": "0x3285fefADdc9A6f0f8e56Cb039eC826b5380BDaa"
+  },
+  "WTF": {
+    "uniswap": "0xAb293dcE330B92AA52bC2A7cD3816Edaa75F890B",
+    "sushiswap": "0xd403F13Ece656f8b8aec9F85f67FE995886a503c"
+  },
+  "Walmart": {
+    "uniswap": "0x0830275eEFE153cC03c4d3aEe810e78086D1615e",
+    "sushiswap": "0xB2B3Ca2Eb6Baef30e2fFb450Ab6527615d991814"
+  },
+  "RBIS": {
+    "uniswap": "0x475c311491B92907272fFcF0bD77a286919eA98D",
+    "sushiswap": "0xd5c5E3ca5F162165A6eFF096156ec70f77F3a491"
+  },
+  "$Stardust": {
+    "uniswap": "0x1C99241Ed0bb7576922a47122FC7F21EfDBf9000",
+    "sushiswap": "0xb09A7Bb963Ec3553284f28b879DBE0eFDBc017f1"
+  },
+  "rDPX": {
+    "uniswap": "0x0bf46ba06dC1d33c3Bd80FF42497eBFf13a88900",
+    "sushiswap": "0xed008e3455D7382357e0E8258368dC7C8a235a6D"
+  },
+  "OIL": {
+    "uniswap": "0x96B0A03FD4e84eF76Ae4032fdA4e0CC1D0B4cd59",
+    "sushiswap": "0x0C17dFCB6987Faa428F1c27B3b118387899fE8f2"
+  },
+  "LGN ": {
+    "uniswap": "0x79DEf8aA531a9D3894B2231dF350df7b2A9cd442",
+    "sushiswap": "0x7Ff88492aBA128d45fd9a90c3a8e462A7bAd271b"
+  },
+  "TRADE": {
+    "uniswap": "0xd2E0C4928789e5DB620e53af29F5fC7bcA262635",
+    "sushiswap": "0x570b3c8C16fF8A38610956c21fD7f1b4C6bB7E0B"
+  },
+  "TKNFY": {
+    "uniswap": "0xdD6d047FBBFCE19B3837534956F3f3846ad005ED",
+    "sushiswap": "0x0Bd2B9116f1e2f88E4FD4Cc0fcE3E15178de8Df5"
+  },
+  "MAGIC": {
+    "uniswap": "0x8C56ca4F7Eb12A7C217bBe36cC427a9dcB66f590",
+    "sushiswap": "0x8D308E01f0401345996552DC391E44c4F3ce8754"
+  },
+  "BTED": {
+    "uniswap": "0xcEDC2ea0aB275B38782F18222b2d3cf56d99F426",
+    "sushiswap": "0x3fD8c3B3ABB524Fe6388E159E9324e0eC035Bd1b"
+  },
+  "BTT": {
+    "uniswap": "0x2D0BA902baDAA82592f0E1C04c71d66ceA21D921",
+    "sushiswap": "0xE9cF42BfcD65E342a96fC063304e22dB33e236AC"
+  },
+  "EDOGE": {
+    "uniswap": "0xA22C13F62aDeA26A5738d801529889D021E1321C",
+    "sushiswap": "0x0F7a7DD73140FeC9A4c4419da66F4b8E582A11A1"
+  },
+  "DAH": {
+    "uniswap": "0x294942A01bc143a6E1611D5028D32B32A15FD841",
+    "sushiswap": "0x353b8859f94f5445E302Ac1cB4ea863b0Eba1614"
+  },
+  "CoreDAO": {
+    "uniswap": "0xfEBC3B7962C3C4Fa3e2d31fc0cECbF8Cfeef5189",
+    "sushiswap": "0x50044EF9D7eF2D4FE9eE36B2A371B2545172B05C"
+  },
+  "WHALETAMA": {
+    "uniswap": "0x264aa3D775dF324ff7724E1B37F6AA847cDc0974",
+    "sushiswap": "0x75689441be6Ac70856F370766C87b8560fded4bC"
+  },
+  "CIV": {
+    "uniswap": "0xED247449A7CA06DB5b27B44B2c092f0B48bbDB77",
+    "sushiswap": "0x4632AC4a94B57573f6b0297229FC8D54046F9bE4"
+  },
+  "JUSTICE": {
+    "uniswap": "0xe40AF617C129e732798430C54b716E4ae3149540",
+    "sushiswap": "0xEA6eD3b325a4B16e79c02694Fd96dd57F9320d82"
+  },
+  "BRUNO": {
+    "uniswap": "0x61fD4666849F68A14Ca3AF8dc4AFE3e6Da0e8179",
+    "sushiswap": "0xBc49be4ec145f4f2D0B3971986fd723b20658997"
+  },
+  "LETSGO": {
+    "uniswap": "0x73FBa741dB9331a5c723c071cDb6B1DBcFADCf78",
+    "sushiswap": "0x48ef14BFeB55761433BA12DA5cc500f79E7AfeAA"
+  },
+  "MEMO": {
+    "uniswap": "0xF037Ad49812186CcaF84eE0d4136de32ECdd9616",
+    "sushiswap": "0xB6F10aBe3E95F02062c75d01046641B88AdBf3E0"
+  },
+  "TUCKER": {
+    "uniswap": "0x15bf7F0C0a569AA398bcABD6eb0Fe428C1380b6b",
+    "sushiswap": "0x9F02a0DD0552B87852C9A19EB6Fc731e56470f49"
+  },
+  "RKTN": {
+    "uniswap": "0x8e5B37fc13ee63A2C31E365ddE7A9629D527db61",
+    "sushiswap": "0x100F11817CEA2E065d6DC9A034Ae32c5556802d9"
+  },
+  "SINU": {
+    "uniswap": "0xe17dbEf8C3F7c4Ca576c740C9805e164591c2612",
+    "sushiswap": "0xaEC7807AeC3cd764eF415a351955CC393789a8D0"
+  },
+  "PUFA": {
+    "uniswap": "0xCC060C63D7d005321d95A5942aB84e576ebeaF96",
+    "sushiswap": "0x708c043760e7F215bC1eBd6585B225AAF5b412Ff"
+  },
+  "SUD": {
+    "uniswap": "0xA5839392998CB6f133212DaAbF22d27a6CcB721A",
+    "sushiswap": "0x808832EeeA1D86AB1A00C2089AEF352424d21BDb"
+  },
+  "TFB": {
+    "uniswap": "0xAEC48706Ad9F46d4f9348cF26147bbDB68615529",
+    "sushiswap": "0x9BC704Eb237f0b165Bb6c0d6d22e2854577B584b"
+  },
+  "ZADDY": {
+    "uniswap": "0x42A5e02139b55adf32dE081f4a1e5F62EC003461",
+    "sushiswap": "0xF58D6De1659f1670ffDdcA9ecB4DD0e994E182B7"
+  },
+  "KEYS": {
+    "uniswap": "0x5BaCB4114Ad2D448E79aDdef121714b74D67faeC",
+    "sushiswap": "0x58985D43735a19286a41C5CdD02eD16F85ac9d80"
+  },
+  "SAGE": {
+    "uniswap": "0xD4B3b992bb2dB66192C6f10eD21E0f0Ad1BABE6e",
+    "sushiswap": "0x8093eC942BD2502dB89304C52950F807CcF1FA95"
+  },
+  "TPC": {
+    "uniswap": "0xC565a53457B810F3A3eBA977aa273Eec67A7b77e",
+    "sushiswap": "0xf5da9d37853E954945C82eE5167Dc0eA7F7E78d4"
+  },
+  "PTT": {
+    "uniswap": "0xA7767F5A51dC0929Edfd2711Ef7e8C74fD3B7D36",
+    "sushiswap": "0xD21DFB6E05E60e14cEF9A5Cf875065BCCd5eD790"
+  },
+  "APE": {
+    "uniswap": "0xb011EEaab8bF0c6DE75510128dA95498E4b7e67F",
+    "sushiswap": "0x130F4322e5838463ee460D5854F5D472cFC8f253"
+  },
+  "axlATOM": {
+    "uniswap": "0x44F7b5EFB3FB4CabA6409d2386D0E2b8aA8F5068",
+    "sushiswap": "0x8Fb8D09768eA0247457AA7F379c7B4CD459E808E"
+  },
+  "SOLOX": {
+    "uniswap": "0xd40dC98CAe452aE8De8a6CEFbe4137c66D0EE2D6",
+    "sushiswap": "0x679Be1A012DeF27deb238Bf6DC5080805Db65bF5"
+  },
+  "RUSS": {
+    "uniswap": "0x06bF796FF2C5965C7A16E69C7aF515608DBdfaAe",
+    "sushiswap": "0xff45b5B5D6B89894398A9793f3Fd53895c306BA0"
+  },
+  "WAKE": {
+    "uniswap": "0x209d0a8DF40C3271440C7566fe6EBF1E02B0152A",
+    "sushiswap": "0x43e6FF80Aa787877c0cf8c836887597DA622d4F2"
+  },
+  "DOSE": {
+    "uniswap": "0x541E55D40D001ca062eA0366aFCe05848EB7194c",
+    "sushiswap": "0xE2E998f6f498cf9ACdeDa38de77Ca95d1d8288f6"
+  },
+  "CNY": {
+    "uniswap": "0xD0b65B4e27EDC01c0023bCDb414B1c9A017fC6EC",
+    "sushiswap": "0xE701a169182D20106bC1A0889a0ce8F0867565ce"
+  },
+  "MAHA": {
+    "uniswap": "0xC0897d6Ba893E31F42F658eeAD777AA15B8f824d",
+    "sushiswap": "0xB73160F333b563f0B8a0bcf1a25ac7578A10DE96"
+  },
+  "SHAT": {
+    "uniswap": "0xB4955c08677095A02A4D2dceF35849D9585B31B4",
+    "sushiswap": "0x631E7C0B984A3FD5c2C7edEF75b0DD432156Da36"
+  },
+  "DIAMOND": {
+    "uniswap": "0x3E957bDfccDb1e27B448cAe98276f1bD38eFf9E1",
+    "sushiswap": "0xF90cb58528db7d2F046463D42a885aac8AC855f5"
+  },
+  "PRIMATE": {
+    "uniswap": "0x2A8d7AB0133F53c977302DCb0460Fa86ECCeC9ec",
+    "sushiswap": "0x0D80F8A039cc61b659ff299bB132dE271c757325"
+  },
+  "WPSL": {
+    "uniswap": "0x731A5948bFA84A7A40d2fd3C263B75D09Cf14dE1",
+    "sushiswap": "0x8cc9F97Dd11a17dF1d14D7BA966eDE05405BdbEE"
+  },
+  "$TRIA": {
+    "uniswap": "0x835dBaE0Ea14f26721C5913A7B2F4F6878c34D67",
+    "sushiswap": "0x251E5ddb12e6d3858AbE8FE368E74F09940E2a81"
+  },
+  "ANGEL": {
+    "uniswap": "0xa8c52b9eC577EEb73AaDaf2c23EbCA38ec70D7e4",
+    "sushiswap": "0x8B34808a6bDfcEe10cE78C03C83FD0d1D72D1778"
+  },
+  "LINU": {
+    "uniswap": "0x0A33FF02B8B668dBf12bd0cb85A02373B93A2372",
+    "sushiswap": "0x02e35963FaB259453f527b195fbf5Fdc3AB3EADC"
+  },
+  "DIVI": {
+    "uniswap": "0x011A4318e7a45927004018dc88BEc93953476615",
+    "sushiswap": "0xAB3F8DF0E99595a4135f4cd79765C366F5030314"
+  },
+  "REMN": {
+    "uniswap": "0xcD31250D80Bc095F98ef605b008B9eCDf1e0287c",
+    "sushiswap": "0x7c8C098F2Ec099E860fB568De2F30dDced2d9546"
+  },
+  "MUTE": {
+    "uniswap": "0x0EFb424C465dBd0A626359D63412838f727f2c25",
+    "sushiswap": "0x104D92DEd53086B2980815F78A9143119Ad99D34"
+  },
+  "FRX": {
+    "uniswap": "0xAF723e3cABF9E30f2A3dd2ea15D7d3a767ef4703",
+    "sushiswap": "0xe954ee8b279fAA09DA222F471A6B531A3d0DDE3f"
+  },
+  "WPC": {
+    "uniswap": "0x0be59A8A908397214c68136005216E33dB93efF6",
+    "sushiswap": "0x4E3AF7BB3D2165D13d58B1A9c8484845e694c588"
+  },
+  "HOP": {
+    "uniswap": "0xC2Dc53D783992dA8BF30b2930be63bE0c7532421",
+    "sushiswap": "0xEd92BFE08dE542bbb40FDBE0a27Ca66313C0C457"
+  },
+  "MOSES": {
+    "uniswap": "0xbf38624C3674C1d5aC86CAb45931B7F69d3d5458",
+    "sushiswap": "0x8f3364eB9D8e76f666762e095EdDC9B8348c77fd"
+  },
+  "CAWK": {
+    "uniswap": "0x1E9864E0Aad48b509d4f4E293A9091d5D1B2c636",
+    "sushiswap": "0xFD28585ce23C7e22424159B929B6F0835B554eBe"
+  },
+  "V": {
+    "uniswap": "0xD6CF64CBfA606231ae2894Cd1e9D60eA13BEd7b7",
+    "sushiswap": "0x805cB12F9A0e1a9B1E02DaC1a38CD7BdeE61B595"
+  },
+  "LRC": {
+    "uniswap": "0x8878Df9E1A7c87dcBf6d3999D997f262C05D8C70",
+    "sushiswap": "0x307205A7eF773D61E20dC10E57BBfe6f9d00b67C"
+  },
+  "ERC223": {
+    "uniswap": "0x8dB45142687Bd981e4195b277836E91ca4835054",
+    "sushiswap": "0x2Fe14D186947BF3C04Ecf55dB32FB3dD629152E3"
+  },
+  "SAND": {
+    "uniswap": "0x3dd49f67E9d5Bc4C5E6634b3F70BfD9dc1b6BD74",
+    "sushiswap": "0x0D7a61C28B3ad47bb9dbB139260915E29b6efC45"
+  },
+  "LMEC": {
+    "uniswap": "0x3FDAa817cD2Cb7b175C55678Db39e370803EeeFe",
+    "sushiswap": "0xd5b1817FfEdd308eE9d99c3F3503939aDDB7e6B6"
   }
 }
