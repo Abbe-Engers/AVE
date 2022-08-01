@@ -116,7 +116,7 @@ const scan = async () => {
 
     PAIRED_TOKENS = {};
 
-    for (let i = 0; i < 1; i++) {
+    for (let i = 0; i < tokens.length; i++) {
         const UNISWAP_CONTRACT = new ethers.Contract(
             EXCHANGES.UNISWAP,
             EXCHANGES_ABI,
