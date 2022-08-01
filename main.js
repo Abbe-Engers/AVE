@@ -118,7 +118,6 @@ const EXCHANGES_ABI = [
   "function getPair(address token0, address token1) view returns (address)",
 ]
 
-
 const main = async () => {
   Object.keys(EXCHANGES).forEach(async (exchange) => {
     const EXCHANGES_CONTRACT = new ethers.Contract(
