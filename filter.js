@@ -58,6 +58,8 @@ const main = async () => {
 
             const name = await TOKEN_CONTRACT.name();
             ALL_TOKENS[name] = PAIR_CONTRACT.token1();
+            data = JSON.stringify(ALL_TOKENS, null, 2);
+            fs.writeFileSync("./WETH-UNISWAP.json", data);
         } else if (PAIR_CONTRACT.token1() === STABLE_TOKEN.WETH) {
             const TOKEN_CONTRACT = new ethers.Contract(
                 PAIR_CONTRACT.token0(),
@@ -67,13 +69,12 @@ const main = async () => {
 
             const name = await TOKEN_CONTRACT.name();
             ALL_TOKENS[name] = PAIR_CONTRACT.token0();
+            data = JSON.stringify(ALL_TOKENS, null, 2);
+            fs.writeFileSync("./WETH-UNISWAP.json", data);
         }
 
         console.log(i + "/" + allPairsLength.toNumber());
     }
-
-    data = JSON.stringify(ALL_TOKENS, null, 2);
-    fs.writeFileSync("./WETH-UNISWAP.json", data);
 }
  
 // const main = async () => {
