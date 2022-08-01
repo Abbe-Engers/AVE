@@ -53,8 +53,6 @@ function CONVERT_SWAP_TO_PRICE( SWAP, TOKEN_DECIMALS, switchTokens) {
         amount1Big,
     } = GET_AMOUNTS({ SWAP });
 
-    console.log(TOKEN_DECIMALS)
-
     const amount0Float = parseFloat(
         ethers.utils.formatUnits(amount0Big, TOKEN_DECIMALS)
     );
@@ -121,7 +119,7 @@ const main = async () => {
 
 
                 console.log(prices)
-                console.log(`${token} on ${exchange} for ${price}`)
+                // console.log(`${token} on ${exchange} for ${price}`)
             })
     
             console.log(token, exchange);
