@@ -1,7 +1,9 @@
 const { ethers } = require("ethers");
 const fs = require("fs");
 // const provider = ethers.getDefaultProvider("homestead");
-const provider = new ethers.providers.JsonRpcProvider("https://rpc.ankr.com/eth");
+const provider = new ethers.providers.JsonRpcProvider("https://mainnet.infura.io/v3/745bce02e49840a9ad7382332124196d");
+// const provider = new ethers.providers.JsonRpcProvider("https://rpc.ankr.com/eth");
+
 
 const EXCHANGES = {
     UNISWAP: "0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f",
@@ -18,6 +20,7 @@ const STABLE_TOKEN = {
 const EXCHANGES_ABI = [
     "function allPairsLength() view returns (uint256)",
     "function allPairs(uint256) view returns (address)",
+    "function getPair(address,address) view returns (address)",
 ];
 
 const PAIR_ABI = [
@@ -104,4 +107,44 @@ const main = async () => {
 //     });
 // }
 
-main();
+// main();
+
+const scan = async () => {
+    let rawdata = fs.readFileSync("./STATIC/WETH-SUSHI.json");
+    let tokens = Object.values(JSON.parse(rawdata));
+    let symbols = Object.keys(JSON.parse(rawdata));
+
+    PAIRED_TOKENS = {};
+
+    for (let i = 0; i < 1; i++) {
+        const UNISWAP_CONTRACT = new ethers.Contract(
+            EXCHANGES.UNISWAP,
+            EXCHANGES_ABI,
+            provider,
+        );
+
+        const SUSHISWAP_CONTRACT = new ethers.Contract(
+            EXCHANGES.SUSHISWAP,
+            EXCHANGES_ABI,
+            provider,
+        );
+
+        try {
+            const unipair = await UNISWAP_CONTRACT.getPair(tokens[i], STABLE_TOKEN.WETH);
+            const sushipair = await SUSHISWAP_CONTRACT.getPair(tokens[i], STABLE_TOKEN.WETH);
+            PAIRED_TOKENS[symbols[i]] = {
+                uniswap: unipair,
+                sushiswap: sushipair,
+            };
+        } catch (e) {
+            console.log(e);
+        }
+
+        console.log(i + "/" + tokens.length);
+    }
+
+    data = JSON.stringify(PAIRED_TOKENS, null, 2);
+    fs.writeFileSync("./STATIC/WETH-PAIR.json", data);
+}
+
+scan()
