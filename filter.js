@@ -60,8 +60,12 @@ const main = async () => {
                 provider,
             );
 
-            const name = await TOKEN_CONTRACT.symbol();
-            ALL_TOKENS[name] = token1;
+            try {
+                const symbol = await TOKEN_CONTRACT.symbol();
+                ALL_TOKENS[symbol] = token1;
+            } catch (e) {
+                console.log(e);
+            }
         } else if (token1 === STABLE_TOKEN.WETH) {
             const TOKEN_CONTRACT = new ethers.Contract(
                 token0,
@@ -69,8 +73,12 @@ const main = async () => {
                 provider,
             );
 
-            const name = await TOKEN_CONTRACT.symbol();
-            ALL_TOKENS[name] = token0;
+            try {
+                const symbol = await TOKEN_CONTRACT.symbol();
+                ALL_TOKENS[symbol] = token0;
+            } catch (e) {
+                console.log(e);
+            }
         }
 
         console.log(i + "/" + allPairsLength.toNumber());
