@@ -50,8 +50,6 @@ const main = async () => {
             provider,
         );
 
-        console.log(await PAIR_CONTRACT.token0())
-
         if (await PAIR_CONTRACT.token0() === STABLE_TOKEN.WETH) {
             const TOKEN_CONTRACT = new ethers.Contract(
                 PAIR_CONTRACT.token1(),
