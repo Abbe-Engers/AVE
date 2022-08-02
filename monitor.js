@@ -28,6 +28,32 @@ const TOKEN_ABI = [
 let prices = {};
 let decimals = {};
 
+function calcRatio(price1, price2) {
+    if (price1 == 0 || price2 == 0) {
+      return 0;
+    }
+  
+    diff = Math.abs(price1 - price2);
+    ratioDiff = diff / Math.max(price1, price2);
+    return ratioDiff;
+}
+
+async function WRITE_PRICE(price, token, exchange) {
+    var token_prices = {};
+    if (prices[token]) {
+        token_prices = prices[token];
+    }
+    token_prices[exchange] = price;
+    prices[token] = token_prices;
+
+    PRICES_TO_JSON();
+}
+
+async function PRICES_TO_JSON() {
+    data = JSON.stringify(prices, null, 2);
+    fs.writeFileSync("./STATIC/WETH-PRICES.json", data);
+}
+
 function GET_AMOUNTS({ SWAP }) {
     const { amount0In, amount0Out, amount1In, amount1Out } = SWAP;
 
@@ -110,18 +136,18 @@ const main = async () => {
             SWAP_CONTRACT.on(SWAP_FILTER, (from, a0in, a0out, a1in, a1out, to, event) => {
                 const price = CONVERT_SWAP_TO_PRICE( event.args, decimals[PAIR_ADDRESS], switchTokens);
 
-                var token_prices = {};
-                if (prices[token]) {
-                    token_prices = prices[token];
+                WRITE_PRICE(price, token, exchange);
+
+                //check for trade
+                if (Object.keys(prices[token]).length == 2) {
+                    //get other exchange
+                    const otherExchange = Object.keys(prices[token]).filter(key => key != exchange)[0];
+
+                    const otherPrice = prices[token][otherExchange];
+                    const ratio = calcRatio(price, otherPrice);
+                    console.log(`${token} has ${(ratio * 100).toFixed(2)}% difference between exchanges.`);
                 }
-                token_prices[exchange] = price;
-                prices[token] = token_prices;
 
-
-                // console.log(prices)
-
-                data = JSON.stringify(prices, null, 2);
-                fs.writeFileSync("./STATIC/WETH-PRICES.json", data);
                 // console.log(`${token} on ${exchange} for ${price}`)
             })
     
