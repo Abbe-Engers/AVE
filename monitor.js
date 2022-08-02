@@ -118,7 +118,10 @@ const main = async () => {
                 prices[token] = token_prices;
 
 
-                console.log(prices)
+                // console.log(prices)
+
+                data = JSON.stringify(prices, null, 2);
+                fs.writeFileSync("./STATIC/WETH-PRICES.json", data);
                 // console.log(`${token} on ${exchange} for ${price}`)
             })
     
