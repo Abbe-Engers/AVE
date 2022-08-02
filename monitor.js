@@ -28,16 +28,6 @@ const TOKEN_ABI = [
 let prices = {};
 let decimals = {};
 
-function calcRatio(price1, price2) {
-    if (price1 == 0 || price2 == 0) {
-      return 0;
-    }
-  
-    diff = Math.abs(price1 - price2);
-    ratioDiff = diff / Math.max(price1, price2);
-    return ratioDiff;
-}
-
 async function WRITE_PRICE(price, token, exchange) {
     var token_prices = {};
     if (prices[token]) {
@@ -47,6 +37,22 @@ async function WRITE_PRICE(price, token, exchange) {
     prices[token] = token_prices;
 
     PRICES_TO_JSON();
+}
+
+function calcProfit(price1, price2) {
+    const profit = Math.max(price1, price2) - Math.min(price1, price2);
+    return profit;
+}
+
+function calcExchangeFees(price1, price2) {
+    const fee1 = price1 * 0.003;
+    const fee2 = price2 * 0.003;
+    const feeTotal = fee1 + fee2;
+    return feeTotal;
+}
+
+function calcGasFees(price) {
+    return price * 0.002; 
 }
 
 async function PRICES_TO_JSON() {
@@ -98,6 +104,8 @@ function CONVERT_SWAP_TO_PRICE( SWAP, TOKEN_DECIMALS, switchTokens) {
 }
 
 const main = async () => {
+    const AMOUNT_OF_PAIRS = Object.keys(ALL_PAIRS).length;
+    console.log(`Found ${AMOUNT_OF_PAIRS} pairs`);
     for (const token in ALL_PAIRS) {
         for (const exchange in ALL_PAIRS[token]) {
             const PAIR_ADDRESS = ALL_PAIRS[token][exchange];
@@ -141,11 +149,21 @@ const main = async () => {
                 //check for trade
                 if (Object.keys(prices[token]).length == 2) {
                     //get other exchange
-                    const otherExchange = Object.keys(prices[token]).filter(key => key != exchange)[0];
+                    const allOtherExchanges = Object.keys(prices[token]).filter(key => key != exchange);
+                    allOtherExchanges.forEach(otherExchange => {
+                        const otherPrice = prices[token][otherExchange];
+                        const diff = calcProfit(price, otherPrice);
+                        const profitWithGas = diff - calcExchangeFees(price, otherPrice);
+                        const profit = profitWithGas - calcGasFees(price) - calcGasFees(otherPrice);
 
-                    const otherPrice = prices[token][otherExchange];
-                    const ratio = calcRatio(price, otherPrice);
-                    console.log(`${token} has ${(ratio * 100).toFixed(2)}% difference between exchanges.`);
+                        const profitRatio = profit / Math.max(price, otherPrice);
+
+                        if (profit > 0) {
+                            console.log(`${token} ${exchange} ${otherExchange} ${profitRatio * 100} % profit`);
+                        } else {
+                            console.log(`${token} ${exchange} ${otherExchange} ${profitRatio * 100} % loss`);
+                        }
+                    });
                 }
 
                 // console.log(`${token} on ${exchange} for ${price}`)
