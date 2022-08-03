@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "nodemon main.js",
     "process": "nodemon filter.js",
-    "monitor": "nodemon monitor.js"
+    "monitor": "nodemon monitor.js",
+    "trade": "nodemon trade.js"
   },
   "repository": {
     "type": "git",

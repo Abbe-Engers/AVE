@@ -4,11 +4,14 @@ const fs = require("fs");
 
 // const provider = new ethers.providers.JsonRpcProvider("https://mainnet.infura.io/v3/745bce02e49840a9ad7382332124196d");
 const provider = new ethers.providers.WebSocketProvider(secrets.infuraWSS);
+// const wallet = new ethers.Wallet(secrets.privateKey);
+// const signer = wallet.connect(provider);
 
 const ALL_PAIRS = JSON.parse(fs.readFileSync("./STATIC/TEST-PAIR.json"));
 
 const SWAP_ABI = [
     "event Swap(address indexed sender, uint amount0In, uint amount1In, uint amount0Out, uint amount1Out, address indexed to)",
+    "function getReserves() public view returns (uint112 _reserve0, uint112 _reserve1, uint32 _blockTimestampLast )",
 ];
 
 const STABLE_TOKEN = {
@@ -143,8 +146,31 @@ const main = async () => {
 
             decimals[PAIR_ADDRESS] = TOKEN_DECIMALS;
     
-            SWAP_CONTRACT.on(SWAP_FILTER, (from, a0in, a0out, a1in, a1out, to, event) => {
-                const price = CONVERT_SWAP_TO_PRICE( event.args, decimals[PAIR_ADDRESS], switchTokens);
+            SWAP_CONTRACT.on(SWAP_FILTER, async (from, a0in, a0out, a1in, a1out, to, event) => {
+                const tradeprice = CONVERT_SWAP_TO_PRICE( event.args, decimals[PAIR_ADDRESS], switchTokens);
+
+                const PAIR_CONTRACT = new ethers.Contract(
+                    PAIR_ADDRESS,
+                    SWAP_ABI,
+                    provider
+                )
+
+                const pairData = await PAIR_CONTRACT.getReserves();
+
+                let price;
+                if (switchTokens) {
+                    const token0reserves = ethers.utils.formatUnits(pairData[0], decimals[PAIR_ADDRESS]);
+                    const token1reserves = ethers.utils.formatUnits(pairData[1], 18);
+                    price = Number(token0reserves) / Number(token1reserves);
+                    console.log(price, tradeprice);
+                } else {
+                    console.log(decimals[PAIR_ADDRESS]);
+                    const token0reserves = ethers.utils.formatUnits(pairData[0], 18);
+                    const token1reserves = ethers.utils.formatUnits(pairData[1], decimals[PAIR_ADDRESS]);
+                    price = Number(token1reserves) / Number(token0reserves);
+                    console.log(price, tradeprice);
+                }
+
 
                 WRITE_PRICE(price, token, exchange);
 
