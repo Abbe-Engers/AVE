@@ -1,7 +1,9 @@
 const { ethers } = require("ethers");
+const secrets = require("./secrets.json");
 const fs = require("fs");
 
-const provider = new ethers.providers.JsonRpcProvider("https://mainnet.infura.io/v3/745bce02e49840a9ad7382332124196d");
+// const provider = new ethers.providers.JsonRpcProvider("https://mainnet.infura.io/v3/745bce02e49840a9ad7382332124196d");
+const provider = new ethers.providers.WebSocketProvider(secrets.infuraWSS);
 
 const ALL_PAIRS = JSON.parse(fs.readFileSync("./STATIC/TEST-PAIR.json"));
 
