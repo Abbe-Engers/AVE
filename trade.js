@@ -9,16 +9,22 @@ const signer = wallet.connect(provider);
 
 const ADDRESSES = {
     router: "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
-    pair: "0xB4e16d0168e52d35CaCD2c6185b44281Ec28C9Dc"
+    pair: "0xA478c2975Ab1Ea89e8196811F51A7B7Ade33eB11"
 }
 
 const pairABI = [
     "function getReserves() public view returns (uint112 _reserve0, uint112 _reserve1, uint32 _blockTimestampLast )",
+    "function token0() public view returns (address)",
+    "function token1() public view returns (address)",
 ]
 
 const routerABI = [
     "function getAmountsOut(uint256 amountIn, address[] memory path) public view returns(uint[] memory amounts)",
     "function swapExactTokensForTokens(uint amountIn, uint amountOutMin, address[]calldata path, address to, uint deadline) external returns(uint[]memory amounts)",
+]
+
+const tokenABI = [
+    "function decimals() public view returns (uint8)",
 ]
 
 const pairContract = new ethers.Contract(
@@ -34,12 +40,29 @@ const routerContract = new ethers.Contract(
 );
 
 const main = async () => {
-    const balance = await signer.getBalance();
-    const balanceEth = ethers.utils.formatEther(balance);
-    console.log(Number(balanceEth));
+    //get amounts out
+    const ETHamountIn = ethers.utils.parseEther("0.1");
+    const token0 = await pairContract.token0();
+    const token1 = await pairContract.token1();
 
-    const reserves = await pairContract.getReserves();
-    console.log(reserves);
+    const tokenContract = new ethers.Contract(
+        token0, 
+        tokenABI,
+        provider
+    );
+
+    console.log(token0, token1);
+    try {
+        const amounts = await routerContract.getAmountsOut(ETHamountIn, [token1, token0]);
+        const decimals = await tokenContract.decimals();
+        const amountOut = ethers.utils.formatUnits(amounts[1], decimals);
+
+        console.log(Number(amountOut));
+    } catch (e) {
+        console.log(e);
+    }
+    // const amounts = await routerContract.getAmountsOut(ETHamountIn, [token0, token1]);
+    // console.log(amounts);
 }
 
 main();
