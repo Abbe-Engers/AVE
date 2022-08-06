@@ -43,6 +43,8 @@ const ROUTER_ABI = [
 let prices = {};
 let decimals = {};
 
+let highscore;
+
 async function WRITE_PRICE(price, token, exchange) {
     var token_prices = {};
     if (prices[token]) {
@@ -137,6 +139,7 @@ async function CHECK_ARB(exchange, exchanges, token, decimals, amount) {
         );
 
         const fixedSlippage = 0.005;
+        const fixedGasFee = 0.002;
 
         try {
             //(current -> other)
@@ -157,13 +160,20 @@ async function CHECK_ARB(exchange, exchanges, token, decimals, amount) {
             const amountInCurrentFormat = ethers.utils.formatUnits(amountsInCurrent[1], 18);
             const amountInCurrentFormatSlipped = (amountInCurrentFormat * (1 - fixedSlippage)).toFixed(6).toString();
 
-            const diffOut = Number(amountOutOtherFormatSlipped) - amount;
+            const diffOut = Number(amountOutOtherFormatSlipped) - fixedGasFee - amount;
             const diffRatioOut = diffOut / amount;
-            const diffIn = Number(amountInCurrentFormatSlipped) - amount;
+            const diffIn = Number(amountInCurrentFormatSlipped) - fixedGasFee - amount;
             const diffRatioIn = diffIn / amount;
+
+            const highest = Math.max(diffRatioOut, diffRatioIn);
+            if (highest > highscore || highscore === undefined) {
+                highscore = highest;
+            }
 
             console.log("\x1b[32m", "current -> other: ", Number(Number(amountOutCurrentFormat).toFixed(2)), "\t", Number((diffRatioOut * 100).toFixed(2)), "%");
             console.log("\x1b[32m", "other -> current: ", Number(Number(amountInOtherFormat).toFixed(2)), "\t", Number((diffRatioIn * 100).toFixed(2)), "%");
+            console.log("\x1b[32m", "\n");
+            console.log("\x1b[32m", "current highest: \t", Number((highscore * 100).toFixed(2)), "%");
         } catch (e) {
             console.log("\x1b[31m", "error: ", e);
         }
@@ -212,7 +222,7 @@ const main = async () => {
             SWAP_CONTRACT.on(SWAP_FILTER, async (from, a0in, a0out, a1in, a1out, to, event) => {
                 console.log(`${token} on ${exchange}`)
 
-                CHECK_ARB(exchange, ALL_PAIRS[token], TOKEN_ADDRESS, TOKEN_DECIMALS, 0.01);
+                CHECK_ARB(exchange, ALL_PAIRS[token], TOKEN_ADDRESS, TOKEN_DECIMALS, 1);
 
                 // const tradeprice = CONVERT_SWAP_TO_PRICE( event.args, decimals[PAIR_ADDRESS], switchTokens);
 
