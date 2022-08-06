@@ -4,8 +4,8 @@ const fs = require("fs");
 
 // const provider = new ethers.providers.JsonRpcProvider("https://mainnet.infura.io/v3/745bce02e49840a9ad7382332124196d");
 const provider = new ethers.providers.WebSocketProvider(secrets.infuraWSS);
-// const wallet = new ethers.Wallet(secrets.privateKey);
-// const signer = wallet.connect(provider);
+const wallet = new ethers.Wallet(secrets.privateKey);
+const signer = wallet.connect(provider);
 
 const ALL_PAIRS = JSON.parse(fs.readFileSync("./STATIC/TEST-PAIR.json"));
 
@@ -13,6 +13,11 @@ const SWAP_ABI = [
     "event Swap(address indexed sender, uint amount0In, uint amount1In, uint amount0Out, uint amount1Out, address indexed to)",
     "function getReserves() public view returns (uint112 _reserve0, uint112 _reserve1, uint32 _blockTimestampLast )",
 ];
+
+const ROUTERS = {
+    uniswap: "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+    sushiswap: "0xd9e1cE17f2641f24aE83637ab66a2cca9C378B9F"
+}
 
 const STABLE_TOKEN = {
     WETH: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
@@ -30,6 +35,11 @@ const TOKEN_ABI = [
     "function decimals() public view returns (uint8)",
 ]
 
+const ROUTER_ABI = [
+    "function getAmountsOut(uint256 amountIn, address[] memory path) public view returns(uint[] memory amounts)",
+    "function swapExactTokensForTokens(uint amountIn, uint amountOutMin, address[]calldata path, address to, uint deadline) external returns(uint[]memory amounts)",
+]
+
 let prices = {};
 let decimals = {};
 
@@ -41,7 +51,7 @@ async function WRITE_PRICE(price, token, exchange) {
     token_prices[exchange] = price;
     prices[token] = token_prices;
 
-    PRICES_TO_JSON();
+    // PRICES_TO_JSON();
 }
 
 function calcProfit(price1, price2) {
@@ -108,10 +118,50 @@ function CONVERT_SWAP_TO_PRICE( SWAP, TOKEN_DECIMALS, switchTokens) {
     return null;
 }
 
+async function CHECK_ARB(exchange, exchanges, token, decimals) {
+    //iterate through [0.001, 0.01, 0.1, 1]
+    const WETHamountIn = ethers.utils.parseEther("1");
+
+    //loop through all exchanges
+    console.log("current: ", exchange);
+
+    const currentRouterContract = new ethers.Contract(
+        ROUTERS[exchange],
+        ROUTER_ABI,
+        signer
+    );
+    
+    const otherExchanges = Object.keys(exchanges).filter(e => e !== exchange);
+    otherExchanges.forEach(async otherExchange => {
+        console.log("trying: ", exchange, otherExchange);
+
+        const otherRouterContract = new ethers.Contract(
+            ROUTERS[otherExchange],
+            ROUTER_ABI,
+            signer
+        );
+
+        //(current -> other)
+        const amountsOutCurrent = await currentRouterContract.getAmountsOut(WETHamountIn, [STABLE_TOKEN.WETH, token]);
+        const amountOutCurrentFormat = ethers.utils.formatUnits(amountsOutCurrent[1], decimals);
+        const amountsOutOther = await otherRouterContract.getAmountsOut(amountsOutCurrent[1], [token, STABLE_TOKEN.WETH]);
+        const amountOutOtherFormat = ethers.utils.formatUnits(amountsOutOther[1], 18);
+        console.log(Number(amountOutCurrentFormat), Number(amountOutOtherFormat));
+
+        //(other -> current)
+        const amountsInOther = await otherRouterContract.getAmountsOut(WETHamountIn, [STABLE_TOKEN.WETH, token]);
+        const amountInOtherFormat = ethers.utils.formatUnits(amountsInOther[1], decimals);
+        const amountsInCurrent = await currentRouterContract.getAmountsOut(amountsInOther[1], [token, STABLE_TOKEN.WETH]);
+        const amountInCurrentFormat = ethers.utils.formatUnits(amountsInCurrent[1], 18);
+        console.log(Number(amountInOtherFormat), Number(amountInCurrentFormat));
+    });
+}
+
 const main = async () => {
     const AMOUNT_OF_PAIRS = Object.keys(ALL_PAIRS).length;
     console.log(`Found ${AMOUNT_OF_PAIRS} pairs`);
     for (const token in ALL_PAIRS) {
+
         for (const exchange in ALL_PAIRS[token]) {
             const PAIR_ADDRESS = ALL_PAIRS[token][exchange];
     
@@ -147,52 +197,57 @@ const main = async () => {
             decimals[PAIR_ADDRESS] = TOKEN_DECIMALS;
     
             SWAP_CONTRACT.on(SWAP_FILTER, async (from, a0in, a0out, a1in, a1out, to, event) => {
-                const tradeprice = CONVERT_SWAP_TO_PRICE( event.args, decimals[PAIR_ADDRESS], switchTokens);
 
-                const PAIR_CONTRACT = new ethers.Contract(
-                    PAIR_ADDRESS,
-                    SWAP_ABI,
-                    provider
-                )
+                console.log("SWAP");
 
-                const pairData = await PAIR_CONTRACT.getReserves();
+                CHECK_ARB(exchange, ALL_PAIRS[token], TOKEN_ADDRESS, TOKEN_DECIMALS);
 
-                let price;
-                if (switchTokens) {
-                    const token0reserves = ethers.utils.formatUnits(pairData[0], decimals[PAIR_ADDRESS]);
-                    const token1reserves = ethers.utils.formatUnits(pairData[1], 18);
-                    price = Number(token0reserves) / Number(token1reserves);
-                    console.log(price, tradeprice);
-                } else {
-                    console.log(decimals[PAIR_ADDRESS]);
-                    const token0reserves = ethers.utils.formatUnits(pairData[0], 18);
-                    const token1reserves = ethers.utils.formatUnits(pairData[1], decimals[PAIR_ADDRESS]);
-                    price = Number(token1reserves) / Number(token0reserves);
-                    console.log(price, tradeprice);
-                }
+                // const tradeprice = CONVERT_SWAP_TO_PRICE( event.args, decimals[PAIR_ADDRESS], switchTokens);
+
+                // const PAIR_CONTRACT = new ethers.Contract(
+                //     PAIR_ADDRESS,
+                //     SWAP_ABI,
+                //     provider
+                // )
+
+                // const pairData = await PAIR_CONTRACT.getReserves();
+
+                // let price;
+                // if (switchTokens) {
+                //     const token0reserves = ethers.utils.formatUnits(pairData[0], decimals[PAIR_ADDRESS]);
+                //     const token1reserves = ethers.utils.formatUnits(pairData[1], 18);
+                //     price = Number(token0reserves) / Number(token1reserves);
+                //     console.log(price, tradeprice);
+                // } else {
+                //     console.log(decimals[PAIR_ADDRESS]);
+                //     const token0reserves = ethers.utils.formatUnits(pairData[0], 18);
+                //     const token1reserves = ethers.utils.formatUnits(pairData[1], decimals[PAIR_ADDRESS]);
+                //     price = Number(token1reserves) / Number(token0reserves);
+                //     console.log(price, tradeprice);
+                // }
 
 
-                WRITE_PRICE(price, token, exchange);
+                // WRITE_PRICE(price, token, exchange);
 
                 //check for trade
-                if (Object.keys(prices[token]).length == 2) {
-                    //get other exchange
-                    const allOtherExchanges = Object.keys(prices[token]).filter(key => key != exchange);
-                    allOtherExchanges.forEach(otherExchange => {
-                        const otherPrice = prices[token][otherExchange];
-                        const diff = calcProfit(price, otherPrice);
-                        const profitWithGas = diff - calcExchangeFees(price, otherPrice);
-                        const profit = profitWithGas - calcGasFees(price) - calcGasFees(otherPrice);
+                // if (Object.keys(prices[token]).length == 2) {
+                //     //get other exchange
+                //     const allOtherExchanges = Object.keys(prices[token]).filter(key => key != exchange);
+                //     allOtherExchanges.forEach(otherExchange => {
+                //         const otherPrice = prices[token][otherExchange];
+                //         const diff = calcProfit(price, otherPrice);
+                //         const profitWithGas = diff - calcExchangeFees(price, otherPrice);
+                //         const profit = profitWithGas - calcGasFees(price) - calcGasFees(otherPrice);
 
-                        const profitRatio = profit / Math.max(price, otherPrice);
+                //         const profitRatio = profit / Math.max(price, otherPrice);
 
-                        if (profit > 0) {
-                            console.log(`${token} ${exchange} ${otherExchange} ${profitRatio * 100} % profit`);
-                        } else {
-                            console.log(`${token} ${exchange} ${otherExchange} ${profitRatio * 100} % loss`);
-                        }
-                    });
-                }
+                //         if (profit > 0) {
+                //             console.log(`${token} ${exchange} ${otherExchange} ${profitRatio * 100} % profit`);
+                //         } else {
+                //             console.log(`${token} ${exchange} ${otherExchange} ${profitRatio * 100} % loss`);
+                //         }
+                //     });
+                // }
 
                 // console.log(`${token} on ${exchange} for ${price}`)
             })
