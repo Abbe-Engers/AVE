@@ -1,4 +1,4 @@
-const { ethers } = require("ethers");
+const { ethers, BigNumber } = require("ethers");
 const secrets = require("./secrets.json");
 const fs = require("fs");
 
@@ -118,12 +118,9 @@ function CONVERT_SWAP_TO_PRICE( SWAP, TOKEN_DECIMALS, switchTokens) {
     return null;
 }
 
-async function CHECK_ARB(exchange, exchanges, token, decimals) {
+async function CHECK_ARB(exchange, exchanges, token, decimals, amount) {
     //iterate through [0.001, 0.01, 0.1, 1]
-    const WETHamountIn = ethers.utils.parseEther("1");
-
-    //loop through all exchanges
-    console.log("current: ", exchange);
+    const WETHamountIn = ethers.utils.parseEther(amount.toString());
 
     const currentRouterContract = new ethers.Contract(
         ROUTERS[exchange],
@@ -133,27 +130,43 @@ async function CHECK_ARB(exchange, exchanges, token, decimals) {
     
     const otherExchanges = Object.keys(exchanges).filter(e => e !== exchange);
     otherExchanges.forEach(async otherExchange => {
-        console.log("trying: ", exchange, otherExchange);
-
         const otherRouterContract = new ethers.Contract(
             ROUTERS[otherExchange],
             ROUTER_ABI,
             signer
         );
 
-        //(current -> other)
-        const amountsOutCurrent = await currentRouterContract.getAmountsOut(WETHamountIn, [STABLE_TOKEN.WETH, token]);
-        const amountOutCurrentFormat = ethers.utils.formatUnits(amountsOutCurrent[1], decimals);
-        const amountsOutOther = await otherRouterContract.getAmountsOut(amountsOutCurrent[1], [token, STABLE_TOKEN.WETH]);
-        const amountOutOtherFormat = ethers.utils.formatUnits(amountsOutOther[1], 18);
-        console.log(Number(amountOutCurrentFormat), Number(amountOutOtherFormat));
+        const fixedSlippage = 0.005;
 
-        //(other -> current)
-        const amountsInOther = await otherRouterContract.getAmountsOut(WETHamountIn, [STABLE_TOKEN.WETH, token]);
-        const amountInOtherFormat = ethers.utils.formatUnits(amountsInOther[1], decimals);
-        const amountsInCurrent = await currentRouterContract.getAmountsOut(amountsInOther[1], [token, STABLE_TOKEN.WETH]);
-        const amountInCurrentFormat = ethers.utils.formatUnits(amountsInCurrent[1], 18);
-        console.log(Number(amountInOtherFormat), Number(amountInCurrentFormat));
+        try {
+            //(current -> other)
+            const amountsOutCurrent = await currentRouterContract.getAmountsOut(WETHamountIn, [STABLE_TOKEN.WETH, token]);
+            const amountOutCurrentFormat = ethers.utils.formatUnits(amountsOutCurrent[1], decimals);
+            const amountOutCurrentFormatSlipped = (amountOutCurrentFormat * (1 - fixedSlippage)).toFixed(6).toString();
+            const amountOutCurrentParsed = ethers.utils.parseUnits(amountOutCurrentFormatSlipped, decimals);
+            const amountsOutOther = await otherRouterContract.getAmountsOut(amountOutCurrentParsed, [token, STABLE_TOKEN.WETH]);
+            const amountOutOtherFormat = ethers.utils.formatUnits(amountsOutOther[1], 18);
+            const amountOutOtherFormatSlipped = (amountOutOtherFormat * (1 - fixedSlippage)).toFixed(6).toString();
+
+            //(other -> current)
+            const amountsInOther = await otherRouterContract.getAmountsOut(WETHamountIn, [STABLE_TOKEN.WETH, token]);
+            const amountInOtherFormat = ethers.utils.formatUnits(amountsInOther[1], decimals);
+            const amountInOtherFormatSlipped = (amountInOtherFormat * (1 - fixedSlippage)).toFixed(6).toString();
+            const amountInOtherParsed = ethers.utils.parseUnits(amountInOtherFormatSlipped, decimals);
+            const amountsInCurrent = await currentRouterContract.getAmountsOut(amountInOtherParsed, [token, STABLE_TOKEN.WETH]);
+            const amountInCurrentFormat = ethers.utils.formatUnits(amountsInCurrent[1], 18);
+            const amountInCurrentFormatSlipped = (amountInCurrentFormat * (1 - fixedSlippage)).toFixed(6).toString();
+
+            const diffOut = Number(amountOutOtherFormatSlipped) - amount;
+            const diffRatioOut = diffOut / amount;
+            const diffIn = Number(amountInCurrentFormatSlipped) - amount;
+            const diffRatioIn = diffIn / amount;
+
+            console.log("\x1b[32m", "current -> other: ", Number(Number(amountOutCurrentFormat).toFixed(2)), "\t", Number((diffRatioOut * 100).toFixed(2)), "%");
+            console.log("\x1b[32m", "other -> current: ", Number(Number(amountInOtherFormat).toFixed(2)), "\t", Number((diffRatioIn * 100).toFixed(2)), "%");
+        } catch (e) {
+            console.log("\x1b[31m", "error: ", e);
+        }
     });
 }
 
@@ -197,10 +210,9 @@ const main = async () => {
             decimals[PAIR_ADDRESS] = TOKEN_DECIMALS;
     
             SWAP_CONTRACT.on(SWAP_FILTER, async (from, a0in, a0out, a1in, a1out, to, event) => {
+                console.log(`${token} on ${exchange}`)
 
-                console.log("SWAP");
-
-                CHECK_ARB(exchange, ALL_PAIRS[token], TOKEN_ADDRESS, TOKEN_DECIMALS);
+                CHECK_ARB(exchange, ALL_PAIRS[token], TOKEN_ADDRESS, TOKEN_DECIMALS, 0.01);
 
                 // const tradeprice = CONVERT_SWAP_TO_PRICE( event.args, decimals[PAIR_ADDRESS], switchTokens);
 
