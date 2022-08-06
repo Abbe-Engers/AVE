@@ -41,7 +41,7 @@ const routerContract = new ethers.Contract(
 
 const main = async () => {
     //get amounts out
-    const ETHamountIn = ethers.utils.parseEther("0.1");
+    const ETHamountIn = ethers.utils.parseEther("1");
     const token0 = await pairContract.token0();
     const token1 = await pairContract.token1();
 
@@ -53,11 +53,21 @@ const main = async () => {
 
     console.log(token0, token1);
     try {
-        const amounts = await routerContract.getAmountsOut(ETHamountIn, [token1, token0]);
         const decimals = await tokenContract.decimals();
+
+        const amounts = await routerContract.getAmountsOut(ETHamountIn, [token1, token0]);
         const amountOut = ethers.utils.formatUnits(amounts[1], decimals);
 
-        console.log(Number(amountOut));
+        const DAIamountIn = ethers.utils.parseUnits(amountOut, decimals);
+        const amountsOutWETH = await routerContract.getAmountsOut(DAIamountIn, [token0, token1]);
+
+        const amountOutWETH = ethers.utils.formatUnits(amountsOutWETH[1], decimals);
+
+        console.log(amountOutWETH);
+
+        
+
+        // console.log(Number(amountOut));
     } catch (e) {
         console.log(e);
     }
