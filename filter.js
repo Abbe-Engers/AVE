@@ -110,7 +110,7 @@ const main = async () => {
 // main();
 
 const scan = async () => {
-    let rawdata = fs.readFileSync("./STATIC/WETH-SUSHI.json");
+    let rawdata = fs.readFileSync("./STATIC/WETH-SUSHI.json"); 
     let tokens = Object.values(JSON.parse(rawdata));
     let symbols = Object.keys(JSON.parse(rawdata));
 
