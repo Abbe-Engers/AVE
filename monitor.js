@@ -241,12 +241,10 @@ async function CHECK_ARB(exchange, exchanges, token, decimals, amount) {
                 "%"
             );
             console.log(
-                "\x1b[32m",
-                "other -> current: ",
+                "\x1b[32m", "other -> current: ",
                 Number(
                     Number(amountInCurrentFormatSlipped - fixedGasFee * 2).toFixed(2)
-                ),
-                "\t",
+                ), "\t",
                 Number((diffRatioIn * 100).toFixed(2)),
                 "%"
             );
