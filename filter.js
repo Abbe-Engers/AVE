@@ -172,7 +172,7 @@ const filterAndRemove = async () => {
     let symbols = Object.keys(whole);
 
     const routerContract = new ethers.Contract(
-        ROUTERS.uniswap,
+        ROUTERS.sushiswap,
         ROUTER_ABI,
         provider,
     );
@@ -183,7 +183,7 @@ const filterAndRemove = async () => {
         console.log(symbols[i]);
 
         const pairContract = new ethers.Contract(
-            tokens[i].uniswap,
+            tokens[i].sushiswap,
             PAIR_ABI,
             provider,
         );
