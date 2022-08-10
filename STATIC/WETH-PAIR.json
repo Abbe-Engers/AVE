@@ -1791,10 +1791,6 @@
     "uniswap": "0x811beEd0119b4AfCE20D2583EB608C6F7AF1954f",
     "sushiswap": "0x24D3dD4a62e29770cf98810b09F89D3A90279E7a"
   },
-  "OHM": {
-    "uniswap": "0x88b8555CB3fdeE7077491e673a5bDdFB7144744f",
-    "sushiswap": "0x69b81152c5A8d35A67B32A4D3772795d96CaE4da"
-  },
   "SHOOB": {
     "uniswap": "0x8DdC5F37Aa9Cffadd16F285cED144B084D7a41b5",
     "sushiswap": "0xe93C7c454e20B7A3029a56778bCecDB04f727DFb"
@@ -1866,10 +1862,6 @@
   "UMB": {
     "uniswap": "0xB1BbeEa2dA2905E6B0A30203aEf55c399C53D042",
     "sushiswap": "0x7229d526d5fD693720B88Eb7129058dB5D497BCe"
-  },
-  "ICE": {
-    "uniswap": "0x0EfEA698136d636e2babAD10821e9064fE08f418",
-    "sushiswap": "0x94b86CA6F7a495930Fe7f552eb9e4CbB5eF2b736"
   },
   "YUP": {
     "uniswap": "0x916560C92f423BF7d20f34591a6B27a254c3bD7A",

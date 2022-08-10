@@ -9,7 +9,7 @@ const signer = wallet.connect(provider);
 
 const ALL_PAIRS = JSON.parse(fs.readFileSync("./STATIC/WETH-PAIR.json"));
 
-const ETH_CHECKS = [0.01, 0.1, 1, 10, 100, 1000];
+const ETH_CHECKS = [0.01, 0.1, 1, 10, 100];
 
 const SWAP_ABI = [
     "event Swap(address indexed sender, uint amount0In, uint amount1In, uint amount0Out, uint amount1Out, address indexed to)",
