@@ -1,9 +1,15 @@
 const { ethers } = require("ethers");
 const fs = require("fs");
+const secrets = require("./secrets.json");
 // const provider = ethers.getDefaultProvider("homestead");
 // const provider = new ethers.providers.JsonRpcProvider("https://mainnet.infura.io/v3/745bce02e49840a9ad7382332124196d");
-const provider = new ethers.providers.JsonRpcProvider("https://rpc.ankr.com/eth");
+const provider = new ethers.providers.WebSocketProvider(secrets.infuraWSS);
 
+
+const ROUTERS = {
+    uniswap: "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+    sushiswap: "0xd9e1cE17f2641f24aE83637ab66a2cca9C378B9F",
+};
 
 const EXCHANGES = {
     UNISWAP: "0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f",
@@ -31,6 +37,11 @@ const PAIR_ABI = [
 const TOKEN_ABI = [
     "function symbol() view returns (string)",
 ]
+
+const ROUTER_ABI = [
+    "function getAmountsOut(uint256 amountIn, address[] memory path) public view returns(uint[] memory amounts)",
+    "function swapExactTokensForTokens(uint amountIn, uint amountOutMin, address[]calldata path, address to, uint deadline) external returns(uint[]memory amounts)",
+];
 
 ALL_TOKENS = {};
 
@@ -90,7 +101,7 @@ const main = async () => {
     data = JSON.stringify(ALL_TOKENS, null, 2);
     fs.writeFileSync("./STATIC/WETH-SUSHI.json", data);
 }
- 
+
 // const main = async () => {
 //     Object.keys(EXCHANGES).forEach(async (exchange) => {
 //         const EXCHANGES_CONTRACT = new ethers.Contract(
@@ -109,47 +120,108 @@ const main = async () => {
 
 // main();
 
-const scan = async () => {
-    let rawdata = fs.readFileSync("./STATIC/WETH-SUSHI.json"); 
-    let tokens = Object.values(JSON.parse(rawdata));
-    let symbols = Object.keys(JSON.parse(rawdata));
+// const scan = async () => {
+//     let rawdata = fs.readFileSync("./STATIC/WETH-SUSHI.json"); 
+//     let tokens = Object.values(JSON.parse(rawdata));
+//     let symbols = Object.keys(JSON.parse(rawdata));
 
-    PAIRED_TOKENS = {};
+//     PAIRED_TOKENS = {};
+
+//     for (let i = 0; i < tokens.length; i++) {
+//         const UNISWAP_CONTRACT = new ethers.Contract(
+//             EXCHANGES.UNISWAP,
+//             EXCHANGES_ABI,
+//             provider,
+//         );
+
+//         const SUSHISWAP_CONTRACT = new ethers.Contract(
+//             EXCHANGES.SUSHISWAP,
+//             EXCHANGES_ABI,
+//             provider,
+//         );
+
+//         try {
+//             const unipair = await UNISWAP_CONTRACT.getPair(tokens[i], STABLE_TOKEN.WETH);
+
+//             if (unipair === "0x0000000000000000000000000000000000000000") {
+//                 continue;
+//             }
+
+//             const sushipair = await SUSHISWAP_CONTRACT.getPair(tokens[i], STABLE_TOKEN.WETH);
+//             PAIRED_TOKENS[symbols[i]] = {
+//                 uniswap: unipair,
+//                 sushiswap: sushipair,
+//             };
+//         } catch (e) {
+//             console.log(e);
+//         }
+
+//         console.log(i + "/" + tokens.length);
+//     }
+
+//     data = JSON.stringify(PAIRED_TOKENS, null, 2);
+//     fs.writeFileSync("./STATIC/WETH-PAIR.json", data);
+// }
+
+// scan()
+
+const filterAndRemove = async () => {
+    let rawdata = fs.readFileSync("./STATIC/WETH-PAIR.json");
+    let whole = JSON.parse(rawdata);
+    let tokens = Object.values(whole);
+    let symbols = Object.keys(whole);
+
+    const routerContract = new ethers.Contract(
+        ROUTERS.uniswap,
+        ROUTER_ABI,
+        provider,
+    );
+
+    console.log(tokens.length);
 
     for (let i = 0; i < tokens.length; i++) {
-        const UNISWAP_CONTRACT = new ethers.Contract(
-            EXCHANGES.UNISWAP,
-            EXCHANGES_ABI,
+        console.log(symbols[i]);
+
+        const pairContract = new ethers.Contract(
+            tokens[i].uniswap,
+            PAIR_ABI,
             provider,
         );
 
-        const SUSHISWAP_CONTRACT = new ethers.Contract(
-            EXCHANGES.SUSHISWAP,
-            EXCHANGES_ABI,
-            provider,
-        );
+        const token0 = await pairContract.token0();
+        const token1 = await pairContract.token1();
+
+        const ETH = 1
+        const amount = ethers.utils.parseEther(ETH.toString());
+
+        var tokensIn;
 
         try {
-            const unipair = await UNISWAP_CONTRACT.getPair(tokens[i], STABLE_TOKEN.WETH);
+            if (token0 === STABLE_TOKEN.WETH) {
+                const tokensAway = await routerContract.getAmountsOut(amount, [token0, token1]);
+                tokensIn = await routerContract.getAmountsOut(tokensAway[1], [token1, token0]);
 
-            if (unipair === "0x0000000000000000000000000000000000000000") {
-                continue;
+            } else if (token1 === STABLE_TOKEN.WETH) {
+                const tokensAway = await routerContract.getAmountsOut(amount, [token1, token0]);
+                tokensIn = await routerContract.getAmountsOut(tokensAway[1], [token0, token1]);
             }
 
-            const sushipair = await SUSHISWAP_CONTRACT.getPair(tokens[i], STABLE_TOKEN.WETH);
-            PAIRED_TOKENS[symbols[i]] = {
-                uniswap: unipair,
-                sushiswap: sushipair,
-            };
+            const resFormatted = ethers.utils.formatEther(tokensIn[1]);
+            console.log(resFormatted);
+
+            if (resFormatted < (ETH * 0.5)) {
+                console.log("removing");
+                delete whole[symbols[i]];
+            }
         } catch (e) {
             console.log(e);
         }
-
-        console.log(i + "/" + tokens.length);
     }
 
-    data = JSON.stringify(PAIRED_TOKENS, null, 2);
+    console.log(Object.keys(whole).length);
+
+    data = JSON.stringify(whole, null, 2);
     fs.writeFileSync("./STATIC/WETH-PAIR.json", data);
 }
 
-scan()
+filterAndRemove()
