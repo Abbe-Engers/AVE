@@ -98,6 +98,13 @@ function GET_AMOUNTS({ SWAP }) {
     };
 }
 
+function WRITE_TRANSACTION(transaction) {
+    const transactions = JSON.parse(fs.readFileSync("./STATIC/TRANSACTIONS.json"));
+    transactions.push(transaction);
+    const data = JSON.stringify(transactions, null, 2);
+    fs.writeFileSync("./STATIC/TRANSACTIONS.json", data);
+}
+
 function CONVERT_SWAP_TO_PRICE(SWAP, TOKEN_DECIMALS, switchTokens) {
     const { amount0Big, amount1Big } = GET_AMOUNTS({ SWAP });
 
@@ -140,86 +147,62 @@ async function CHECK_ARB(exchange, exchanges, token, decimals, amount) {
 
         try {
             //(current -> other)
-            const amountsOutCurrent = await currentRouterContract.getAmountsOut(
-                WETHamountIn,
-                [STABLE_TOKEN.WETH, token]
-            );
-            const amountOutCurrentFormat = ethers.utils.formatUnits(
-                amountsOutCurrent[1],
-                decimals
-            );
-            const amountOutCurrentFormatSlipped = (
-                amountOutCurrentFormat *
-                (1 - fixedSlippage)
-            )
-                .toFixed(6)
-                .toString();
-            const amountOutCurrentParsed = ethers.utils.parseUnits(
-                amountOutCurrentFormatSlipped,
-                decimals
-            );
-            const amountsOutOther = await otherRouterContract.getAmountsOut(
-                amountOutCurrentParsed,
-                [token, STABLE_TOKEN.WETH]
-            );
-            const amountOutOtherFormat = ethers.utils.formatUnits(
-                amountsOutOther[1],
-                18
-            );
-            const amountOutOtherFormatSlipped = (
-                amountOutOtherFormat *
-                (1 - fixedSlippage)
-            )
-                .toFixed(6)
-                .toString();
+            const amountsOutCurrent = await currentRouterContract.getAmountsOut(WETHamountIn, [STABLE_TOKEN.WETH, token]);
+            const amountOutCurrentFormat = ethers.utils.formatUnits(amountsOutCurrent[1], decimals);
+            const amountOutCurrentFormatSlipped = (amountOutCurrentFormat * (1 - fixedSlippage)).toFixed(6).toString();
+            const amountOutCurrentParsed = ethers.utils.parseUnits(amountOutCurrentFormatSlipped, decimals);
+            const amountsOutOther = await otherRouterContract.getAmountsOut(amountOutCurrentParsed, [token, STABLE_TOKEN.WETH]);
+            const amountOutOtherFormat = ethers.utils.formatUnits(amountsOutOther[1], 18);
+            const amountOutOtherFormatSlipped = (amountOutOtherFormat * (1 - fixedSlippage)).toFixed(6).toString();
 
             //(other -> current)
-            const amountsInOther = await otherRouterContract.getAmountsOut(
-                WETHamountIn,
-                [STABLE_TOKEN.WETH, token]
-            );
-            const amountInOtherFormat = ethers.utils.formatUnits(
-                amountsInOther[1],
-                decimals
-            );
-            const amountInOtherFormatSlipped = (
-                amountInOtherFormat *
-                (1 - fixedSlippage)
-            )
-                .toFixed(6)
-                .toString();
-            const amountInOtherParsed = ethers.utils.parseUnits(
-                amountInOtherFormatSlipped,
-                decimals
-            );
-            const amountsInCurrent = await currentRouterContract.getAmountsOut(
-                amountInOtherParsed,
-                [token, STABLE_TOKEN.WETH]
-            );
-            const amountInCurrentFormat = ethers.utils.formatUnits(
-                amountsInCurrent[1],
-                18
-            );
-            const amountInCurrentFormatSlipped = (
-                amountInCurrentFormat *
-                (1 - fixedSlippage)
-            )
-                .toFixed(6)
-                .toString();
+            const amountsInOther = await otherRouterContract.getAmountsOut(WETHamountIn, [STABLE_TOKEN.WETH, token]);
+            const amountInOtherFormat = ethers.utils.formatUnits(amountsInOther[1], decimals);
+            const amountInOtherFormatSlipped = (amountInOtherFormat * (1 - fixedSlippage)).toFixed(6).toString();
+            const amountInOtherParsed = ethers.utils.parseUnits(amountInOtherFormatSlipped, decimals);
+            const amountsInCurrent = await currentRouterContract.getAmountsOut(amountInOtherParsed, [token, STABLE_TOKEN.WETH]);
+            const amountInCurrentFormat = ethers.utils.formatUnits(amountsInCurrent[1], 18);
+            const amountInCurrentFormatSlipped = (amountInCurrentFormat * (1 - fixedSlippage)).toFixed(6).toString();
 
-            const diffOut =
-                Number(amountOutOtherFormatSlipped) - fixedGasFee * 2 - amount;
+            const diffOut = Number(amountOutOtherFormatSlipped) - fixedGasFee * 2 - amount;
             const diffRatioOut = diffOut / amount;
-            const diffIn =
-                Number(amountInCurrentFormatSlipped) - fixedGasFee * 2 - amount;
+            const diffIn = Number(amountInCurrentFormatSlipped) - fixedGasFee * 2 - amount;
             const diffRatioIn = diffIn / amount;
 
             if (diffOut > 0) {
                 totalProfit += diffOut;
+
+                //make transaction out
+                const transaction = {
+                    exchange: exchange,
+                    otherExchange: otherExchange,
+                    token: token,
+                    amount: amount,
+                    amountOutCurrent: amountOutCurrentFormatSlipped,
+                    amountOutOther: amountOutOtherFormatSlipped,
+                    diffOut: diffOut,
+                    diffRatioOut: diffRatioOut,
+                };
+
+                WRITE_TRANSACTION(transaction);
             }
 
             if (diffIn > 0) {
                 totalProfit += diffIn;
+
+                //make transaction out
+                const transaction = {
+                    exchange: exchange,
+                    otherExchange: otherExchange,
+                    token: token,
+                    amount: amount,
+                    amountOutCurrent: amountInCurrentFormatSlipped,
+                    amountOutOther: amountInOtherFormatSlipped,
+                    diffIn: diffIn,
+                    diffRatioIn: diffRatioIn,
+                };
+
+                WRITE_TRANSACTION(transaction);
             }
 
             const highest = Math.max(diffRatioOut, diffRatioIn);
