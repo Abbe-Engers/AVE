@@ -208,5 +208,65 @@
     "amountOutOther": "0.102660",
     "diffOut": 0.0006599999999999939,
     "diffRatioOut": 0.006599999999999939
+  },
+  "21": {
+    "exchange": "sushiswap",
+    "otherExchange": "uniswap",
+    "token": "0x9EA3b5b4EC044b70375236A281986106457b20EF",
+    "amount": 0.01,
+    "amountOutCurrent": "14.049717",
+    "amountOutOther": "0.112698",
+    "diffOut": 0.10069800000000001,
+    "diffRatioOut": 10.0698
+  },
+  "22": {
+    "exchange": "sushiswap",
+    "otherExchange": "uniswap",
+    "token": "0x9EA3b5b4EC044b70375236A281986106457b20EF",
+    "amount": 0.1,
+    "amountOutCurrent": "140.491434",
+    "amountOutOther": "1.014368",
+    "diffOut": 0.912368,
+    "diffRatioOut": 9.123679999999998
+  },
+  "23": {
+    "exchange": "sushiswap",
+    "otherExchange": "uniswap",
+    "token": "0x9EA3b5b4EC044b70375236A281986106457b20EF",
+    "amount": 1,
+    "amountOutCurrent": "1404.341289",
+    "amountOutOther": "5.073711",
+    "diffOut": 4.0717110000000005,
+    "diffRatioOut": 4.0717110000000005
+  },
+  "24": {
+    "exchange": "uniswap",
+    "otherExchange": "sushiswap",
+    "token": "0x69FE11b042789bC6E2FDaad064AfD32bb298aE05",
+    "amount": 0.1,
+    "amountOutCurrent": "884311375.791737",
+    "amountOutOther": "0.102825",
+    "diffOut": 0.0008249999999999924,
+    "diffRatioOut": 0.008249999999999924
+  },
+  "25": {
+    "exchange": "uniswap",
+    "otherExchange": "sushiswap",
+    "token": "0x630d98424eFe0Ea27fB1b3Ab7741907DFFEaAd78",
+    "amount": 0.1,
+    "amountOutCurrent": "0.102052",
+    "amountOutOther": "13504.462292",
+    "diffIn": 0.000051999999999996493,
+    "diffRatioIn": 0.0005199999999999649
+  },
+  "26": {
+    "exchange": "uniswap",
+    "otherExchange": "sushiswap",
+    "token": "0x630d98424eFe0Ea27fB1b3Ab7741907DFFEaAd78",
+    "amount": 0.1,
+    "amountOutCurrent": "0.102849",
+    "amountOutOther": "13032.327714",
+    "diffIn": 0.0008489999999999887,
+    "diffRatioIn": 0.008489999999999887
   }
 }
