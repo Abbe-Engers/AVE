@@ -59,10 +59,6 @@
     "uniswap": "0x343FD171caf4F0287aE6b87D75A8964Dc44516Ab",
     "sushiswap": "0xEF4F1D5007B4FF88c1A56261fec00264AF6001Fb"
   },
-  "CLN": {
-    "uniswap": "0xAF85a8e471fea21E66F49C98dF652Eb5CFBEC093",
-    "sushiswap": "0x1417Bac01F58F68ebf547a3d5B9D0f6E8A495963"
-  },
   "ADX": {
     "uniswap": "0xD3772A963790feDE65646cFdae08734A17cd0f47",
     "sushiswap": "0x9cBc2A6Ab3f10eDF7d71C9cf3B6BdB7eE5629550"
@@ -102,14 +98,6 @@
   "AAVE": {
     "uniswap": "0xDFC14d2Af169B0D36C4EFF567Ada9b2E0CAE044f",
     "sushiswap": "0xD75EA151a61d06868E31F8988D28DFE5E9df57B4"
-  },
-  "ETRD": {
-    "uniswap": "0x47a927bb962a7bcbFa4283D2705079a4844Df83a",
-    "sushiswap": "0x166cd86E770DEcA0b2DE9a1987200c2eb3C368E6"
-  },
-  "ENFT": {
-    "uniswap": "0x7C596355006B80c50c10a5f3B0F8336B2C25f810",
-    "sushiswap": "0xDA142aaFeB162D83c13Db2B68b3D51c89a972901"
   },
   "OMG": {
     "uniswap": "0x48E313460DD00100e22230e56E0A87B394066844",
@@ -243,10 +231,6 @@
     "uniswap": "0xd64224a4C2BeD96C75Df9517B2d77aEbb13F0E37",
     "sushiswap": "0xE53c884C5A297713197217509ffB654c9677B347"
   },
-  "pWING": {
-    "uniswap": "0x778d05B3b9A0E31b38a75Ba170891e706924C60D",
-    "sushiswap": "0xBE1E98685fB293144325440C16f69954Ffcb790C"
-  },
   "BAO": {
     "uniswap": "0x9973bb0fE5F8DF5dE730776dF09E946c74254fb3",
     "sushiswap": "0x0Eee7f7319013df1f24F5eaF83004fCf9cF49245"
@@ -254,10 +238,6 @@
   "NFTX": {
     "uniswap": "0x7B890092f81B337Ed68FBa266AfC7b4c3710A55b",
     "sushiswap": "0x31d64f9403E82243e71C2af9D8F56C7DBe10C178"
-  },
-  "GUP": {
-    "uniswap": "0x890A2f528c715eEf1a45A971CfafAe6C7abB8826",
-    "sushiswap": "0x3D50b31329ab066c9030b793fDC746A7b694C533"
   },
   "SDT": {
     "uniswap": "0xc465C0a16228Ef6fE1bF29C04Fdb04bb797fd537",
@@ -327,10 +307,6 @@
     "uniswap": "0xD65E975c7D0d5871EfF8b079120E43C9F377aDa1",
     "sushiswap": "0xE4275E185074AFA0b760a6b0787eF42F4b030813"
   },
-  "XFT": {
-    "uniswap": "0x2B9e92A5B6e69Db9fEdC47a4C656C9395e8a26d2",
-    "sushiswap": "0xF39fF863730268C9bb867b3a69d031d1C1614b31"
-  },
   "ONX": {
     "uniswap": "0x62f22A47e5D2F8b71cC44fD85863753618312f67",
     "sushiswap": "0x0652687E87a4b8b5370b05bc298Ff00d205D9B5f"
@@ -342,10 +318,6 @@
   "WSCRT": {
     "uniswap": "0x438d3e9CaCAB4614a8F1613ac7B182378d76e1F8",
     "sushiswap": "0x9c86BC3C72Ab97c2234CBA8c6c7069009465AE86"
-  },
-  "RAY": {
-    "uniswap": "0x3c4adc4DC1A50bf6Ec59af196A204415bC708429",
-    "sushiswap": "0xD7DbFBF98e1d4cEeD14607f93Fe2Acf537D375dA"
   },
   "COTI": {
     "uniswap": "0xA2b04F8133fC25887A436812eaE384e32A8A84F2",
@@ -374,10 +346,6 @@
   "MUST": {
     "uniswap": "0x15861b072abAd08b24460Add30b09E1481290F94",
     "sushiswap": "0xA872D244B8948DFD6Cb7Bd19f79E7C1bfb7DB4a0"
-  },
-  "GNYerc20": {
-    "uniswap": "0x8da66B6E90cAc30dB0DCe239086Cfdb2dbf66A30",
-    "sushiswap": "0x16D6Ddf22fFdbc3793400AAEEb2aB51dCfb9e428"
   },
   "OXY": {
     "uniswap": "0xA03154BFB9a750B944b5F8DE7A744A34aC6dD16D",
@@ -435,10 +403,6 @@
     "uniswap": "0x0Fdc86703C938e3E1cbc9E14f21c6BF709c13aCc",
     "sushiswap": "0x1365707157a1ec841064a18d2A1771c677DF9A1C"
   },
-  "NXL": {
-    "uniswap": "0xDB903D9A0D20B746d6d4DdC20D45De6Bcb96a012",
-    "sushiswap": "0x83d7Efa75CE24B319C33dCD583d8384a31a699D4"
-  },
   "PEAK": {
     "uniswap": "0x9C18A2F9545112AB2FCBDd228536562406A53232",
     "sushiswap": "0x5399a36F54cA91a5DB5C148eEB2B909bBA81B82C"
@@ -463,10 +427,6 @@
     "uniswap": "0x9E79cCAACAAA5dBB6714EEA8FdFD6496C9618F40",
     "sushiswap": "0x4a9C7B98C1a92DB0ad33b31B549fb1820FE571FF"
   },
-  "NDX": {
-    "uniswap": "0x46af8AC1b82F73dB6Aacc1645D40c56191ab787b",
-    "sushiswap": "0x8911fce375a8414B1b578BE66eE691A8D2D4DBf7"
-  },
   "DEGEN": {
     "uniswap": "0xFaAD1072E259B5ED342D3f16277477B46D379ABC",
     "sushiswap": "0xe8eB0f7B866A85DA49401D04FfFcfC1aBbF24Dfd"
@@ -490,14 +450,6 @@
   "GMEE": {
     "uniswap": "0x4c083084C9D50334b343C44Ec97d16011303Cc73",
     "sushiswap": "0xf68d0d896CC3b6ea1872F80C143B9A4026caa77a"
-  },
-  "ZAP": {
-    "uniswap": "0x4a0FA20b43ECad0443B26C829C1BcBaAA5fDA6c6",
-    "sushiswap": "0x8De21DDd4D510c6044b3Fa706b66D36EE7A10A2b"
-  },
-  "MECHA": {
-    "uniswap": "0xfcf88F5B404d35Bf18Ad189C66CE437f90557BaC",
-    "sushiswap": "0x26D835512709b5917a139c53A964267206b8F3E0"
   },
   "TOKE": {
     "uniswap": "0x5Fa464CEfe8901d66C09b85d5Fcdc55b3738c688",
@@ -602,9 +554,5 @@
   "PRIMATE": {
     "uniswap": "0x2A8d7AB0133F53c977302DCb0460Fa86ECCeC9ec",
     "sushiswap": "0x0D80F8A039cc61b659ff299bB132dE271c757325"
-  },
-  "$TRIA": {
-    "uniswap": "0x835dBaE0Ea14f26721C5913A7B2F4F6878c34D67",
-    "sushiswap": "0x251E5ddb12e6d3858AbE8FE368E74F09940E2a81"
   }
 }

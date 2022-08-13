@@ -99,8 +99,9 @@ function GET_AMOUNTS({ SWAP }) {
 }
 
 function WRITE_TRANSACTION(transaction) {
-    let transactions = JSON.parse(fs.readFileSync("./STATIC/TRANSACTIONS.json"));
-    transactions.push(transaction);
+    var transactions = JSON.parse(fs.readFileSync("./STATIC/TRANSACTIONS.json"));
+    var count = Object.keys(transactions).length;
+    transactions[count.toString()] = transaction;
     const data = JSON.stringify(transactions, null, 2);
     fs.writeFileSync("./STATIC/TRANSACTIONS.json", data);
 }
