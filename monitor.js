@@ -179,8 +179,8 @@ async function CHECK_ARB(exchange, exchanges, token, decimals, amount) {
                     otherExchange: otherExchange,
                     token: token,
                     amount: amount,
-                    amountOutCurrent: amountOutCurrentFormatSlipped,
-                    amountOutOther: amountOutOtherFormatSlipped,
+                    amountTo: amountOutOtherFormatSlipped,
+                    amountFrom: amountInCurrentFormatSlipped,
                     diffOut: diffOut,
                     diffRatioOut: diffRatioOut,
                 };
