@@ -1,11 +1,19 @@
-const input = [1];
+const input = ["flower", "flow", "flight"];
 
-var firstMissingPositive = function (nums) {
-    for (let i = 1; i <= nums.length + 1; i++) {
-        if (nums.findIndex(x => x === i) === -1) {
-            return i;
-        }
+var longestCommonPrefix = function (strs) {
+    for (let j = 0; j < strs[0].length; j++) {
+        const char = strs[0][j];
+        strs.map((x) => {
+            console.log(x[j], char, j)
+            if (x[j] != char) {
+                console.log("dir")
+                return strs[0].slice(0, j);
+            }
+        })
     }
+
+    console.log("kanker")
+    return strs[0];
 };
 
-console.log(firstMissingPositive(input));
+console.log(longestCommonPrefix(input));
